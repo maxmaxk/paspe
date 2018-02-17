@@ -3,7 +3,7 @@ Version=529
 Compiler=310
 Bues=1
 VisiPlus=0
-PrjID=34326
+PrjID=80
 UpdateGlobals=1
 DnldInRun=0
 FuplaVersion=V2.1.410
@@ -165804,7 +165804,7 @@ Conn12=21 43 2971 34 20
 Conn13=21 50 2920 34 20
 Conn14=21 57 44241 34 6
 [PAGEDEF]
-PageLen=724
+PageLen=805
 [PAGE]
 Name=StatusAlarms
 RemarkSize=0
@@ -165827,10 +165827,10 @@ _CONBITI 46399=
 Fam=sfupindi
 Width=6
 Init=n
-Stretch=0 7 1 0
+Stretch=0 7 1 1
 In=#_I R_NI 
 Language=en
-Posi=68 3
+Posi=73 3
 [_CONBITI 46399]
 Fam=sfupconv
 Face=BinInt
@@ -165843,18 +165843,23 @@ D=TMP_R
 Language=en
 Posi=42 8
 [HLINE]
-H0=4 64 68
-H1=6 67 68
-H2=11 39 42)50 67
+H0=4 64 73
+H1=6 67 73
+H2=8 68 73
+H3=11 39 42)50 67
+H4=14 66 68
 [VLINE]
 V0=67 6 11
+V1=68 8 14
 [NETWORK]
-N0=Io 64 4)if 68 4
-N1=Iif 68 6)of 50 11
-N2=Bo 39 11)if 42 11
+N0=Io 64 4)if 73 4
+N1=Iif 73 6)of 50 11
+N2=Iif 73 8)o 66 14
+N3=Bo 39 11)if 42 11
 [CONNS]
 Conn0=64 4 44248 34 5
-Conn1=39 11 32024 34 21
+Conn1=39 11 32024 34 22
+Conn2=66 14 2564 34 3
 [BLOCK]
 BlockSym=44187
 COBSupTime=0
