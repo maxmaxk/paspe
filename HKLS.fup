@@ -3,12 +3,12 @@ Version=529
 Compiler=310
 Bues=1
 VisiPlus=0
-PrjID=80
+PrjID=60030
 UpdateGlobals=1
 DnldInRun=0
 FuplaVersion=V2.1.410
 CodePage=1252
-MacroID=46420
+MacroID=46421
 ModuleVersion=
 AdjustLog=0
 Author=
@@ -148723,7 +148723,7 @@ Conn2=28 26 27499 34 21
 Conn3=71 26 27512 33 22
 Conn4=71 29 27524 33 20
 [PAGEDEF]
-PageLen=7092
+PageLen=7503
 [PAGE]
 Name=Radiatoren Pumpe /Ventil
 RemarkSize=0
@@ -148748,6 +148748,7 @@ _FLISRNDY2 41790=
 _IADD2 41811=
 _ICMPGE 41812=
 _ICMPST 41814=
+_DDC_SPGENERAL22 46421=
 [_DDC_COPUMP21 41784]
 Fam=DDC Steuerungen
 Face=Pump
@@ -148939,6 +148940,23 @@ In=_I _I
 Out=<_B 
 Language=de
 Posi=47 6
+[_DDC_SPGENERAL22 46421]
+Fam=DDC Sollwerte
+Width=5
+Init=y
+Vers=200000
+Out=Val_I 
+S=Value_R 
+av0=c cs =0 \nabs 
+av1=a BACnet %s =0 {0..1} 
+av2=c c0 =0 \nabs 
+av3=a Value 0 %1p =210:0 
+av4=c cc =0 \nabs 
+AcceptName=1
+Folder=Sollwerte.Integer?
+Variables0=Value Register;(4) Integerwert
+Language=de
+Posi=33 72
 [HLINE]
 H0=7 25 47
 H1=8 32 47
@@ -148956,6 +148974,7 @@ H12=58 43 44)54 68
 H13=60 25 44)54 55
 H14=62 25 44)54 55
 H15=64 25 44)54 55
+H16=73 38 56
 [VLINE]
 V0=32 8 9)9 13
 V1=42 7 12
@@ -148986,28 +149005,30 @@ N20=Bo 25 62)if 44 62
 N21=Iof 54 62
 N22=Io 25 64)if 44 64
 N23=Bof 54 64
+N24=Iof 38 73)i 56 73
 [COMMENT]
 Text0=72 12-0 FbH Ventile 1/2/5/8 DO 179
 Text1=60 16-0 Einschalten nach AT oder Küche UG Soll- /Istwert
 Text2=6 42-0 Soll VL Vl Temp
 [CONNS]
-Conn0=25 7 27145 34 18
-Conn1=25 9 27260 34 20
-Conn2=68 9 27558 33 20
+Conn0=25 7 27145 34 19
+Conn1=25 9 27260 34 21
+Conn2=68 9 27558 33 21
 Conn3=25 14 27537 34 3
 Conn4=25 35 1137 34 19
-Conn5=68 35 27452 33 19
-Conn6=25 39 27453 34 19
-Conn7=25 46 27454 34 19
-Conn8=68 46 27455 33 19
-Conn9=25 48 27452 34 19
-Conn10=25 50 27558 34 20
-Conn11=25 56 2413 34 19
-Conn12=25 58 27558 34 20
-Conn13=68 58 27498 33 24
-Conn14=25 60 27500 34 22
+Conn5=68 35 27452 33 20
+Conn6=25 39 27453 34 20
+Conn7=25 46 27454 34 20
+Conn8=68 46 27455 33 20
+Conn9=25 48 27452 34 20
+Conn10=25 50 27558 34 21
+Conn11=25 56 2413 34 20
+Conn12=25 58 27558 34 21
+Conn13=68 58 27498 33 25
+Conn14=25 60 27500 34 23
 Conn15=25 62 338 34 5
 Conn16=25 64 27458 34 22
+Conn17=56 73 27538 33 21
 [BLOCK]
 BlockSym=13122
 COBSupTime=0

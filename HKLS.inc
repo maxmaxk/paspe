@@ -17438,6 +17438,8 @@ __stc_id_0A33A_var_07___SG_HZG003_       EQU     R                    ;static va
 __stc_id_0A33A_var_08___SG_HZG003_       EQU     R                    ;static variable Y[1]
 $ATTR TAGS=S_ADJUST
 __stc_id_0A33E_var_00___SG_HZG003_       EQU     F                    ;static variable Sta[1]
+$ATTR TAGS=S_ADJUST
+__stc_id_0B555_var_00___SG_HZG003_       EQU     R                    ;static variable Value[1]
 ;;resources used as online adjust variable
 $ATTR TAGS=S_ADJUST
 __sadj_id_0A33F_var_Fs_1 EQU __stc_id_0A33F_var_00___SG_HZG003_ + 1 
