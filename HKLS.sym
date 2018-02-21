@@ -22221,6 +22221,14 @@ Action	EQU	F
 AO	EQU	R		
 AddHumByPool	EQU	R		
 $ENDGROUP Hum
+$GROUP MB3
+OPSetPoint	EQU	R		
+BMSSetPoint	EQU	R		
+OPSetPointReg	EQU	R		
+BMSSetPointReg	EQU	R		
+BMSSpFb	EQU	R		
+OPSpFb	EQU	R		
+$ENDGROUP MB3
 ;;End of user defined symbols
 ;;Alias symbols to attach adjust tag 
 $ATTR TAGS=S_ADJUST
