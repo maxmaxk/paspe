@@ -22229,6 +22229,9 @@ BMSSetPointReg	EQU	R
 BMSSpFb	EQU	R		
 OPSpFb	EQU	R		
 $ENDGROUP MB3
+$GROUP MB3.Pump1
+BMSForce	EQU	F		
+$ENDGROUP MB3.Pump1
 ;;End of user defined symbols
 ;;Alias symbols to attach adjust tag 
 $ATTR TAGS=S_ADJUST

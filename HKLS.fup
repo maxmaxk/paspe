@@ -3,17 +3,17 @@ Version=529
 Compiler=310
 Bues=1
 VisiPlus=0
-PrjID=60030
+PrjID=80
 UpdateGlobals=1
 DnldInRun=0
 FuplaVersion=V2.1.410
 CodePage=1252
-MacroID=46421
+MacroID=46427
 ModuleVersion=
 AdjustLog=0
 Author=
 Comment=
-LastPageID=3606
+LastPageID=3607
 [BLOCK]
 BlockSym=1
 COBSupTime=0
@@ -31133,7 +31133,7 @@ Conn5=28 35 2869 34 22
 Conn6=28 37 8293 34 23
 Conn7=28 39 8316 34 21
 [PAGEDEF]
-PageLen=13745
+PageLen=13766
 [PAGE]
 Name=MB3 VE Pumpe /Ventil
 Comment=UV Heizen /Kühlen MB3
@@ -31190,13 +31190,13 @@ Language=de
 Posi=46 64
 [_DDC_COPUMP21 37873]
 Fam=DDC Steuerungen
-Face=Uwp
+Face=Pump
 FacePosi=l
 Width=10
 Init=y
 Vers=200005
-In=Frg_B Brm_B Ssm_B Y_I 
-Out=Out_B Std_I Zhl_I Wrt_B 
+In=En_B fb_B Ala_B Y_I 
+Out=Run_B CntH_I CntFb_I Mt_B 
 S=HMI_R=8326 Nachlauf_R=8329 AbsWahl_R=8279 SchaltMx_R=8278 StdMx_R=8289 AtFunkt_R=8295 AtGw_R=8294 YFunkt_R=8310 YGw_R=8328 Ansteuer_F=8277 Betrieb_F=8325 Wartung_F=8283 Sperre_F=8276 AtAnf_F=8320 YAnf_F=8309 Schalt_R=8306 Stunden_R=8319 sFlag_5F sReg_3R sTmr_2T AnstDO_R=8302 LED_F HMISuper_R=8288 Ausgang_F=8334 
 av0=c cs =0 \nabs 
 av1=a AlmIndex =0 {0..4000} 
@@ -31252,13 +31252,13 @@ Language=de
 Posi=44 16
 [_DDC_COVALVDAMP21 44600]
 Fam=DDC Steuerungen
-Face=stetig
+Face=Continous
 FacePosi=l
 Width=10
 Init=y
 Vers=200000
-In=Y_I YRm_I Ovr_B Ha_B 
-Out=Y_I YIn_I Ssm_B SmO_B SmU_B [Ha]_B 
+In=Y_I Yfb_I Ovr_B man_B 
+Out=Y_I Yinv_I GrpAla_B AlaHigh_B AlaLow_B [man]_B 
 S=ABS_R=42770 Laufzeit_R=42769 SigHand_R=42786 SigZwang_R=42772 SigReg_R=42771 Signal_R=42787 SignalIn_R=42784 RmHyst_R=42775 RmSpg_R=42776 RmRohMin_R=42773 RmRohMax_R=42774 Rm_R=42782 HMI_F=42785 Zwang_F=42778 Invert_F=42780 RmQuit_F=42766 SmOben_F=42768 SmUnten_F=42781 LED_F sFlag_4F sTmr_3T HandDI_R=42783 HandNoNc_F=42777 HandSpg_R=42779 HandSm_F=42765 sHDLogDB_^D sHDLogTx_^X SigAnf_R=42767 
 av0=c cs =0 \nabs 
 av1=a HDLog =0 {0..64} 
@@ -31336,13 +31336,13 @@ Language=de
 Posi=48 31
 [_DDC_COVALVDAMP22 37899]
 Fam=DDC Steuerungen
-Face=Auf/Zu
+Face=O/C
 FacePosi=l
 Width=10
 Init=y
 Vers=200000
-In=Frg_B Auf_B Zu_B Ovr_B Ha_B 
-Out=Auf_B Ssm_B SmA_B SmZ_B [RmA!]_B [RmZ!]_B [Ha]_B 
+In=En_B fbO_B fbC_B Ovr_B man_B 
+Out=Up_B GrpAla_B AlaO_B AlaC_B [fbO!]_B [fbC!]_B [man]_B 
 S=ABS_R=8401 Laufzeit_R=8402 RmSpg_R=8403 HMI_R=8404 Nachlauf_R=8405 Zwang_F=8406 RmQuit_F=8407 RmAufSm_F=8408 RmZuSm_F=8409 ZwangBef_F=8410 Ansteuer_F=8411 Rm_R=8412 RmTyp_F=8413 LED_F sFlag_6F sTmr_4T RmAufDI_R=8414 RmZuDI_R=8415 HMISuper_R=8416 HandDI_R=8417 HandNoNc_F=8418 HandSpg_R=8419 HandSm_F=8420 Ausgang_F=8421 AnstDO_R=8422 
 av0=c cs =0 \nabs 
 av1=a AlmIndex =0 {0..4000} 
@@ -31567,44 +31567,44 @@ N55=Bof 54 97
 Text0=69 87-0 H = Kühlen
 Text1=69 89-0 L = Heizen
 [CONNS]
-Conn0=25 5 8172 34 19
-Conn1=68 5 8324 33 20
-Conn2=25 7 8177 34 19
-Conn3=25 9 8340 34 21
-Conn4=25 11 8393 34 16
-Conn5=25 13 32028 34 17
-Conn6=25 19 8324 34 20
-Conn7=68 19 8293 33 23
-Conn8=25 21 8316 34 21
-Conn9=25 23 338 34 4
-Conn10=25 25 8304 34 23
-Conn11=25 32 8172 34 19
-Conn12=68 32 8472 33 22
-Conn13=25 34 8174 34 20
-Conn14=25 37 8177 34 19
-Conn15=25 39 8176 34 20
-Conn16=25 41 8190 34 20
-Conn17=25 43 8395 34 18
-Conn18=25 48 889 34 22
-Conn19=25 50 8472 34 22
-Conn20=68 52 8304 33 23
-Conn21=25 54 8304 34 23
-Conn22=25 56 32028 34 17
-Conn23=25 58 8361 34 22
+Conn0=25 5 8172 34 20
+Conn1=68 5 8324 33 22
+Conn2=25 7 8177 34 20
+Conn3=25 9 8340 34 22
+Conn4=25 11 8393 34 17
+Conn5=25 13 32028 34 18
+Conn6=25 19 44260 34 15
+Conn7=68 19 8293 33 25
+Conn8=25 21 8316 34 24
+Conn9=25 23 338 34 5
+Conn10=25 25 8304 34 24
+Conn11=25 32 8172 34 20
+Conn12=68 32 8472 33 25
+Conn13=25 34 8174 34 22
+Conn14=25 37 8177 34 20
+Conn15=25 39 8176 34 22
+Conn16=25 41 8190 34 22
+Conn17=25 43 8395 34 20
+Conn18=25 48 889 34 24
+Conn19=25 50 8472 34 24
+Conn20=68 52 8304 33 25
+Conn21=25 54 8304 34 24
+Conn22=25 56 32028 34 18
+Conn23=25 58 8361 34 24
 Conn24=25 65 42786 34 24
-Conn25=68 65 42786 33 24
-Conn26=25 70 8340 34 21
-Conn27=68 70 8473 33 19
-Conn28=25 72 8177 34 19
-Conn29=25 74 32372 34 20
-Conn30=25 76 32410 34 20
-Conn31=25 79 8172 34 19
-Conn32=25 85 8473 34 19
-Conn33=68 85 8424 33 22
-Conn34=25 87 338 34 4
-Conn35=25 89 32028 34 17
-Conn36=25 91 8393 34 16
-Conn37=25 93 8423 34 20
+Conn25=68 65 42786 33 27
+Conn26=25 70 8340 34 22
+Conn27=68 70 8473 33 21
+Conn28=25 72 8177 34 20
+Conn29=25 74 32372 34 22
+Conn30=25 76 32410 34 22
+Conn31=25 79 8172 34 20
+Conn32=25 85 8473 34 21
+Conn33=68 85 8424 33 24
+Conn34=25 87 338 34 5
+Conn35=25 89 32028 34 18
+Conn36=25 91 8393 34 17
+Conn37=25 93 8423 34 23
 [PAGEDEF]
 PageLen=220
 [PAGE]
@@ -148723,7 +148723,7 @@ Conn2=28 26 27499 34 21
 Conn3=71 26 27512 33 22
 Conn4=71 29 27524 33 20
 [PAGEDEF]
-PageLen=7503
+PageLen=7092
 [PAGE]
 Name=Radiatoren Pumpe /Ventil
 RemarkSize=0
@@ -148748,7 +148748,6 @@ _FLISRNDY2 41790=
 _IADD2 41811=
 _ICMPGE 41812=
 _ICMPST 41814=
-_DDC_SPGENERAL22 46421=
 [_DDC_COPUMP21 41784]
 Fam=DDC Steuerungen
 Face=Pump
@@ -148940,23 +148939,6 @@ In=_I _I
 Out=<_B 
 Language=de
 Posi=47 6
-[_DDC_SPGENERAL22 46421]
-Fam=DDC Sollwerte
-Width=5
-Init=y
-Vers=200000
-Out=Val_I 
-S=Value_R 
-av0=c cs =0 \nabs 
-av1=a BACnet %s =0 {0..1} 
-av2=c c0 =0 \nabs 
-av3=a Value 0 %1p =210:0 
-av4=c cc =0 \nabs 
-AcceptName=1
-Folder=Sollwerte.Integer?
-Variables0=Value Register;(4) Integerwert
-Language=de
-Posi=33 72
 [HLINE]
 H0=7 25 47
 H1=8 32 47
@@ -148974,7 +148956,6 @@ H12=58 43 44)54 68
 H13=60 25 44)54 55
 H14=62 25 44)54 55
 H15=64 25 44)54 55
-H16=73 38 56
 [VLINE]
 V0=32 8 9)9 13
 V1=42 7 12
@@ -149005,30 +148986,28 @@ N20=Bo 25 62)if 44 62
 N21=Iof 54 62
 N22=Io 25 64)if 44 64
 N23=Bof 54 64
-N24=Iof 38 73)i 56 73
 [COMMENT]
 Text0=72 12-0 FbH Ventile 1/2/5/8 DO 179
 Text1=60 16-0 Einschalten nach AT oder Küche UG Soll- /Istwert
 Text2=6 42-0 Soll VL Vl Temp
 [CONNS]
-Conn0=25 7 27145 34 19
-Conn1=25 9 27260 34 21
-Conn2=68 9 27558 33 21
+Conn0=25 7 27145 34 18
+Conn1=25 9 27260 34 20
+Conn2=68 9 27558 33 20
 Conn3=25 14 27537 34 3
 Conn4=25 35 1137 34 19
-Conn5=68 35 27452 33 20
-Conn6=25 39 27453 34 20
-Conn7=25 46 27454 34 20
-Conn8=68 46 27455 33 20
-Conn9=25 48 27452 34 20
-Conn10=25 50 27558 34 21
-Conn11=25 56 2413 34 20
-Conn12=25 58 27558 34 21
-Conn13=68 58 27498 33 25
-Conn14=25 60 27500 34 23
+Conn5=68 35 27452 33 19
+Conn6=25 39 27453 34 19
+Conn7=25 46 27454 34 19
+Conn8=68 46 27455 33 19
+Conn9=25 48 27452 34 19
+Conn10=25 50 27558 34 20
+Conn11=25 56 2413 34 19
+Conn12=25 58 27558 34 20
+Conn13=68 58 27498 33 24
+Conn14=25 60 27500 34 22
 Conn15=25 62 338 34 5
 Conn16=25 64 27458 34 22
-Conn17=56 73 27538 33 21
 [BLOCK]
 BlockSym=13122
 COBSupTime=0
@@ -165886,9 +165865,9 @@ Conn11=39 29 2963 34 21
 Conn12=39 31 43187 34 26
 Conn13=39 33 43192 34 26
 [PAGEDEF]
-PageLen=3926
+PageLen=3928
 [PAGE]
-Name=MB3Manage
+Name=MB3ManageSP
 RemarkSize=0
 CountOfLabels=50
 CountOfGrids=82
@@ -166126,6 +166105,136 @@ Conn13=23 52 44253 34 13
 Conn14=23 54 44256 34 11
 Conn15=36 60 44256 33 11
 Conn16=24 62 44253 34 13
+[PAGEDEF]
+PageLen=1951
+[PAGE]
+Name=MB3ManagePump1
+RemarkSize=0
+CountOfLabels=27
+CountOfGrids=82
+UpdatedLayout=1
+BeginGroup=0
+GroupTitle=
+GroupID=
+PageID=3606
+PageColor=0
+PageBackColor=16777215
+PageDisabled=0
+ConditinalFunction=0
+ConditionalValue=0
+[FBOX]
+_INDREGI 46422=
+_BMUX2 46423=
+_INDREGO 46424=
+_CONBITI 46425=
+_ICMPGT 46426=
+_ICMPGT 46427=
+[_INDREGI 46422]
+Fam=sfupindi
+Width=6
+Init=n
+Stretch=0 7 1 0
+In=#_I 
+Out=R_NI 
+Language=en
+Posi=9 10
+[_BMUX2 46423]
+Fam=sfupbina
+Face=Mux
+Width=7
+Init=n
+Stretch=1 7 1 2
+In=I_NB Slc_I 
+Out=Out_B Err_B 
+D=TSl_R 
+Language=en
+Posi=33 2
+[_INDREGO 46424]
+Fam=sfupindi
+Width=6
+Init=n
+Stretch=0 7 1 0
+In=#_I R_NI 
+Language=en
+Posi=62 17
+[_CONBITI 46425]
+Fam=sfupconv
+Face=BinInt
+Width=8
+Init=n
+Stretch=0 7 1 2
+In=I_NB 
+Out=Out_I 
+D=TMP_R 
+Language=en
+Posi=33 20
+[_ICMPGT 46426]
+Fam=sfupinte
+Face=Cmp
+Width=4
+Init=n
+In=_I _I 
+Out=>_B 
+Language=en
+Posi=20 14
+[_ICMPGT 46427]
+Fam=sfupinte
+Face=Cmp
+Width=4
+Init=n
+In=_I _I 
+Out=>_B 
+Language=en
+Posi=20 31
+[HLINE]
+H0=5 29 33)40 42
+H1=7 31 33)40 41
+H2=9 31 33
+H3=11 7 9)15 33
+H4=15 17 20
+H5=16 19 20
+H6=17 18 19)24 32
+H7=18 59 62
+H8=20 61 62
+H9=23 32 33)41 61
+H10=25 31 33
+H11=27 32 33
+H12=32 17 20
+H13=33 19 20
+H14=34 24 32
+H15=35 17 19
+[VLINE]
+V0=17 11 15
+V1=19 16 17)33 35
+V2=32 17 23)27 34
+V3=61 20 23
+[NETWORK]
+N0=Bo 29 5)if 33 5
+N1=Bof 40 5)i 42 5
+N2=Bo 31 7)if 33 7
+N3=Bof 40 7
+N4=Bo 31 9)if 33 9
+N5=Io 7 11)if 9 11
+N6=Iof 15 11)if 33 11)if 20 15
+N7=Iif 20 16)o 18 17
+N8=Bof 24 17)if 33 23
+N9=Io 59 18)if 62 18
+N10=Iif 62 20)of 41 23
+N11=Bo 31 25)if 33 25
+N12=Bif 33 27)of 24 34
+N13=Io 17 32)if 20 32
+N14=Iif 20 33)o 17 35
+[CONNS]
+Conn0=29 5 8324 34 22
+Conn1=42 5 44260 33 15
+Conn2=31 7 3927 34 3
+Conn3=31 9 2564 34 3
+Conn4=7 11 44259 34 12
+Conn5=18 17 2564 34 3
+Conn6=59 18 44227 34 5
+Conn7=31 25 31678 34 24
+Conn8=17 32 8326 34 16
+Conn9=17 35 3927 34 3
 [BLOCK]
 BlockSym=44187
 COBSupTime=0
@@ -166980,7 +167089,7 @@ Conn1=57 26 43089 33 11
 Conn2=36 27 3206 34 3
 [RESOURCES]
 DBVersion=270340
-DBCount=9266
+DBCount=9269
 Format={ID}	{FullName}	{Type}	{Expression}	{ScopeID}	{Size}	{Comment}	{Override}	{Tags}	{BlockID}	{Hidden}
 HSYM0=1	Controller_	COB	1	1	-1				-1	0
 HSYM1=29721	EZR1004.Thanos.RaumTBasisWrite	R	 := 240	1	-1				-1	0
@@ -176248,6 +176357,9 @@ HSYM9262=44254	MB3.OPSetPointReg	R		3	-1				-1	0
 HSYM9263=44255	MB3.BMSSetPointReg	R		3	-1				-1	0
 HSYM9264=44256	MB3.BMSSpFb	R		3	-1				-1	0
 HSYM9265=44257	MB3.OPSpFb	R		3	-1				-1	0
+HSYM9266=44258			 13000	3	-1				-1	1
+HSYM9267=44259			13001	3	-1				-1	1
+HSYM9268=44260	MB3.Pump1.BMSForce	F		3	-1				-1	0
 [FBOXLIST]
 Count=33
 FBOXNAME0=1	FuseGuard	1

@@ -133,7 +133,7 @@ __Saia_Sfup__.MaxFlag	EQU		16383	;For Fupla probes
 __Saia_Sfup__.rTmpCalc	EQU	R	10813
 __Saia_Sfup__.rTmpCalcRemainder	EQU	R	10814
 __Saia_Sfup__.rTmpCalcResult	EQU	R	10815
-__SAIASystemBuildTime__	EQU		09E739832H	;Build key
+__SAIASystemBuildTime__	EQU		0D2E46C9CH	;Build key
 __SASMVERS__	EQU		21410	;Assembler/linker version, old format (abccc)
 __TIME_BASE__	EQU		100	;Timer timebase in ms
 __TIME_BASE_EXTN__	EQU		100
@@ -141,8 +141,8 @@ __TIME_CONVERT__	EQU	F	10	;H=convert time, L=don't convert
 __TIME_DIVFACT__	EQU		1
 __TIME_MULFACT__	EQU		1
 __TIME_MULTIPLY__	EQU	F	11	;H=multiply time, L=divide
-_ALARM	EQU	F	1084[5]
-_ALARMG	EQU	F	1087
+_ALARM	EQU	F	1076[5]
+_ALARMG	EQU	F	1079
 _analogue_w36x5.ReadStatus	EQU	FB	32
 _analogue_w36x5.WriteModuleConfig	EQU	FB	33
 _analogue_w36x5.WriteRegister	EQU	FB	34
@@ -150,11 +150,11 @@ _analogue._FB._LinBalco	EQU	FB	35
 _analogue._FB._LinearNi1000	EQU	FB	36
 _analogue._FB._LinearPt1000	EQU	FB	37
 _analogue._FB._LinNiLS	EQU	FB	38
-_HEAVAC._ALARM._ALARM	EQU	F	1084[5]
-_HEAVAC._ALARM._ALARMG	EQU	F	1087
-_HEAVAC._ALARM._QUIT	EQU	F	1085
-_HEAVAC._ALARM._QUITALL	EQU	F	1086
-_HEAVAC._ALARM._QUITG	EQU	F	1088
+_HEAVAC._ALARM._ALARM	EQU	F	1076[5]
+_HEAVAC._ALARM._ALARMG	EQU	F	1079
+_HEAVAC._ALARM._QUIT	EQU	F	1077
+_HEAVAC._ALARM._QUITALL	EQU	F	1078
+_HEAVAC._ALARM._QUITG	EQU	F	1080
 _HEAVAC._CLOCK._ALLPHDAY1	EQU	F	16016
 _HEAVAC._CLOCK._DAY	EQU	R	10682
 _HEAVAC._CLOCK._DAYINYEAR	EQU	R	10691
@@ -281,9 +281,9 @@ _modbus_server.Cnst.SendReadRequest	EQU		5
 _modbus_server.Cnst.SendWriteRequest	EQU		6
 _modbus_server.Cnst.ServerMode.Auto	EQU		0
 _modbus_server.Cnst.ServerMode.User	EQU		1
-_QUIT	EQU	F	1085
-_QUITALL	EQU	F	1086
-_QUITG	EQU	F	1088
+_QUIT	EQU	F	1077
+_QUITALL	EQU	F	1078
+_QUITG	EQU	F	1080
 _shmsr.system.AussenTemp	EQU	R	1603	;Aussenluftemperatur
 _shmsr.system.DateDay	EQU	R	1597	;Tag
 _shmsr.system.DateMonth	EQU	R	1598	;Monat
@@ -11698,7 +11698,7 @@ PIN.Level2	EQU	TEXT	7877
 PIN.Level3	EQU	TEXT	7879
 PIN.Level4	EQU	TEXT	7880
 PIN.Logouttime	EQU	R	9755
-PV1.Manual.AirDamp	EQU	R	1685
+PV1.Manual.AirDamp	EQU	R	1662
 RLT001.AUL.Klappe.Linear.Errechnet	EQU	R	9895	;(3) Resultierender Wert aus der Umrechnung
 $ATTR TAGS=S_ADJUST
 RLT001.AUL.Klappe.Linear.KurveX1	EQU	R	9896	;(4) Wert X1
