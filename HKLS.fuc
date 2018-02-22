@@ -1,9 +1,9 @@
 [Navigator]
-TopRow=15
+TopRow=5
 Selected=-1
-Count=3
-NUM0=COB (11) :RLT003_MB3
-NUM1=COB 13 :ModbusServer
+Count=2
+NUM0=COB 13 :ModbusServer
+NUM1=COB 18 :MB3
 NUM2=COB 18 :MB3
 NUM3=COB 9 :HZG002_Haupthaus
 NUM4=COB :HZG003_ ;Nebenanlagen Haupthaus
