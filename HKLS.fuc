@@ -1,6 +1,6 @@
 [Navigator]
-TopRow=25
-Selected=37
+TopRow=21
+Selected=-1
 Count=2
 NUM0=COB (11) :RLT003_MB3
 NUM1=COB 13 :ModbusServer
