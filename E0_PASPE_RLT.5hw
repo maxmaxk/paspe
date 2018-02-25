@@ -1,9 +1,9 @@
 
 [General]
 Version=2
-FuplaDnldInRun=0
+FuplaDnldInRun=1
 FuplaAdjustParams=1
-LastDownload=2018/02/20 19:25:58
+LastDownload=2018/02/25 11:06:42
 
 [Pcd]
 Password=00000000

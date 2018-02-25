@@ -22242,6 +22242,7 @@ $ENDGROUP MB3.Pump2
 $GROUP MB3.Cool
 BMSForce	EQU	F		
 $ENDGROUP MB3.Cool
+Pump1Auto	EQU	F		
 ;;End of user defined symbols
 ;;Alias symbols to attach adjust tag 
 $ATTR TAGS=S_ADJUST
