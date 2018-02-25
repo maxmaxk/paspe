@@ -8,7 +8,7 @@ UpdateGlobals=1
 DnldInRun=0
 FuplaVersion=V2.1.410
 CodePage=1252
-MacroID=46453
+MacroID=46454
 ModuleVersion=
 AdjustLog=0
 Author=
@@ -166262,7 +166262,7 @@ Conn7=31 25 31678 34 24
 Conn8=17 32 8326 34 16
 Conn9=17 35 3927 34 3
 [PAGEDEF]
-PageLen=1902
+PageLen=1895
 [PAGE]
 Name=MB3ManageValve
 RemarkSize=0
@@ -166281,10 +166281,10 @@ ConditionalValue=0
 [FBOX]
 _IMUX2 46429=
 _INDREGI 46430=
-_IDIV 46431=
 _CONBITI 46432=
 _ICMPGT 46433=
 _INDREGO 46434=
+_IMUL 46454=
 [_IMUX2 46429]
 Fam=sfupinte
 Face=Mux
@@ -166305,15 +166305,6 @@ In=#_I
 Out=R_NI 
 Language=en
 Posi=12 15
-[_IDIV 46431]
-Fam=sfupinte
-Face=Div
-Width=6
-Init=n
-In=A_I B_I 
-Out=A/B_I A%B_I 
-Language=en
-Posi=28 18
 [_CONBITI 46432]
 Fam=sfupconv
 Face=BinInt
@@ -166342,52 +166333,62 @@ Stretch=0 7 1 0
 In=#_I R_NI 
 Language=en
 Posi=59 29
+[_IMUL 46454]
+Fam=sfupinte
+Face=x
+Width=2
+Init=n
+In=_I _I 
+Out=_I 
+Language=en
+Posi=29 19
 [HLINE]
 H0=5 25 37)44 46
-H1=7 35 37)44 45
+H1=7 34 37)44 45
 H2=9 19 37
 H3=16 9 12)18 20
 H4=18 18 19
-H5=21 19 28)34 35
-H6=23 27 28)34 35
-H7=30 55 59
-H8=32 20 25)46 59
-H9=33 19 25
-H10=34 29 36
-H11=35 36 37)45 46
-H12=37 35 37
-H13=39 35 37
+H5=20 19 29)31 34
+H6=21 28 29
+H7=22 27 28
+H8=30 55 59
+H9=32 20 25)46 59
+H10=33 19 25
+H11=34 29 36
+H12=35 36 37)45 46
+H13=37 35 37
+H14=39 35 37
 [VLINE]
-V0=19 9 16)18 21
+V0=19 9 16)18 20
 V1=20 16 32
-V2=35 7 21
-V3=36 34 35
-V4=46 32 35
+V2=28 21 22
+V3=34 7 20
+V4=36 34 35
+V5=46 32 35
 [NETWORK]
 N0=Io 25 5)if 37 5
 N1=Iof 44 5)i 46 5
-N2=Iif 37 7)of 34 21
+N2=Iif 37 7)of 31 20
 N3=Bof 44 7
 N4=Iif 37 9)if 25 32)of 18 16
 N5=Io 9 16)if 12 16
-N6=Iof 18 18)if 28 21
-N7=Io 27 23)if 28 23
-N8=Iof 34 23
-N9=Io 55 30)if 59 30
-N10=Iif 59 32)of 45 35
-N11=Io 19 33)if 25 33
-N12=Bof 29 34)if 37 35
-N13=Bo 35 37)if 37 37
-N14=Bo 35 39)if 37 39
+N6=Iof 18 18)if 29 20
+N7=Iif 29 21)o 27 22
+N8=Io 55 30)if 59 30
+N9=Iif 59 32)of 45 35
+N10=Io 19 33)if 25 33
+N11=Bof 29 34)if 37 35
+N12=Bo 35 37)if 37 37
+N13=Bo 35 39)if 37 39
 [CONNS]
-Conn0=25 5 8472 34 24
-Conn1=46 5 44266 33 15
+Conn0=25 5 8472 34 23
+Conn1=46 5 44266 33 13
 Conn2=9 16 44262 34 12
-Conn3=27 23 2904 34 3
+Conn3=27 22 2904 34 3
 Conn4=55 30 44265 34 5
 Conn5=19 33 44263 34 3
-Conn6=35 37 42785 34 26
-Conn7=35 39 42765 34 26
+Conn6=35 37 42785 34 23
+Conn7=35 39 42765 34 24
 [PAGEDEF]
 PageLen=1587
 [PAGE]
