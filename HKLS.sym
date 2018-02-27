@@ -22243,6 +22243,39 @@ $GROUP MB3.Cool
 BMSForce	EQU	F		
 $ENDGROUP MB3.Cool
 Pump1Auto	EQU	F		
+$GROUP Damps.BypassMB3
+BMSForce	EQU	R		
+$ENDGROUP Damps.BypassMB3
+$GROUP Damps.InAir
+Auto	EQU	R		
+BMSForce	EQU	R		
+$ENDGROUP Damps.InAir
+$GROUP Damps.OutAir
+Auto	EQU	R		
+BMSForce	EQU	R		
+$ENDGROUP Damps.OutAir
+$GROUP Damps.Floor2
+BMSForce	EQU	R		
+$ENDGROUP Damps.Floor2
+$GROUP Damps.Floor1
+BMSForce	EQU	R		
+$ENDGROUP Damps.Floor1
+$GROUP Damps.ExhExh
+Auto	EQU	R		
+BMSForce	EQU	R		
+$ENDGROUP Damps.ExhExh
+$GROUP Damps.SupSup
+Auto	EQU	R		
+BMSForce	EQU	R		
+$ENDGROUP Damps.SupSup
+$GROUP Damps.SupExh
+Auto	EQU	R		
+BMSForce	EQU	R		
+$ENDGROUP Damps.SupExh
+$GROUP Damps.ExhSup
+Auto	EQU	R		
+BMSForce	EQU	R		
+$ENDGROUP Damps.ExhSup
 ;;End of user defined symbols
 ;;Alias symbols to attach adjust tag 
 $ATTR TAGS=S_ADJUST
