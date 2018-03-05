@@ -22277,6 +22277,22 @@ Auto	EQU	R
 BMSForce	EQU	R		
 $ENDGROUP Damps.ExhSup
 Pump2Auto	EQU	F		
+$GROUP PV1.InAirDamp
+BMSForce	EQU	R		
+$ENDGROUP PV1.InAirDamp
+$GROUP PV1.Pump2
+BMSForce	EQU	F		
+$ENDGROUP PV1.Pump2
+$GROUP PV1.Valve
+BMSForce	EQU	R		
+$ENDGROUP PV1.Valve
+$GROUP PV1.Pump1
+BMSForce	EQU	F		
+$ENDGROUP PV1.Pump1
+$GROUP PV1
+MenegraStart	EQU	F		
+SaiaStart	EQU	F		
+$ENDGROUP PV1
 ;;End of user defined symbols
 ;;Alias symbols to attach adjust tag 
 $ATTR TAGS=S_ADJUST
