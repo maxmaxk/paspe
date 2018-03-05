@@ -8,7 +8,7 @@ UpdateGlobals=1
 DnldInRun=0
 FuplaVersion=V2.1.410
 CodePage=1252
-MacroID=46516
+MacroID=46520
 ModuleVersion=
 AdjustLog=0
 Author=
@@ -166295,7 +166295,7 @@ N12=Bif 33 27)of 24 34
 N13=Io 17 32)if 20 32
 N14=Iif 20 33)o 17 35
 [CONNS]
-Conn0=31 5 44287 34 8
+Conn0=31 5 8324 34 22
 Conn1=42 5 44260 33 15
 Conn2=31 7 3927 34 3
 Conn3=31 9 2564 34 3
@@ -166434,7 +166434,7 @@ Conn5=19 33 44263 34 3
 Conn6=35 37 42785 34 23
 Conn7=35 39 42765 34 24
 [PAGEDEF]
-PageLen=1587
+PageLen=1824
 [PAGE]
 Name=MB3ManagePump2
 RemarkSize=0
@@ -166456,6 +166456,7 @@ _INDREGO 46437=
 _ICMPGT 46438=
 _INDREGI 46439=
 _BMUX2 46440=
+_BAND 46520=
 [_CONBITI 46436]
 Fam=sfupconv
 Face=BinInt
@@ -166504,42 +166505,58 @@ Out=Out_B Err_B
 D=TSl_R 
 Language=en
 Posi=42 5
+[_BAND 46520]
+Fam=sfupbina
+Face=&&
+Width=2
+Init=n
+Stretch=1 9 1 1
+In=_NB 
+Out=_B 
+Language=en
+Posi=57 6
 [HLINE]
-H0=8 39 42)49 51
-H1=10 40 42)49 50
-H2=12 40 42
-H3=14 16 18)24 42
-H4=18 26 29
-H5=19 28 29
-H6=20 27 28)33 41
-H7=21 68 71
-H8=23 70 71
-H9=26 41 42)50 70
+H0=2 49 56
+H1=7 56 57)59 62
+H2=8 39 42)49 57
+H3=10 40 42)49 50
+H4=12 40 42
+H5=14 16 18)24 42
+H6=18 26 29
+H7=19 28 29
+H8=20 27 28)33 41
+H9=21 68 71
+H10=23 70 71
+H11=26 41 42)50 70
 [VLINE]
 V0=26 14 18
 V1=28 19 20
 V2=41 20 26
-V3=70 23 26
+V3=56 2 7
+V4=70 23 26
 [NETWORK]
-N0=Bo 39 8)if 42 8
-N1=Bof 49 8)i 51 8
-N2=Bo 40 10)if 42 10
-N3=Bof 49 10
-N4=Bo 40 12)if 42 12
-N5=Io 16 14)if 18 14
-N6=Iof 24 14)if 42 14)if 29 18
-N7=Iif 29 19)o 27 20
-N8=Bof 33 20)if 42 26
-N9=Io 68 21)if 71 21
-N10=Iif 71 23)of 50 26
+N0=Bo 49 2)if 57 7
+N1=Bof 59 7)i 62 7
+N2=Bo 39 8)if 42 8
+N3=Bof 49 8)if 57 8
+N4=Bo 40 10)if 42 10
+N5=Bof 49 10
+N6=Bo 40 12)if 42 12
+N7=Io 16 14)if 18 14
+N8=Iof 24 14)if 42 14)if 29 18
+N9=Iif 29 19)o 27 20
+N10=Bof 33 20)if 42 26
+N11=Io 68 21)if 71 21
+N12=Iif 71 23)of 50 26
 [CONNS]
-Conn0=39 8 8324 34 22
-Conn1=51 8 44272 33 15
-Conn2=40 10 44269 34 3
-Conn3=40 12 44267 34 3
-Conn4=16 14 44274 34 5
-Conn5=27 20 44267 34 3
-Conn6=68 21 44273 34 5
+Conn0=49 2 8324 34 22
+Conn1=62 7 44272 33 15
+Conn2=39 8 44367 34 8
+Conn3=40 10 44269 34 3
+Conn4=40 12 44267 34 3
+Conn5=16 14 44274 34 5
+Conn6=27 20 44267 34 3
+Conn7=68 21 44273 34 5
 [PAGEDEF]
 PageLen=1998
 [PAGE]
@@ -168614,7 +168631,7 @@ ConditionalValue=0
 PageColor=16777215
 PageBackColor=0
 [PAGEDEF]
-PageLen=972
+PageLen=1510
 [PAGE]
 Name=SeparatePump
 RemarkSize=0
@@ -168633,6 +168650,8 @@ ConditionalValue=0
 [FBOX]
 _HEAMANB3 46346=
 _ICMPGE 46347=
+_FLISRNDY2 46519=
+_ICMPSE 46518=
 [_HEAMANB3 46346]
 Fam=heavac
 Face=Man
@@ -168656,30 +168675,63 @@ Init=n
 In=_I _I 
 Out=>=_B 
 Language=en
-Posi=39 12
+Posi=42 12
+[_FLISRNDY2 46519]
+Fam=sfupflip
+Width=4
+Init=y
+In=S_B R_B 
+Out=Q_B 
+S=Sta_F 
+av0=a opt %s =2 {0,1,2} 
+av1=b Sta 0 %s =0 
+av2=b Sta 0 %s =1 
+Language=en
+Posi=52 15
+[_ICMPSE 46518]
+Fam=sfupinte
+Face=Cmp
+Width=4
+Init=n
+In=_I _I 
+Out=<=_B 
+Language=en
+Posi=42 19
 [HLINE]
-H0=13 31 39
-H1=14 38 39
-H2=15 43 45
-H3=16 36 38
-H4=26 46 48)54 57
+H0=13 31 42
+H1=14 41 42
+H2=15 46 51
+H3=16 39 41)51 52)56 62
+H4=18 51 52
+H5=20 33 42
+H6=21 40 42
+H7=22 46 51
+H8=23 39 40
+H9=26 46 48)54 57
 [VLINE]
-V0=38 14 16
+V0=33 13 20
+V1=40 21 23
+V2=41 14 16
+V3=51 15 16)18 22
 [NETWORK]
-N0=Io 31 13)if 39 13
-N1=Iif 39 14)o 36 16
-N2=Bof 43 15)i 45 15
-N3=Bo 46 26)if 48 26
-N4=Bof 54 26)i 57 26
+N0=Io 31 13)if 42 13)if 42 20
+N1=Iif 42 14)o 39 16
+N2=Bof 46 15)if 52 16
+N3=Bof 56 16)i 62 16
+N4=Bif 52 18)of 46 22
+N5=Iif 42 21)o 39 23
+N6=Bo 46 26)if 48 26
+N7=Bof 54 26)i 57 26
 [CONNS]
 Conn0=31 13 8304 34 25
-Conn1=45 15 44287 33 8
-Conn2=36 16 3206 34 3
-Conn3=46 26 44272 34 15
-Conn4=57 26 43089 33 11
+Conn1=39 16 3206 34 3
+Conn2=62 16 44367 33 8
+Conn3=39 23 44366 34 3
+Conn4=46 26 44272 34 15
+Conn5=57 26 43089 33 11
 [RESOURCES]
 DBVersion=270340
-DBCount=9373
+DBCount=9376
 Format={ID}	{FullName}	{Type}	{Expression}	{ScopeID}	{Size}	{Comment}	{Override}	{Tags}	{BlockID}	{Hidden}
 HSYM0=1	Controller_	COB	1	1	-1				-1	0
 HSYM1=29721	EZR1004.Thanos.RaumTBasisWrite	R	 := 240	1	-1				-1	0
@@ -178054,6 +178106,9 @@ HSYM9369=44361	Damps.ExhSup.BMSForce	R		3	-1				-1	0
 HSYM9370=44362			13018	3	-1				-1	1
 HSYM9371=44363			12042	3	-1				-1	1
 HSYM9372=44364			 1000	3	-1				-1	1
+HSYM9373=44365			 50	3	-1				-1	1
+HSYM9374=44366			20	3	-1				-1	1
+HSYM9375=44367	Pump2Auto	F		3	-1				-1	0
 [FBOXLIST]
 Count=33
 FBOXNAME0=1	FuseGuard	1

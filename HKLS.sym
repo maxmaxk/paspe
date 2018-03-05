@@ -22276,6 +22276,7 @@ $GROUP Damps.ExhSup
 Auto	EQU	R		
 BMSForce	EQU	R		
 $ENDGROUP Damps.ExhSup
+Pump2Auto	EQU	F		
 ;;End of user defined symbols
 ;;Alias symbols to attach adjust tag 
 $ATTR TAGS=S_ADJUST

@@ -19522,9 +19522,10 @@ __fup_C00ABFD_0D_12_10___SG_ModbusServer       EQU                        ___Reg
 __fup_C00ABFD_0D_12_12___SG_ModbusServer       EQU                        ___RegDyn_C00ABFD___SG_ModbusServer+3 ;Export name of network.
 __fup_C00ABFD_0D_2d_23___SG_ModbusServer       EQU                        ___RegDyn_C00ABFD___SG_ModbusServer+6 ;Export name of network.
 __fup_C00ABFD_0D_1d_22___SG_ModbusServer       EQU                        ___FlgDyn_C00ABFD___SG_ModbusServer+1 ;Export name of network.
-__fup_C00ABFD_0E_31_0a___SG_ModbusServer       EQU                        ___FlgDyn_C00ABFD___SG_ModbusServer+0 ;Export name of network.
+__fup_C00ABFD_0E_31_08___SG_ModbusServer       EQU                        ___FlgDyn_C00ABFD___SG_ModbusServer+0 ;Export name of network.
+__fup_C00ABFD_0E_31_0a___SG_ModbusServer       EQU                        ___FlgDyn_C00ABFD___SG_ModbusServer+1 ;Export name of network.
 __fup_C00ABFD_0E_18_0e___SG_ModbusServer       EQU                        ___RegDyn_C00ABFD___SG_ModbusServer+1 ;Export name of network.
-__fup_C00ABFD_0E_21_14___SG_ModbusServer       EQU                        ___FlgDyn_C00ABFD___SG_ModbusServer+1 ;Export name of network.
+__fup_C00ABFD_0E_21_14___SG_ModbusServer       EQU                        ___FlgDyn_C00ABFD___SG_ModbusServer+2 ;Export name of network.
 __fup_C00ABFD_0E_32_1a___SG_ModbusServer       EQU                        ___RegDyn_C00ABFD___SG_ModbusServer+4 ;Export name of network.
 __fup_C00ABFD_0F_29_0e___SG_ModbusServer       EQU                        ___FlgDyn_C00ABFD___SG_ModbusServer+0 ;Export name of network.
 __fup_C00ABFD_0F_10_12___SG_ModbusServer       EQU                        ___RegDyn_C00ABFD___SG_ModbusServer+1 ;Export name of network.
@@ -19746,7 +19747,8 @@ __fup_C00AC9D_02_1a_33___SG_PV2newManage       EQU                        ___Flg
 ;;Start Dynamic symbol aliases allocated for this BLOCK
 ;;End Dynamic symbol aliases allocated for this BLOCK
 ;;dynamic symbols allocated for this BLOCK
-___RegDyn_C00ACB9___SG_MB3		EQU		R [1]		;	Define 1 registers for dynamic usage.
+___RegDyn_C00ACB9___SG_MB3		EQU		R [2]		;	Define 2 registers for dynamic usage.
+___FlgDyn_C00ACB9___SG_MB3		EQU		F [2]		;	Define 2 registers for dynamic usage.
 ;;end of dynamic symbols allocated for this BLOCK
 
 ;;Start Static symbols allocated for this BLOCK
@@ -19754,6 +19756,10 @@ $ATTR TAGS=S_ADJUST
 __stc_id_0B50A_var_00___SG_MB3       EQU     F         [2]       ;static variable Fs[2]
 __stc_id_0B50A_var_01___SG_MB3       EQU     F         [2]       ;static variable Fsm[2]
 __stc_id_0B50A_var_02___SG_MB3       EQU     F                    ;static variable LED[1]
+$ATTR TAGS=S_ADJUST
+__stc_id_0B5B7_var_00___SG_MB3       EQU     F                    ;static variable Sta[1]
 ;;End Static symbols allocated for this BLOCK
 ;;Start Dynamic symbol aliases allocated for this BLOCK
+__fup_C00ACB9_00_2e_0f___SG_MB3       EQU                        ___FlgDyn_C00ACB9___SG_MB3+0 ;Export name of network.
+__fup_C00ACB9_00_2e_16___SG_MB3       EQU                        ___FlgDyn_C00ACB9___SG_MB3+1 ;Export name of network.
 ;;End Dynamic symbol aliases allocated for this BLOCK
