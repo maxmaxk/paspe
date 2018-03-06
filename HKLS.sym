@@ -22292,7 +22292,21 @@ $ENDGROUP PV1.Pump1
 $GROUP PV1
 MenegraStart	EQU	F		
 SaiaStart	EQU	F		
+OPSpFb	EQU	R		
+BMSSetPoint	EQU	R		
+BMSSpFb	EQU	R		
+WorkState	EQU	F		
 $ENDGROUP PV1
+$GROUP Hum
+Average	EQU	R		
+$ENDGROUP Hum
+EcoModeCOB	EQU	COB	19	
+$GROUP Heater1
+WorkState	EQU	F		
+$ENDGROUP Heater1
+$GROUP EcoMode
+BufferHeatMode	EQU	F		
+$ENDGROUP EcoMode
 ;;End of user defined symbols
 ;;Alias symbols to attach adjust tag 
 $ATTR TAGS=S_ADJUST

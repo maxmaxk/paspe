@@ -3,17 +3,17 @@ Version=529
 Compiler=310
 Bues=1
 VisiPlus=0
-PrjID=60030
+PrjID=80
 UpdateGlobals=1
 DnldInRun=0
 FuplaVersion=V2.1.410
 CodePage=1252
-MacroID=46565
+MacroID=46612
 ModuleVersion=
 AdjustLog=0
 Author=
 Comment=
-LastPageID=3623
+LastPageID=3628
 [BLOCK]
 BlockSym=1
 COBSupTime=0
@@ -19523,7 +19523,7 @@ Conn25=23 85 42863 34 18
 Conn26=83 89 32887 33 16
 Conn27=23 94 32028 34 17
 [PAGEDEF]
-PageLen=9657
+PageLen=9624
 [PAGE]
 Name=ANA/DIGI Sollwerte Comm
 RemarkSize=0
@@ -19932,7 +19932,7 @@ H4=23 56 63)77 78
 H5=26 18 23)37 38
 H6=38 45 55)62 72
 H7=41 48 55)62 72
-H8=47 19 55)62 72
+H8=47 19 55)62 63
 H9=49 19 55
 H10=51 48 55
 H11=52 18 48
@@ -19977,7 +19977,7 @@ N12=Iif 55 38)if 55 47)o 19 47
 N13=Iof 62 38)i 72 38
 N14=Iif 55 41)if 55 49)o 19 49
 N15=Iof 62 41)i 72 41
-N16=Iof 62 47)i 72 47
+N16=Iof 62 47
 N17=Iif 55 51)of 18 52
 N18=Bif 55 53)o 19 55
 N19=Bif 55 55)i 72 59)of 38 59
@@ -20010,27 +20010,26 @@ Text8=82 82-0 35091
 Text9=82 84-0 AB Feuchte Soll
 [CONNS]
 Conn0=23 15 4048 34 5
-Conn1=37 15 3013 33 16
-Conn2=23 17 32028 34 17
-Conn3=38 33 31215 34 20
-Conn4=72 38 42862 33 17
-Conn5=72 41 11181 33 18
-Conn6=19 47 42862 34 17
-Conn7=72 47 3023 33 17
-Conn8=19 49 11181 34 18
-Conn9=19 55 42861 34 17
-Conn10=19 57 4048 34 5
-Conn11=19 59 13706 34 18
-Conn12=72 59 42869 33 14
-Conn13=19 61 13742 34 18
-Conn14=19 63 13984 34 18
-Conn15=79 69 43572 33 20
-Conn16=79 73 2993 33 19
-Conn17=19 75 43575 34 3
-Conn18=19 77 32028 34 17
-Conn19=19 79 4048 34 5
-Conn20=38 92 3023 34 17
-Conn21=81 92 2993 34 19
+Conn1=37 15 3013 33 18
+Conn2=23 17 32028 34 18
+Conn3=38 33 31215 34 22
+Conn4=72 38 42862 33 19
+Conn5=72 41 11181 33 20
+Conn6=19 47 42862 34 18
+Conn7=19 49 11181 34 18
+Conn8=19 55 42861 34 18
+Conn9=19 57 4048 34 5
+Conn10=19 59 13706 34 18
+Conn11=72 59 42869 33 15
+Conn12=19 61 13742 34 18
+Conn13=19 63 13984 34 18
+Conn14=79 69 43572 33 20
+Conn15=79 73 2993 33 20
+Conn16=19 75 43575 34 4
+Conn17=19 77 32028 34 18
+Conn18=19 79 4048 34 5
+Conn19=38 92 3023 34 19
+Conn20=81 92 2993 34 21
 [PAGEDEF]
 PageLen=11293
 [PAGE]
@@ -31168,7 +31167,7 @@ Conn5=28 35 2869 34 22
 Conn6=28 37 8293 34 23
 Conn7=28 39 8316 34 21
 [PAGEDEF]
-PageLen=14093
+PageLen=14042
 [PAGE]
 Name=MB3 VE Pumpe /Ventil
 Comment=UV Heizen /Kühlen MB3
@@ -31364,7 +31363,7 @@ Fam=sfupinte
 Face=Max
 Width=4
 Init=n
-Stretch=1 7 1 3
+Stretch=1 7 1 2
 In=_NI 
 Out=_I 
 D=Biggest_R 
@@ -31516,34 +31515,32 @@ H14=25 25 44)54 55
 H15=32 25 35)42 48)52 68
 H16=33 43 48
 H17=34 25 35)44 48
-H18=35 45 48
-H19=37 25 35)42 43
-H20=39 25 35
-H21=41 25 44
-H22=43 25 45
-H23=48 25 36)42 43
-H24=50 25 36
-H25=52 43 45)55 68
-H26=54 25 45)55 56
-H27=56 25 45)55 56
-H28=58 25 45)55 56
-H29=60 55 56
-H30=62 55 56
-H31=65 25 46)53 68
-H32=70 25 48)51 68
-H33=71 42 48
-H34=72 25 42)43 48
-H35=73 44 48
-H36=74 25 43
-H37=76 25 44
-H38=85 25 44)54 68
-H39=87 25 44)54 55
-H40=89 25 32)35 40)41 44)54 55
-H41=90 26 32
-H42=91 25 26)40 44)54 55
-H43=93 25 44)54 55
-H44=95 54 55
-H45=97 54 55
+H18=37 25 35)42 43
+H19=39 25 35
+H20=41 25 44
+H21=48 25 36)42 43
+H22=50 25 36
+H23=52 43 45)55 68
+H24=54 25 45)55 56
+H25=56 25 45)55 56
+H26=58 25 45)55 56
+H27=60 55 56
+H28=62 55 56
+H29=65 25 46)53 68
+H30=70 25 48)51 68
+H31=71 42 48
+H32=72 25 42)43 48
+H33=73 44 48
+H34=74 25 43
+H35=76 25 44
+H36=85 25 44)54 68
+H37=87 25 44)54 55
+H38=89 25 32)35 40)41 44)54 55
+H39=90 26 32
+H40=91 25 26)40 44)54 55
+H41=93 25 44)54 55
+H42=95 54 55
+H43=97 54 55
 [VLINE]
 V0=26 6 7)90 91
 V1=27 7 9
@@ -31555,7 +31552,6 @@ V6=41 87 89
 V7=42 71 72
 V8=43 10 17)33 37)48 52)72 74
 V9=44 34 41)73 76
-V10=45 35 43
 [NETWORK]
 N0=Bo 25 5)if 47 5
 N1=Bof 50 5)i 68 5
@@ -31580,9 +31576,9 @@ N19=Iof 52 32)i 68 32
 N20=Iif 48 33)of 42 37
 N21=Io 25 34)if 35 34
 N22=Iif 48 34)o 25 41
-N23=Iif 48 35)o 25 43
-N24=Bo 25 37)if 35 37
-N25=Io 25 39)if 35 39
+N23=Bo 25 37)if 35 37
+N24=Io 25 39)if 35 39
+N25=Io 25 43
 N26=Bo 25 48)if 36 48
 N27=Iof 42 48)if 45 52
 N28=Io 25 50)if 36 50
@@ -75494,7 +75490,7 @@ Conn2=29 10 28033 34 18
 Conn3=76 10 27975 33 19
 Conn4=76 12 28021 33 17
 [PAGEDEF]
-PageLen=12385
+PageLen=12381
 [PAGE]
 Name=Zonenregelung
 RemarkSize=0
@@ -75689,7 +75685,7 @@ av3=a opP %s =1 {1,2}
 av4=a Rs 0 %1p =0 {-1000000..1000000} 
 av5=a Rs 1 %1p =500:0 {-1000000..1000000} 
 av6=a Rs 2 %1p =100:5 {1..10000} 
-av7=a Rs 3 %1p =0:200 {-1000000..1000000} 
+av7=a Rs 3 %1p =0 {-1000000..1000000} 
 av8=a Rs 4 %1p =1000 {-1000000..1000000} 
 av9=a Rs 5 %1p =10 {0..10000} 
 av10=c c1 =0 \nabs 
@@ -164732,21 +164728,21 @@ N40=Bof 25 52
 [CONNS]
 Conn0=16 10 44235 34 5
 Conn1=16 15 31238 34 15
-Conn2=33 17 44180 34 5
+Conn2=33 17 44180 34 4
 Conn3=16 20 8882 34 15
-Conn4=33 22 44180 34 5
+Conn4=33 22 44180 34 4
 Conn5=16 25 31874 34 15
-Conn6=33 27 44180 34 5
+Conn6=33 27 44180 34 4
 Conn7=16 30 31731 34 15
-Conn8=33 32 44180 34 5
+Conn8=33 32 44180 34 4
 Conn9=16 35 3023 34 15
-Conn10=33 37 44180 34 5
+Conn10=33 37 44180 34 4
 Conn11=16 40 30655 34 15
-Conn12=33 42 44180 34 5
-Conn13=16 45 27454 34 15
-Conn14=33 47 44180 34 5
-Conn15=16 50 27453 34 15
-Conn16=33 52 44180 34 5
+Conn12=33 42 44180 34 4
+Conn13=16 45 27453 34 15
+Conn14=33 47 44180 34 4
+Conn15=16 50 27454 34 15
+Conn16=33 52 44180 34 4
 [PAGEDEF]
 PageLen=4597
 [PAGE]
@@ -165043,7 +165039,7 @@ Conn14=37 41 44180 34 4
 Conn15=20 44 32942 34 19
 Conn16=37 46 44180 34 4
 [PAGEDEF]
-PageLen=3562
+PageLen=4087
 [PAGE]
 Name=StatusTempnHum
 RemarkSize=0
@@ -165073,11 +165069,13 @@ _FDIV 46338=
 _CONIFP2 46339=
 _FDIV 46371=
 _CONIFP2 46372=
+_FDIV 46582=
+_CONIFP2 46583=
 [_INDFPO 46304]
 Fam=sfupindi
 Width=6
 Init=n
-Stretch=0 7 1 5
+Stretch=0 7 1 6
 In=#_I R_NF 
 Language=en
 Posi=72 5
@@ -165195,6 +165193,25 @@ D=RegTemp_R
 av0=a fac =0 {-20..18} 
 Language=en
 Posi=21 34
+[_FDIV 46582]
+Fam=sfupfloa
+Face=Div
+Width=3
+Init=n
+In=_F _F 
+Out=_F 
+Language=en
+Posi=38 41
+[_CONIFP2 46583]
+Fam=sfupconv
+Width=6
+Init=n
+In=Int_I 
+Out=Fp_F Err_B 
+D=RegTemp_R 
+av0=a fac =0 {-20..18} 
+Language=en
+Posi=21 41
 [HLINE]
 H0=3 67 68
 H1=5 18 21)27 38)41 42
@@ -165210,22 +165227,27 @@ H10=16 44 72
 H11=17 18 21)27 38)41 42
 H12=18 37 38)45 72
 H13=19 27 28)35 37
-H14=23 18 21)27 38)41 43
-H15=24 37 38
-H16=25 27 28)35 37
-H17=29 18 21)27 38)41 44
-H18=30 37 38
-H19=31 27 28)35 37
-H20=35 18 21)27 38)41 45
-H21=36 37 38
-H22=37 27 28)35 37
+H14=20 46 72
+H15=23 18 21)27 38)41 43
+H16=24 37 38
+H17=25 27 28)35 37
+H18=29 18 21)27 38)41 44
+H19=30 37 38
+H20=31 27 28)35 37
+H21=35 18 21)27 38)41 45
+H22=36 37 38
+H23=37 27 28)35 37
+H24=42 18 21)27 38)41 46
+H25=43 37 38
+H26=44 27 28)35 37
 [VLINE]
-V0=37 6 7)12 13)18 19)24 25)30 31)36 37
+V0=37 6 7)12 13)18 19)24 25)30 31)36 37)43 44
 V1=42 5 8)10 11)12 17
 V2=43 14 23
 V3=44 16 29
 V4=45 18 35
-V5=68 3 6
+V5=46 20 42
+V6=68 3 6
 [NETWORK]
 N0=Io 67 3)if 72 6
 N1=Io 18 5)if 21 5
@@ -165246,18 +165268,23 @@ N15=Fof 27 17)if 38 17
 N16=Fif 38 18)o 35 19
 N17=Fif 72 18)of 41 35
 N18=Bof 27 19
-N19=Io 18 23)if 21 23
-N20=Fof 27 23)if 38 23
-N21=Fif 38 24)o 35 25
-N22=Bof 27 25
-N23=Io 18 29)if 21 29
-N24=Fof 27 29)if 38 29
-N25=Fif 38 30)o 35 31
-N26=Bof 27 31
-N27=Io 18 35)if 21 35
-N28=Fof 27 35)if 38 35
-N29=Fif 38 36)o 35 37
-N30=Bof 27 37
+N19=Fif 72 20)of 41 42
+N20=Io 18 23)if 21 23
+N21=Fof 27 23)if 38 23
+N22=Fif 38 24)o 35 25
+N23=Bof 27 25
+N24=Io 18 29)if 21 29
+N25=Fof 27 29)if 38 29
+N26=Fif 38 30)o 35 31
+N27=Bof 27 31
+N28=Io 18 35)if 21 35
+N29=Fof 27 35)if 38 35
+N30=Fif 38 36)o 35 37
+N31=Bof 27 37
+N32=Io 18 42)if 21 42
+N33=Fof 27 42)if 38 42
+N34=Fif 38 43)o 35 44
+N35=Bof 27 44
 [CONNS]
 Conn0=67 3 44236 34 5
 Conn1=18 5 43657 34 17
@@ -165272,6 +165299,271 @@ Conn9=18 29 32494 34 17
 Conn10=35 31 44180 34 4
 Conn11=18 35 44237 34 10
 Conn12=35 37 44180 34 4
+Conn13=18 42 44423 34 9
+Conn14=35 44 44180 34 4
+[PAGEDEF]
+PageLen=4088
+[PAGE]
+Name=StatusTempHeaters
+RemarkSize=0
+CountOfLabels=50
+CountOfGrids=100
+UpdatedLayout=1
+BeginGroup=0
+GroupTitle=
+GroupID=
+PageID=3624
+PageColor=0
+PageBackColor=16777215
+PageDisabled=0
+ConditinalFunction=0
+ConditionalValue=0
+[FBOX]
+_FDIV 46586=
+_CONIFP2 46587=
+_FDIV 46588=
+_CONIFP2 46589=
+_FDIV 46590=
+_CONIFP2 46591=
+_FDIV 46592=
+_CONIFP2 46593=
+_FDIV 46594=
+_CONIFP2 46595=
+_FDIV 46596=
+_CONIFP2 46597=
+_INDFPO 46598=
+_FDIV 46599=
+_CONIFP2 46600=
+[_FDIV 46586]
+Fam=sfupfloa
+Face=Div
+Width=3
+Init=n
+In=_F _F 
+Out=_F 
+Language=en
+Posi=33 42
+[_CONIFP2 46587]
+Fam=sfupconv
+Width=6
+Init=n
+In=Int_I 
+Out=Fp_F Err_B 
+D=RegTemp_R 
+av0=a fac =0 {-20..18} 
+Language=en
+Posi=16 42
+[_FDIV 46588]
+Fam=sfupfloa
+Face=Div
+Width=3
+Init=n
+In=_F _F 
+Out=_F 
+Language=en
+Posi=33 35
+[_CONIFP2 46589]
+Fam=sfupconv
+Width=6
+Init=n
+In=Int_I 
+Out=Fp_F Err_B 
+D=RegTemp_R 
+av0=a fac =0 {-20..18} 
+Language=en
+Posi=16 35
+[_FDIV 46590]
+Fam=sfupfloa
+Face=Div
+Width=3
+Init=n
+In=_F _F 
+Out=_F 
+Language=en
+Posi=33 29
+[_CONIFP2 46591]
+Fam=sfupconv
+Width=6
+Init=n
+In=Int_I 
+Out=Fp_F Err_B 
+D=RegTemp_R 
+av0=a fac =0 {-20..18} 
+Language=en
+Posi=16 29
+[_FDIV 46592]
+Fam=sfupfloa
+Face=Div
+Width=3
+Init=n
+In=_F _F 
+Out=_F 
+Language=en
+Posi=33 23
+[_CONIFP2 46593]
+Fam=sfupconv
+Width=6
+Init=n
+In=Int_I 
+Out=Fp_F Err_B 
+D=RegTemp_R 
+av0=a fac =0 {-20..18} 
+Language=en
+Posi=16 23
+[_FDIV 46594]
+Fam=sfupfloa
+Face=Div
+Width=3
+Init=n
+In=_F _F 
+Out=_F 
+Language=en
+Posi=33 17
+[_CONIFP2 46595]
+Fam=sfupconv
+Width=6
+Init=n
+In=Int_I 
+Out=Fp_F Err_B 
+D=RegTemp_R 
+av0=a fac =0 {-20..18} 
+Language=en
+Posi=16 17
+[_FDIV 46596]
+Fam=sfupfloa
+Face=Div
+Width=3
+Init=n
+In=_F _F 
+Out=_F 
+Language=en
+Posi=33 11
+[_CONIFP2 46597]
+Fam=sfupconv
+Width=6
+Init=n
+In=Int_I 
+Out=Fp_F Err_B 
+D=RegTemp_R 
+av0=a fac =0 {-20..18} 
+Language=en
+Posi=16 11
+[_INDFPO 46598]
+Fam=sfupindi
+Width=6
+Init=n
+Stretch=0 7 1 6
+In=#_I R_NF 
+Language=en
+Posi=67 6
+[_FDIV 46599]
+Fam=sfupfloa
+Face=Div
+Width=3
+Init=n
+In=_F _F 
+Out=_F 
+Language=en
+Posi=33 5
+[_CONIFP2 46600]
+Fam=sfupconv
+Width=6
+Init=n
+In=Int_I 
+Out=Fp_F Err_B 
+D=RegTemp_R 
+av0=a fac =0 {-20..18} 
+Language=en
+Posi=16 5
+[HLINE]
+H0=4 62 63
+H1=6 13 16)22 33)36 37
+H2=7 32 33)63 67
+H3=8 22 23)30 32
+H4=9 37 67
+H5=11 37 67
+H6=12 13 16)22 33)36 37
+H7=13 32 33)37 67
+H8=14 22 23)30 32
+H9=15 38 67
+H10=17 39 67
+H11=18 13 16)22 33)36 37
+H12=19 32 33)40 67
+H13=20 22 23)30 32
+H14=21 41 67
+H15=24 13 16)22 33)36 38
+H16=25 32 33
+H17=26 22 23)30 32
+H18=30 13 16)22 33)36 39
+H19=31 32 33
+H20=32 22 23)30 32
+H21=36 13 16)22 33)36 40
+H22=37 32 33
+H23=38 22 23)30 32
+H24=43 13 16)22 33)36 41
+H25=44 32 33
+H26=45 22 23)30 32
+[VLINE]
+V0=32 7 8)13 14)19 20)25 26)31 32)37 38)44 45
+V1=37 6 9)11 12)13 18
+V2=38 15 24
+V3=39 17 30
+V4=40 19 36
+V5=41 21 43
+V6=63 4 7
+[NETWORK]
+N0=Io 62 4)if 67 7
+N1=Io 13 6)if 16 6
+N2=Fof 22 6)if 33 6
+N3=Fof 36 6)if 67 9
+N4=Fif 33 7)o 30 8
+N5=Bof 22 8
+N6=Fif 67 11)of 36 12
+N7=Io 13 12)if 16 12
+N8=Fof 22 12)if 33 12
+N9=Fif 33 13)o 30 14
+N10=Fif 67 13)of 36 18
+N11=Bof 22 14
+N12=Fif 67 15)of 36 24
+N13=Fif 67 17)of 36 30
+N14=Io 13 18)if 16 18
+N15=Fof 22 18)if 33 18
+N16=Fif 33 19)o 30 20
+N17=Fif 67 19)of 36 36
+N18=Bof 22 20
+N19=Fif 67 21)of 36 43
+N20=Io 13 24)if 16 24
+N21=Fof 22 24)if 33 24
+N22=Fif 33 25)o 30 26
+N23=Bof 22 26
+N24=Io 13 30)if 16 30
+N25=Fof 22 30)if 33 30
+N26=Fif 33 31)o 30 32
+N27=Bof 22 32
+N28=Io 13 36)if 16 36
+N29=Fof 22 36)if 33 36
+N30=Fif 33 37)o 30 38
+N31=Bof 22 38
+N32=Io 13 43)if 16 43
+N33=Fof 22 43)if 33 43
+N34=Fif 33 44)o 30 45
+N35=Bof 22 45
+[CONNS]
+Conn0=62 4 44221 34 5
+Conn1=13 6 1611 34 12
+Conn2=30 8 44180 34 4
+Conn3=13 12 1308 34 12
+Conn4=30 14 44180 34 4
+Conn5=13 18 29987 34 12
+Conn6=30 20 44180 34 4
+Conn7=13 24 29989 34 12
+Conn8=30 26 44180 34 4
+Conn9=13 30 30384 34 12
+Conn10=30 32 44180 34 4
+Conn11=13 36 30456 34 12
+Conn12=30 38 44180 34 4
+Conn13=13 43 746 34 12
+Conn14=30 45 44180 34 4
 [PAGEDEF]
 PageLen=2822
 [PAGE]
@@ -165824,11 +166116,89 @@ Conn8=21 19 31716 34 20
 Conn9=21 21 27548 34 20
 Conn10=21 23 27524 34 20
 Conn11=24 26 2904 34 3
-Conn12=21 29 2979 34 20
-Conn13=21 36 2978 34 20
+Conn12=21 29 3695 34 11
+Conn13=21 36 3740 34 11
 Conn14=21 43 2971 34 20
 Conn15=21 52 2920 34 20
 Conn16=21 61 44241 34 7
+[PAGEDEF]
+PageLen=1136
+[PAGE]
+Name=StatusHeaters
+RemarkSize=0
+CountOfLabels=50
+CountOfGrids=100
+UpdatedLayout=1
+BeginGroup=0
+GroupTitle=
+GroupID=
+PageID=3625
+PageColor=0
+PageBackColor=16777215
+PageDisabled=0
+ConditinalFunction=0
+ConditionalValue=0
+[FBOX]
+_INDREGO 46606=
+_CONBITIM 46607=
+_ICMPGT 46608=
+[_INDREGO 46606]
+Fam=sfupindi
+Width=6
+Init=n
+Stretch=0 7 1 0
+In=#_I R_NI 
+Language=en
+Posi=61 3
+[_CONBITIM 46607]
+Fam=sfupconv
+Face=BinInt
+Width=8
+Init=n
+Stretch=0 23 1 2
+In=I_NB 
+Out=Out_I 
+D=TMP_R 
+Language=en
+Posi=29 3
+[_ICMPGT 46608]
+Fam=sfupinte
+Face=Cmp
+Width=4
+Init=n
+In=_I _I 
+Out=>_B 
+Language=en
+Posi=31 20
+[HLINE]
+H0=2 7 40
+H1=4 58 61
+H2=6 27 29)37 61
+H3=8 7 29
+H4=10 27 29
+H5=21 26 31
+H6=22 30 31
+H7=23 35 48
+H8=25 26 30
+[VLINE]
+V0=7 2 8
+V1=30 22 25
+V2=40 2 23
+[NETWORK]
+N0=Io 58 4)if 61 4
+N1=Bo 27 6)if 29 6
+N2=Iof 37 6)if 61 6
+N3=Bif 29 8)i 48 23)of 35 23
+N4=Bo 27 10)if 29 10
+N5=Io 26 21)if 31 21
+N6=Iif 31 22)o 26 25
+[CONNS]
+Conn0=58 4 44428 34 5
+Conn1=27 6 2413 34 19
+Conn2=27 10 42631 34 26
+Conn3=26 21 30469 34 24
+Conn4=48 23 44431 33 13
+Conn5=26 25 32383 34 4
 [PAGEDEF]
 PageLen=1476
 [PAGE]
@@ -166419,7 +166789,7 @@ Conn5=19 33 44263 34 3
 Conn6=35 37 42785 34 23
 Conn7=35 39 42765 34 24
 [PAGEDEF]
-PageLen=1824
+PageLen=1825
 [PAGE]
 Name=MB3ManagePump2
 RemarkSize=0
@@ -166534,7 +166904,7 @@ N10=Bof 33 20)if 42 26
 N11=Io 68 21)if 71 21
 N12=Iif 71 23)of 50 26
 [CONNS]
-Conn0=49 2 8324 34 22
+Conn0=49 2 44260 34 15
 Conn1=62 7 44272 33 15
 Conn2=39 8 44367 34 8
 Conn3=40 10 44269 34 3
@@ -168309,6 +168679,242 @@ Conn5=60 30 44404 34 5
 Conn6=24 33 44400 34 3
 Conn7=40 37 32839 34 26
 Conn8=40 39 32848 34 26
+[PAGEDEF]
+PageLen=3179
+[PAGE]
+Name=PV1ManageSP
+RemarkSize=0
+CountOfLabels=50
+CountOfGrids=100
+UpdatedLayout=1
+BeginGroup=0
+GroupTitle=
+GroupID=
+PageID=3623
+PageColor=0
+PageBackColor=16777215
+PageDisabled=0
+ConditinalFunction=0
+ConditionalValue=0
+[FBOX]
+_IMOVES2 46566=
+_ICMPEQ 46567=
+_IMOVES2 46568=
+_FLIRSNDY2 46569=
+_ICMPEQ 46570=
+_INDREGO 46571=
+_IMUL 46572=
+_INDREGI 46573=
+_IDIV 46576=
+_IMUX 46577=
+[_IMOVES2 46566]
+Fam=sfupinte
+Width=8
+Init=y
+In=Sto_EB In_I 
+Out=Out_I 
+S=Edg_F Old_R 
+av0=a opt %s =0 {0,1,2} 
+av1=a Old 0 =0 
+Language=en
+Posi=22 57
+[_ICMPEQ 46567]
+Fam=sfupinte
+Face=Cmp
+Width=4
+Init=n
+In=_I _I 
+Out==_B 
+Language=en
+Posi=22 49
+[_IMOVES2 46568]
+Fam=sfupinte
+Width=8
+Init=y
+In=Sto_EB In_I 
+Out=Out_I 
+S=Edg_F Old_R 
+av0=a opt %s =0 {0,1,2} 
+av1=a Old 0 =0 
+Language=en
+Posi=22 41
+[_FLIRSNDY2 46569]
+Fam=sfupflip
+Width=4
+Init=y
+In=R_B S_B 
+Out=Q_B 
+S=Sta_F 
+av0=a opt %s =2 {0,1,2} 
+av1=b Sta 0 %s =0 
+av2=b Sta 0 %s =1 
+Language=en
+Posi=44 33
+[_ICMPEQ 46570]
+Fam=sfupinte
+Face=Cmp
+Width=4
+Init=n
+In=_I _I 
+Out==_B 
+Language=en
+Posi=22 31
+[_INDREGO 46571]
+Fam=sfupindi
+Width=6
+Init=n
+Stretch=0 7 1 0
+In=#_I R_NI 
+Language=en
+Posi=69 29
+[_IMUL 46572]
+Fam=sfupinte
+Face=x
+Width=2
+Init=n
+In=_I _I 
+Out=_I 
+Language=en
+Posi=20 23
+[_INDREGI 46573]
+Fam=sfupindi
+Width=6
+Init=n
+Stretch=0 7 1 0
+In=#_I 
+Out=R_NI 
+Language=en
+Posi=11 23
+[_IDIV 46576]
+Fam=sfupinte
+Face=Div
+Width=6
+Init=n
+In=A_I B_I 
+Out=A/B_I A%B_I 
+Language=en
+Posi=65 12
+[_IMUX 46577]
+Fam=sfupinte
+Face=Mux
+Width=7
+Init=n
+Stretch=1 7 1 1
+In=I_NI E_NB 
+Out=Out_I 
+Language=en
+Posi=53 12
+[HLINE]
+H0=6 61 75
+H1=15 51 53)60 65)71 76
+H2=17 51 53)64 65)71 72
+H3=19 51 53
+H4=21 51 53
+H5=24 9 11)17 20)22 23)62 64
+H6=25 18 20
+H7=28 9 18
+H8=30 67 69
+H9=32 18 22)68 69
+H10=33 21 22
+H11=34 26 44)48 51)68 76
+H12=35 18 21
+H13=36 43 44
+H14=39 19 27
+H15=42 19 22)30 32
+H16=44 17 22
+H17=50 19 22
+H18=51 21 22
+H19=52 19 21)26 43
+H20=56 21 28
+H21=58 21 22)30 32
+H22=60 20 22
+[VLINE]
+V0=18 25 28
+V1=19 39 42
+V2=21 33 35)51 52)56 58
+V3=27 34 39
+V4=28 52 56
+V5=43 36 52
+V6=51 19 21)21 34
+V7=61 6 15
+V8=64 17 24
+V9=68 32 34
+V10=76 15 34
+[NETWORK]
+N0=Ii 75 6)if 65 15)of 60 15
+N1=Io 51 15)if 53 15
+N2=Iof 71 15)if 69 32
+N3=Io 51 17)if 53 17
+N4=Iif 65 17)o 62 24
+N5=Iof 71 17
+N6=Bi-f 53 19)of 48 34)if 53 21
+N7=Io 9 24)if 11 24
+N8=Iof 17 24)if 20 24
+N9=Iof 22 24)i 23 24
+N10=Iif 20 25)o 9 28
+N11=Io 67 30)if 69 30
+N12=Io 18 32)if 22 32
+N13=Iif 22 33)o 18 35
+N14=Bo-f 26 34)if 44 34)if 22 42
+N15=Bif 44 36)o-f 26 52)if 22 58
+N16=Iof 30 42)i 32 42
+N17=Io 17 44)if 22 44
+N18=Io 19 50)if 22 50
+N19=Iif 22 51)o 19 52
+N20=Iof 30 58)i 32 58
+N21=Io 20 60)if 22 60
+[CONNS]
+Conn0=75 6 3023 33 19
+Conn1=51 15 42862 34 19
+Conn2=51 17 44417 34 12
+Conn3=9 24 44421 34 12
+Conn4=23 24 44417 33 12
+Conn5=62 24 44415 34 3
+Conn6=9 28 44415 34 12
+Conn7=67 30 44404 34 5
+Conn8=18 32 42862 34 17
+Conn9=18 35 44416 34 9
+Conn10=32 42 44416 33 9
+Conn11=17 44 42862 34 16
+Conn12=19 50 44417 34 12
+Conn13=19 52 44418 34 10
+Conn14=32 58 44418 33 10
+Conn15=20 60 44417 34 12
+[PAGEDEF]
+PageLen=482
+[PAGE]
+Name=EcoModeSetup
+RemarkSize=0
+CountOfLabels=27
+CountOfGrids=82
+UpdatedLayout=1
+BeginGroup=0
+GroupTitle=
+GroupID=
+PageID=3626
+PageColor=0
+PageBackColor=16777215
+PageDisabled=0
+ConditinalFunction=0
+ConditionalValue=0
+[FBOX]
+_INDREGI 46609=
+[_INDREGI 46609]
+Fam=sfupindi
+Width=6
+Init=n
+Stretch=0 7 1 0
+In=#_I 
+Out=R_NI 
+Language=en
+Posi=17 16
+[HLINE]
+H0=17 14 17)23 24
+[NETWORK]
+N0=Io 14 17)if 17 17
+N1=Iof 23 17
+[CONNS]
+Conn0=14 17 44429 34 5
 [BLOCK]
 BlockSym=44187
 COBSupTime=0
@@ -168319,11 +168925,11 @@ ConditionalValue=0
 PageColor=16777215
 PageBackColor=0
 [PAGEDEF]
-PageLen=4391
+PageLen=4948
 [PAGE]
 Name=DO_AO_Fan
 RemarkSize=0
-CountOfLabels=27
+CountOfLabels=50
 CountOfGrids=82
 UpdatedLayout=1
 BeginGroup=0
@@ -168349,6 +168955,8 @@ _ICMPGT 46562=
 _IMUL 46563=
 _ICMPGT 46564=
 _BAND 46565=
+_HEASW11 46578=
+_HEASW11 46579=
 [_HEAMANB3 46307]
 Fam=heavac
 Face=Man
@@ -168387,7 +168995,7 @@ av1=a Rsm 0 %1p =0
 av2=bv Fs 0 %s =1 \v Fsm 0 %s 
 AcceptName=3
 Language=de
-Posi=58 23
+Posi=59 21
 [_HEAMANI3 46310]
 Fam=heavac
 Face=Man
@@ -168402,7 +169010,7 @@ av1=a Rsm 0 %1p =0
 av2=bv Fs 0 %s =1 \v Fsm 0 %s 
 AcceptName=3
 Language=de
-Posi=58 44
+Posi=58 46
 [_HEAMANB3 46312]
 Fam=heavac
 Face=Man
@@ -168492,6 +169100,30 @@ In=_NB
 Out=_B 
 Language=en
 Posi=53 33
+[_HEASW11 46578]
+Fam=heavac
+Face=Switch
+Width=6
+Init=y
+In=En_B V1_I 
+Out=V_I 
+S=Rs_R 
+av0=a Rs 0 %1p =0 {-1000000000..1000000000} 
+AcceptName=3
+Language=de
+Posi=47 44
+[_HEASW11 46579]
+Fam=heavac
+Face=Switch
+Width=6
+Init=y
+In=En_B V1_I 
+Out=V_I 
+S=Rs_R 
+av0=a Rs 0 %1p =0 {-1000000000..1000000000} 
+AcceptName=3
+Language=de
+Posi=49 19
 [HLINE]
 H0=2 25 37
 H1=3 24 25)26 37
@@ -168505,12 +169137,12 @@ H8=12 23 24)29 31)47 49
 H9=13 48 49
 H10=15 40 47
 H11=17 40 48
-H12=18 8 11)17 18
+H12=18 8 11)17 18)48 53
 H13=20 17 27)29 39
 H14=21 26 27)38 39
-H15=22 17 18)36 38)43 44
+H15=22 17 18)36 38)43 44)48 49)55 59)65 67
 H16=23 24 26
-H17=24 31 58)64 67
+H17=24 31 49
 H18=28 18 20)22 31)50 52
 H19=29 19 20)30 31
 H20=30 29 30)35 36
@@ -168522,11 +169154,13 @@ H25=36 36 53
 H26=37 51 53
 H27=38 47 51)52 53
 H28=40 47 52
-H29=45 23 58)64 67
+H29=43 46 56
+H30=47 46 47)53 58)64 67
+H31=49 23 47
 [VLINE]
 V0=18 10 18)22 28
 V1=19 29 31
-V2=23 28 45
+V2=23 28 49
 V3=24 11 12
 V4=25 2 3
 V5=26 3 5)21 23
@@ -168535,17 +169169,20 @@ V7=31 20 24
 V8=36 30 36
 V9=38 21 22
 V10=44 11 22
-V11=47 9 10)12 15
-V12=48 7 9)13 17
-V13=51 33 35)37 38
-V14=52 28 34)38 40
+V11=46 43 47
+V12=47 9 10)12 15
+V13=48 7 9)13 17)18 22
+V14=51 33 35)37 38
+V15=52 28 34)38 40
+V16=53 9 18
+V17=56 34 43
 [NETWORK]
 N0=Iif 37 2)o 24 3
 N1=Iif 37 3)o 24 5
 N2=Bof 41 4)i 45 4
 N3=Bo 44 7)if 49 9
 N4=Bo 43 9)if 49 10
-N5=Bof 51 9)if 58 9
+N5=Bof 51 9)if 58 9)if 49 22
 N6=Bof 64 9)i 67 9
 N7=Iif 25 10)of 17 18
 N8=Iif 25 11)o 23 12
@@ -168555,47 +169192,49 @@ N11=Bi-f 49 12)o 40 15
 N12=Bi-f 49 13)o 40 17
 N13=Io 8 18)if 11 18
 N14=Iof 17 20)if 27 20
-N15=Iof 29 20)if 39 20)if 58 24
+N15=Iof 29 20)if 39 20)if 49 24
 N16=Iif 27 21)o 24 23
 N17=Iif 39 21)o 36 22
 N18=Iof 17 22)if 20 28
-N19=Iof 64 24)i 67 24
-N20=Iof 22 28)if 31 28)if 58 45
-N21=Bo 50 28)if 53 34
-N22=Iif 20 29)o 18 31
-N23=Iif 31 29)o 29 30
-N24=Bof 35 30)if 53 36
-N25=Bo 50 33)if 53 35
-N26=Bof 55 34)if 58 34
-N27=Bof 64 34)i 67 34
-N28=Bi-f 53 37)o 47 38
-N29=Bi-f 53 38)o 47 40
-N30=Iof 64 45)i 67 45
+N19=Iof 55 22)if 59 22
+N20=Iof 65 22)i 67 22
+N21=Iof 22 28)if 31 28)if 47 49
+N22=Bo 50 28)if 53 34
+N23=Iif 20 29)o 18 31
+N24=Iif 31 29)o 29 30
+N25=Bof 35 30)if 53 36
+N26=Bo 50 33)if 53 35
+N27=Bof 55 34)if 58 34)if 47 47
+N28=Bof 64 34)i 67 34
+N29=Bi-f 53 37)o 47 38
+N30=Bi-f 53 38)o 47 40
+N31=Iof 53 47)if 58 47
+N32=Iof 64 47)i 67 47
 [CONNS]
-Conn0=24 3 2979 34 22
-Conn1=45 4 44411 33 13
+Conn0=24 3 2979 34 21
+Conn1=45 4 44411 33 12
 Conn2=24 5 2964 34 3
-Conn3=44 7 44411 34 13
+Conn3=44 7 44411 34 12
 Conn4=43 9 44412 34 10
 Conn5=67 9 43076 33 11
 Conn6=23 12 2564 34 3
 Conn7=31 12 44412 33 10
 Conn8=40 15 3008 34 16
-Conn9=40 17 3016 34 19
+Conn9=40 17 3016 34 18
 Conn10=8 18 44409 34 12
 Conn11=36 22 3206 34 3
-Conn12=24 23 2904 34 3
-Conn13=67 24 3695 33 12
-Conn14=50 28 44411 34 13
+Conn12=67 22 3695 33 11
+Conn13=24 23 2904 34 3
+Conn14=50 28 44411 34 12
 Conn15=29 30 44410 34 3
 Conn16=18 31 44406 34 3
 Conn17=50 33 44412 34 10
 Conn18=67 34 43083 33 11
 Conn19=47 38 3008 34 16
-Conn20=47 40 3012 34 19
-Conn21=67 45 3740 33 12
+Conn20=47 40 3012 34 18
+Conn21=67 47 3740 33 11
 [PAGEDEF]
-PageLen=2253
+PageLen=2573
 [PAGE]
 Name=DO_AO_Damps
 RemarkSize=0
@@ -168618,6 +169257,7 @@ _HEAMANI3 46315=
 _ICMPGE 46349=
 _IMUX 46351=
 _ISUB 46516=
+_IADD2 46580=
 [_HEAMANI3 46313]
 Fam=heavac
 Face=Man
@@ -168691,6 +169331,17 @@ In=_I _I
 Out=_I 
 Language=en
 Posi=36 17
+[_IADD2 46580]
+Fam=sfupinte
+Face=+
+Width=2
+Init=n
+Stretch=1 7 1 1
+In=_NI 
+Out=_I 
+D=AddReg_R 
+Language=en
+Posi=31 25
 [HLINE]
 H0=7 46 47)53 65
 H1=9 46 77
@@ -168698,19 +169349,22 @@ H2=12 42 47)53 65
 H3=18 34 36)38 46
 H4=19 35 36)46 47)53 65
 H5=21 29 35
-H6=26 41 54
-H7=27 53 54
-H8=28 51 53)58 63
-H9=32 42 67)74 77
-H10=34 43 67
-H11=36 60 67
-H12=38 63 67
+H6=25 27 30
+H7=26 30 31)33 54
+H8=27 30 31)53 54
+H9=28 27 30)51 53)58 63
+H10=32 42 67)74 77
+H11=34 43 67
+H12=36 60 67
+H13=38 63 67
+H14=44 63 66
 [VLINE]
-V0=35 19 21
-V1=46 7 9)18 19
-V2=53 27 28
-V3=63 28 38
-V4=77 9 32
+V0=30 25 26)27 28
+V1=35 19 21
+V2=46 7 9)18 19
+V3=53 27 28
+V4=63 28 38)38 44
+V5=77 9 32
 [NETWORK]
 N0=Iif 47 7)of 74 32
 N1=Iof 53 7)i 65 7
@@ -168720,24 +169374,28 @@ N4=Io 34 18)if 36 18
 N5=Iof 38 18)if 47 19
 N6=Iif 36 19)o 29 21
 N7=Iof 53 19)i 65 19
-N8=Io 41 26)if 54 26
-N9=Iif 54 27)o 51 28
-N10=Bof 58 28)if 67 38
-N11=Io 42 32)if 67 32
-N12=Io 43 34)if 67 34
-N13=Bo 60 36)if 67 36
+N8=Io 27 25)if 31 26
+N9=Iof 33 26)if 54 26
+N10=Iif 31 27)o 27 28
+N11=Iif 54 27)o 51 28
+N12=Bof 58 28)i 66 44)if 67 38
+N13=Io 42 32)if 67 32
+N14=Io 43 34)if 67 34
+N15=Bo 60 36)if 67 36
 [CONNS]
-Conn0=65 7 3784 33 12
-Conn1=42 12 2990 34 19
-Conn2=65 12 3873 33 10
-Conn3=34 18 2765 34 5
-Conn4=65 19 3587 33 10
+Conn0=65 7 3784 33 11
+Conn1=42 12 2990 34 18
+Conn2=65 12 3873 33 11
+Conn3=34 18 2765 34 4
+Conn4=65 19 3587 33 11
 Conn5=29 21 44292 34 20
-Conn6=41 26 2979 34 22
-Conn7=51 28 3083 34 3
-Conn8=42 32 2564 34 3
-Conn9=43 34 44373 34 18
-Conn10=60 36 2564 34 3
+Conn6=27 25 3695 34 11
+Conn7=27 28 3740 34 11
+Conn8=51 28 3083 34 3
+Conn9=42 32 2564 34 3
+Conn10=43 34 44373 34 17
+Conn11=60 36 2564 34 3
+Conn12=66 44 44422 33 11
 [BLOCK]
 BlockSym=44189
 COBSupTime=0
@@ -168902,12 +169560,12 @@ Conn3=58 14 3359 33 11
 Conn4=35 16 44323 34 16
 Conn5=39 19 44210 34 3
 [PAGEDEF]
-PageLen=5299
+PageLen=6122
 [PAGE]
 Name=HumRegulator
 RemarkSize=0
-CountOfLabels=27
-CountOfGrids=82
+CountOfLabels=33
+CountOfGrids=100
 UpdatedLayout=1
 BeginGroup=0
 GroupTitle=
@@ -168928,6 +169586,9 @@ _HEAPI3 46385=
 _ICMPGE 46386=
 _ICMPST 46387=
 _FLISRNDY2 46388=
+_BAND 46581=
+_INDREGO 46584=
+_IDIV 46585=
 [_ICMPGE 46377]
 Fam=sfupinte
 Face=Cmp
@@ -169031,7 +169692,7 @@ S=Value_R
 av0=c cs =0 \nabs 
 av1=a BACnet %s =0 {0..1} 
 av2=c c0 =0 \nabs 
-av3=a Value 0 %1p =210:350 
+av3=a Value 0 %1p =210:250 
 av4=c cc =0 \nabs 
 AcceptName=1
 Folder=Sollwerte.Integer?
@@ -169104,6 +169765,33 @@ av1=b Sta 0 %s =0
 av2=b Sta 0 %s =1 
 Language=de
 Posi=31 45
+[_BAND 46581]
+Fam=sfupbina
+Face=&&
+Width=2
+Init=n
+Stretch=1 9 1 1
+In=_NB 
+Out=_B 
+Language=en
+Posi=40 51
+[_INDREGO 46584]
+Fam=sfupindi
+Width=6
+Init=n
+Stretch=0 7 1 0
+In=#_I R_NI 
+Language=en
+Posi=69 33
+[_IDIV 46585]
+Fam=sfupinte
+Face=Div
+Width=6
+Init=n
+In=A_I B_I 
+Out=A/B_I A%B_I 
+Language=en
+Posi=65 20
 [HLINE]
 H0=3 28 34
 H1=4 33 34
@@ -169112,24 +169800,31 @@ H3=6 31 33
 H4=14 25 30)38 39
 H5=15 28 30
 H6=16 25 28)29 30
-H7=18 25 29)31 43
+H7=18 25 29)31 47
 H8=22 31 32)38 40
-H9=24 15 32
-H10=26 30 32
-H11=31 30 32)38 46
-H12=33 30 32
-H13=35 28 32
-H14=37 30 40
-H15=38 21 42
-H16=39 19 37
-H17=43 20 22
-H18=44 13 22)43 46)52 58
-H19=45 26 30
-H20=46 30 31)35 36)37 46
-H21=48 30 31)36 46
-H22=49 20 22
-H23=50 13 22
-H24=51 26 30
+H9=23 59 65)71 76
+H10=24 15 32
+H11=25 63 65)71 72
+H12=26 30 32
+H13=31 30 32)38 46
+H14=33 30 32)67 68
+H15=34 68 69
+H16=35 28 32
+H17=36 68 69
+H18=37 30 40
+H19=38 21 42)68 76
+H20=39 19 59
+H21=43 20 22
+H22=44 13 22)43 46)52 58
+H23=45 26 30
+H24=46 30 31)35 36)37 46
+H25=48 30 31)45 46
+H26=49 20 22
+H27=50 13 22
+H28=51 26 30
+H29=52 36 40)42 45
+H30=53 39 40
+H31=57 27 39
 [VLINE]
 V0=19 24 39
 V1=20 43 49
@@ -169139,32 +169834,42 @@ V4=29 16 18
 V5=30 33 37)45 46)48 51
 V6=31 18 22
 V7=33 4 6
-V8=36 46 48
+V8=36 46 52
 V9=37 39 46
-V10=39 14 18
+V10=39 14 18)53 57
 V11=40 22 37
 V12=42 31 38
 V13=43 18 44
+V14=45 48 52
+V15=59 23 39
+V16=68 33 34)36 38
+V17=76 23 38
 [NETWORK]
 N0=Io 28 3)if 34 3
 N1=Iif 34 4)o 31 6
 N2=Bof 38 5)i 46 5
 N3=Io 25 14)if 30 14
-N4=Iof 38 14)if 46 44)if 32 22
+N4=Iof 38 14)i 47 18)if 46 44)if 32 22
 N5=Iif 30 15)o 25 16
 N6=Iif 30 16)o 25 18
 N7=Iof 38 22)if 32 33
-N8=Iof 15 24)if 32 24)if 46 46
-N9=Bo 30 26)if 32 26
-N10=Io 30 31)if 32 31
-N11=Iof 38 31)i 46 31)if 22 43)if 22 49
-N12=Bo 28 35)if 32 35
-N13=Io 13 44)if 22 44
-N14=Iof 52 44)i 58 44
-N15=Bof 26 45)if 31 46
-N16=Bof 35 46)if 46 48
-N17=Bif 31 48)of 26 51
-N18=Io 13 50)if 22 50
+N8=Iif 65 23)if 32 24)of 15 24)if 46 46
+N9=Iof 71 23)if 69 36
+N10=Io 63 25)if 65 25
+N11=Iof 71 25
+N12=Bo 30 26)if 32 26
+N13=Io 30 31)if 32 31
+N14=Iof 38 31)i 46 31)if 22 43)if 22 49
+N15=Io 67 33)if 69 34
+N16=Bo 28 35)if 32 35
+N17=Io 13 44)if 22 44
+N18=Iof 52 44)i 58 44
+N19=Bof 26 45)if 31 46
+N20=Bof 35 46)if 40 52
+N21=Bif 31 48)of 26 51
+N22=Bif 46 48)of 42 52
+N23=Io 13 50)if 22 50
+N24=Bif 40 53)o 27 57
 [CONNS]
 Conn0=28 3 2971 34 24
 Conn1=46 5 44240 33 8
@@ -169172,13 +169877,17 @@ Conn2=31 6 2904 34 3
 Conn3=25 14 861 34 20
 Conn4=25 16 29404 34 20
 Conn5=25 18 28323 34 20
-Conn6=30 26 44240 34 8
-Conn7=30 31 44237 34 10
-Conn8=46 31 44241 33 7
-Conn9=28 35 44240 34 8
-Conn10=13 44 44243 34 12
-Conn11=58 44 44242 33 14
-Conn12=13 50 44244 34 12
+Conn6=47 18 44423 33 9
+Conn7=63 25 2904 34 3
+Conn8=30 26 44240 34 8
+Conn9=30 31 44237 34 10
+Conn10=46 31 44241 33 7
+Conn11=67 33 44420 34 5
+Conn12=28 35 44240 34 8
+Conn13=13 44 44243 34 12
+Conn14=58 44 44242 33 14
+Conn15=13 50 44244 34 12
+Conn16=27 57 44422 34 11
 [BLOCK]
 BlockSym=44207
 COBSupTime=0
@@ -169353,9 +170062,98 @@ Conn2=62 16 44367 33 8
 Conn3=39 23 44366 34 3
 Conn4=46 26 44272 34 15
 Conn5=57 26 43089 33 11
+[BLOCK]
+BlockSym=44430
+COBSupTime=0
+PageDisabled=0
+ConditinalFunction=0
+ConditionalSymbol=
+ConditionalValue=0
+PageColor=16777215
+PageBackColor=0
+[PAGEDEF]
+PageLen=1156
+[PAGE]
+Name=HeaterCheck
+RemarkSize=0
+CountOfLabels=27
+CountOfGrids=82
+UpdatedLayout=1
+BeginGroup=0
+GroupTitle=
+GroupID=
+PageID=3627
+PageColor=0
+PageBackColor=16777215
+PageDisabled=0
+ConditinalFunction=0
+ConditionalValue=0
+[FBOX]
+_ONDEL 46610=
+_ICMPST 46611=
+_BAND 46612=
+[_ONDEL 46610]
+Fam=sfuptime
+Face=T|-|0
+Width=6
+Init=y
+In=In_EB TV_I 
+Out=Q_B t_I 
+S=Tim_T Sta_F 
+Language=de
+Posi=37 23
+[_ICMPST 46611]
+Fam=sfupinte
+Face=Cmp
+Width=4
+Init=n
+In=_I _I 
+Out=<_B 
+Language=de
+Posi=38 8
+[_BAND 46612]
+Fam=sfupbina
+Face=&&
+Width=2
+Init=n
+Stretch=1 9 1 1
+In=_NB 
+Out=_B 
+Language=en
+Posi=48 9
+[HLINE]
+H0=4 17 47
+H1=7 30 31
+H2=9 31 38
+H3=10 37 38)47 48)50 51
+H4=11 32 37)42 48
+H5=22 36 51
+H6=26 36 37)43 45
+H7=28 35 37)43 44
+[VLINE]
+V0=31 7 9
+V1=36 22 26
+V2=37 10 11
+V3=47 4 10
+V4=51 10 22
+[NETWORK]
+N0=Bo 17 4)if 48 10
+N1=Io 30 7)if 38 9
+N2=Iif 38 10)o 32 11
+N3=Bof 50 10)if 37 26
+N4=Bof 42 11)if 48 11
+N5=Bof 43 26)i 45 26
+N6=Io 35 28)if 37 28
+N7=Iof 43 28
+[CONNS]
+Conn0=17 4 44431 34 13
+Conn1=30 7 30384 34 27
+Conn2=32 11 44115 34 7
+Conn3=45 26 44433 33 17
+Conn4=35 28 32948 34 5
 [RESOURCES]
 DBVersion=270340
-DBCount=9421
+DBCount=9442
 Format={ID}	{FullName}	{Type}	{Expression}	{ScopeID}	{Size}	{Comment}	{Override}	{Tags}	{BlockID}	{Hidden}
 HSYM0=1	Controller_	COB	1	1	-1				-1	0
 HSYM1=29721	EZR1004.Thanos.RaumTBasisWrite	R	 := 240	1	-1				-1	0
@@ -178778,6 +179576,27 @@ HSYM9417=44409			13030	3	-1				-1	1
 HSYM9418=44410			 50	3	-1				-1	1
 HSYM9419=44411	PV1.MenegraStart	F		3	-1				-1	0
 HSYM9420=44412	PV1.SaiaStart	F		3	-1				-1	0
+HSYM9421=44413			  12031	3	-1				-1	1
+HSYM9422=44414			 13000	3	-1				-1	1
+HSYM9423=44415			 10	3	-1				-1	1
+HSYM9424=44416	PV1.OPSpFb	R		3	-1				-1	0
+HSYM9425=44417	PV1.BMSSetPoint	R		3	-1				-1	0
+HSYM9426=44418	PV1.BMSSpFb	R		3	-1				-1	0
+HSYM9427=44419			13034	3	-1				-1	1
+HSYM9428=44420			12050	3	-1				-1	1
+HSYM9429=44421			13033	3	-1				-1	1
+HSYM9430=44422	PV1.WorkState	F		3	-1				-1	0
+HSYM9431=44423	Hum.Average	R		3	-1				-1	0
+HSYM9432=44424			 12049	3	-1				-1	1
+HSYM9433=44425			 14024	3	-1				-1	1
+HSYM9434=44426			 12024	3	-1				-1	1
+HSYM9435=44427			 10	3	-1				-1	1
+HSYM9436=44428			12051	3	-1				-1	1
+HSYM9437=44429			 13030	3	-1				-1	1
+HSYM9438=44430	EcoModeCOB	COB	19	3	-1				-1	0
+HSYM9439=44431	Heater1.WorkState	F		3	-1				-1	0
+HSYM9440=44432		K	360000	3	-1				-1	1
+HSYM9441=44433	EcoMode.BufferHeatMode	F		3	-1				-1	0
 [FBOXLIST]
 Count=33
 FBOXNAME0=1	FuseGuard	1
