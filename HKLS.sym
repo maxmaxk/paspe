@@ -22306,6 +22306,9 @@ WorkState	EQU	F
 $ENDGROUP Heater1
 $GROUP EcoMode
 BufferHeatMode	EQU	F		
+Setup	EQU	R		
+OpenRecirc	EQU	R		
+qq	EQU	F		
 $ENDGROUP EcoMode
 ;;End of user defined symbols
 ;;Alias symbols to attach adjust tag 

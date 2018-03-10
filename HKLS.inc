@@ -3363,7 +3363,7 @@ __fup_C000BD4_0E_33_3b___SG_MODBus_Menerga       EQU                        ___F
 __fup_C000BD4_0E_33_3d___SG_MODBus_Menerga       EQU                        ___FlgDyn_C000BD4___SG_MODBus_Menerga+3 ;Export name of network.
 ;;End Dynamic symbol aliases allocated for this BLOCK
 ;;dynamic symbols allocated for this BLOCK
-___RegDyn_C000904___SG_RLT001_RLT002		EQU		R [23]		;	Define 23 registers for dynamic usage.
+___RegDyn_C000904___SG_RLT001_RLT002		EQU		R [25]		;	Define 25 registers for dynamic usage.
 ___FlgDyn_C000904___SG_RLT001_RLT002		EQU		F [32]		;	Define 32 registers for dynamic usage.
 ;;end of dynamic symbols allocated for this BLOCK
 
@@ -3808,29 +3808,30 @@ __fup_C000904_05_45_33___SG_RLT001_RLT002       EQU                        ___Fl
 __fup_C000904_05_45_35___SG_RLT001_RLT002       EQU                        ___FlgDyn_C000904___SG_RLT001_RLT002+7 ;Export name of network.
 __fup_C000904_05_45_37___SG_RLT001_RLT002       EQU                        ___FlgDyn_C000904___SG_RLT001_RLT002+8 ;Export name of network.
 __fup_C000904_05_45_39___SG_RLT001_RLT002       EQU                        ___FlgDyn_C000904___SG_RLT001_RLT002+9 ;Export name of network.
-__fup_C000904_06_2a_0a___SG_RLT001_RLT002       EQU                        ___RegDyn_C000904___SG_RLT001_RLT002+0 ;Export name of network.
-__fup_C000904_06_21_0a___SG_RLT001_RLT002       EQU                        ___RegDyn_C000904___SG_RLT001_RLT002+1 ;Export name of network.
-__fup_C000904_06_45_0b___SG_RLT001_RLT002       EQU                        ___RegDyn_C000904___SG_RLT001_RLT002+2 ;Export name of network.
+__fup_C000904_06_32_05___SG_RLT001_RLT002       EQU                        ___RegDyn_C000904___SG_RLT001_RLT002+0 ;Export name of network.
+__fup_C000904_06_2a_0a___SG_RLT001_RLT002       EQU                        ___RegDyn_C000904___SG_RLT001_RLT002+1 ;Export name of network.
+__fup_C000904_06_21_0a___SG_RLT001_RLT002       EQU                        ___RegDyn_C000904___SG_RLT001_RLT002+2 ;Export name of network.
+__fup_C000904_06_45_0b___SG_RLT001_RLT002       EQU                        ___RegDyn_C000904___SG_RLT001_RLT002+3 ;Export name of network.
 __fup_C000904_06_45_0d___SG_RLT001_RLT002       EQU                        ___FlgDyn_C000904___SG_RLT001_RLT002+0 ;Export name of network.
 __fup_C000904_06_45_0f___SG_RLT001_RLT002       EQU                        ___FlgDyn_C000904___SG_RLT001_RLT002+1 ;Export name of network.
 __fup_C000904_06_45_11___SG_RLT001_RLT002       EQU                        ___FlgDyn_C000904___SG_RLT001_RLT002+2 ;Export name of network.
 __fup_C000904_06_45_13___SG_RLT001_RLT002       EQU                        ___FlgDyn_C000904___SG_RLT001_RLT002+3 ;Export name of network.
-__fup_C000904_06_27_1f___SG_RLT001_RLT002       EQU                        ___RegDyn_C000904___SG_RLT001_RLT002+4 ;Export name of network.
-__fup_C000904_06_45_23___SG_RLT001_RLT002       EQU                        ___RegDyn_C000904___SG_RLT001_RLT002+5 ;Export name of network.
+__fup_C000904_06_27_1f___SG_RLT001_RLT002       EQU                        ___RegDyn_C000904___SG_RLT001_RLT002+5 ;Export name of network.
+__fup_C000904_06_45_23___SG_RLT001_RLT002       EQU                        ___RegDyn_C000904___SG_RLT001_RLT002+6 ;Export name of network.
 __fup_C000904_06_45_25___SG_RLT001_RLT002       EQU                        ___FlgDyn_C000904___SG_RLT001_RLT002+4 ;Export name of network.
 __fup_C000904_06_45_27___SG_RLT001_RLT002       EQU                        ___FlgDyn_C000904___SG_RLT001_RLT002+5 ;Export name of network.
 __fup_C000904_06_45_29___SG_RLT001_RLT002       EQU                        ___FlgDyn_C000904___SG_RLT001_RLT002+6 ;Export name of network.
 __fup_C000904_06_45_2b___SG_RLT001_RLT002       EQU                        ___FlgDyn_C000904___SG_RLT001_RLT002+7 ;Export name of network.
-__fup_C000904_06_38_36___SG_RLT001_RLT002       EQU                        ___RegDyn_C000904___SG_RLT001_RLT002+6 ;Export name of network.
-__fup_C000904_06_2f_3a___SG_RLT001_RLT002       EQU                        ___RegDyn_C000904___SG_RLT001_RLT002+7 ;Export name of network.
-__fup_C000904_06_27_3a___SG_RLT001_RLT002       EQU                        ___RegDyn_C000904___SG_RLT001_RLT002+8 ;Export name of network.
-__fup_C000904_06_4d_3c___SG_RLT001_RLT002       EQU                        ___RegDyn_C000904___SG_RLT001_RLT002+9 ;Export name of network.
+__fup_C000904_06_38_36___SG_RLT001_RLT002       EQU                        ___RegDyn_C000904___SG_RLT001_RLT002+7 ;Export name of network.
+__fup_C000904_06_2f_3a___SG_RLT001_RLT002       EQU                        ___RegDyn_C000904___SG_RLT001_RLT002+8 ;Export name of network.
+__fup_C000904_06_27_3a___SG_RLT001_RLT002       EQU                        ___RegDyn_C000904___SG_RLT001_RLT002+9 ;Export name of network.
+__fup_C000904_06_4d_3c___SG_RLT001_RLT002       EQU                        ___RegDyn_C000904___SG_RLT001_RLT002+10 ;Export name of network.
 __fup_C000904_06_4d_3e___SG_RLT001_RLT002       EQU                        ___FlgDyn_C000904___SG_RLT001_RLT002+8 ;Export name of network.
 __fup_C000904_06_4d_40___SG_RLT001_RLT002       EQU                        ___FlgDyn_C000904___SG_RLT001_RLT002+9 ;Export name of network.
 __fup_C000904_06_4d_42___SG_RLT001_RLT002       EQU                        ___FlgDyn_C000904___SG_RLT001_RLT002+10 ;Export name of network.
 __fup_C000904_06_4d_44___SG_RLT001_RLT002       EQU                        ___FlgDyn_C000904___SG_RLT001_RLT002+11 ;Export name of network.
-__fup_C000904_06_30_4d___SG_RLT001_RLT002       EQU                        ___RegDyn_C000904___SG_RLT001_RLT002+10 ;Export name of network.
-__fup_C000904_06_45_54___SG_RLT001_RLT002       EQU                        ___RegDyn_C000904___SG_RLT001_RLT002+12 ;Export name of network.
+__fup_C000904_06_30_4d___SG_RLT001_RLT002       EQU                        ___RegDyn_C000904___SG_RLT001_RLT002+11 ;Export name of network.
+__fup_C000904_06_45_54___SG_RLT001_RLT002       EQU                        ___RegDyn_C000904___SG_RLT001_RLT002+13 ;Export name of network.
 __fup_C000904_06_45_56___SG_RLT001_RLT002       EQU                        ___FlgDyn_C000904___SG_RLT001_RLT002+12 ;Export name of network.
 __fup_C000904_06_45_58___SG_RLT001_RLT002       EQU                        ___FlgDyn_C000904___SG_RLT001_RLT002+13 ;Export name of network.
 __fup_C000904_06_45_5a___SG_RLT001_RLT002       EQU                        ___FlgDyn_C000904___SG_RLT001_RLT002+14 ;Export name of network.
@@ -19647,7 +19648,6 @@ __fup_C00ABFD_1F_30_22___SG_ModbusServer       EQU                        ___Flg
 __fup_C00ABFD_1F_11_18___SG_ModbusServer       EQU                        ___RegDyn_C00ABFD___SG_ModbusServer+4 ;Export name of network.
 __fup_C00ABFD_1F_1a_22___SG_ModbusServer       EQU                        ___FlgDyn_C00ABFD___SG_ModbusServer+2 ;Export name of network.
 __fup_C00ABFD_1F_1a_34___SG_ModbusServer       EQU                        ___FlgDyn_C00ABFD___SG_ModbusServer+4 ;Export name of network.
-__fup_C00ABFD_20_17_11___SG_ModbusServer       EQU                        ___RegDyn_C00ABFD___SG_ModbusServer+1 ;Export name of network.
 ;;End Dynamic symbol aliases allocated for this BLOCK
 ;;dynamic symbols allocated for this BLOCK
 ___RegDyn_C00AC9B___SG_PV1newManage		EQU		R [14]		;	Define 14 registers for dynamic usage.
@@ -19841,8 +19841,8 @@ __fup_C00ACB9_00_2e_0f___SG_MB3       EQU                        ___FlgDyn_C00AC
 __fup_C00ACB9_00_2e_16___SG_MB3       EQU                        ___FlgDyn_C00ACB9___SG_MB3+1 ;Export name of network.
 ;;End Dynamic symbol aliases allocated for this BLOCK
 ;;dynamic symbols allocated for this BLOCK
-___FlgDyn_C00AD8E___SG_EcoModeCOB		EQU		F [2]		;	Define 2 registers for dynamic usage.
-___RegDyn_C00AD8E___SG_EcoModeCOB		EQU		R [2]		;	Define 2 registers for dynamic usage.
+___FlgDyn_C00AD8E___SG_EcoModeCOB		EQU		F [5]		;	Define 5 registers for dynamic usage.
+___RegDyn_C00AD8E___SG_EcoModeCOB		EQU		R [5]		;	Define 5 registers for dynamic usage.
 ;;end of dynamic symbols allocated for this BLOCK
 
 ;;Start Static symbols allocated for this BLOCK
@@ -19850,7 +19850,9 @@ __stc_id_0B612_var_00___SG_EcoModeCOB       EQU     T                    ;static
 __stc_id_0B612_var_01___SG_EcoModeCOB       EQU     F                    ;static variable Sta[1]
 ;;End Static symbols allocated for this BLOCK
 ;;Start Dynamic symbol aliases allocated for this BLOCK
-__fup_C00AD8E_00_32_0a___SG_EcoModeCOB       EQU                        ___FlgDyn_C00AD8E___SG_EcoModeCOB+0 ;Export name of network.
-__fup_C00AD8E_00_2a_0b___SG_EcoModeCOB       EQU                        ___FlgDyn_C00AD8E___SG_EcoModeCOB+1 ;Export name of network.
-__fup_C00AD8E_00_2b_1c___SG_EcoModeCOB       EQU                        ___RegDyn_C00AD8E___SG_EcoModeCOB+1 ;Export name of network.
+__fup_C00AD8E_00_19_05___SG_EcoModeCOB       EQU                        ___FlgDyn_C00AD8E___SG_EcoModeCOB+0 ;Export name of network.
+__fup_C00AD8E_00_32_0a___SG_EcoModeCOB       EQU                        ___FlgDyn_C00AD8E___SG_EcoModeCOB+1 ;Export name of network.
+__fup_C00AD8E_00_2a_0b___SG_EcoModeCOB       EQU                        ___FlgDyn_C00AD8E___SG_EcoModeCOB+2 ;Export name of network.
+__fup_C00AD8E_00_19_15___SG_EcoModeCOB       EQU                        ___FlgDyn_C00AD8E___SG_EcoModeCOB+3 ;Export name of network.
+__fup_C00AD8E_00_2b_1c___SG_EcoModeCOB       EQU                        ___RegDyn_C00AD8E___SG_EcoModeCOB+2 ;Export name of network.
 ;;End Dynamic symbol aliases allocated for this BLOCK
