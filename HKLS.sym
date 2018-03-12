@@ -22049,7 +22049,7 @@ EcoMode	PEQU	F
 AutoEcoMode	EQU	F		
 ManualEconomModeOnOff	PEQU	F		
 ManualEconomMode	PEQU	F		
-EcoSetPoint	EQU	R		
+EcoSetPoint	PEQU	R		
 $GROUP EZR10048.Raum
 Ventil	EQU	R		
 $ENDGROUP EZR10048.Raum
@@ -22309,7 +22309,12 @@ BufferHeatMode	EQU	F
 Setup	EQU	R		
 OpenRecirc	EQU	R		
 qq	EQU	F		
+SP	EQU	R		
 $ENDGROUP EcoMode
+$GROUP SetPoints.Integer_0
+$ATTR TAGS=S_ADJUST
+Register	PEQU	R		;(4) Integer value
+$ENDGROUP SetPoints.Integer_0
 ;;End of user defined symbols
 ;;Alias symbols to attach adjust tag 
 $ATTR TAGS=S_ADJUST

@@ -19859,5 +19859,6 @@ __fup_C00AD8E_00_19_05___SG_EcoModeCOB       EQU                        ___FlgDy
 __fup_C00AD8E_00_32_0a___SG_EcoModeCOB       EQU                        ___FlgDyn_C00AD8E___SG_EcoModeCOB+1 ;Export name of network.
 __fup_C00AD8E_00_2a_0b___SG_EcoModeCOB       EQU                        ___FlgDyn_C00AD8E___SG_EcoModeCOB+2 ;Export name of network.
 __fup_C00AD8E_00_19_15___SG_EcoModeCOB       EQU                        ___FlgDyn_C00AD8E___SG_EcoModeCOB+3 ;Export name of network.
+__fup_C00AD8E_00_1d_1c___SG_EcoModeCOB       EQU                        ___RegDyn_C00AD8E___SG_EcoModeCOB+1 ;Export name of network.
 __fup_C00AD8E_00_2b_1c___SG_EcoModeCOB       EQU                        ___RegDyn_C00AD8E___SG_EcoModeCOB+2 ;Export name of network.
 ;;End Dynamic symbol aliases allocated for this BLOCK

@@ -133,7 +133,7 @@ __Saia_Sfup__.MaxFlag	EQU		16383	;For Fupla probes
 __Saia_Sfup__.rTmpCalc	EQU	R	10813
 __Saia_Sfup__.rTmpCalcRemainder	EQU	R	10814
 __Saia_Sfup__.rTmpCalcResult	EQU	R	10815
-__SAIASystemBuildTime__	EQU		0CEE106E5H	;Build key
+__SAIASystemBuildTime__	EQU		05BD3A928H	;Build key
 __SASMVERS__	EQU		21410	;Assembler/linker version, old format (abccc)
 __TIME_BASE__	EQU		100	;Timer timebase in ms
 __TIME_BASE_EXTN__	EQU		100
@@ -1221,6 +1221,7 @@ Analogue.AnaDig_7.Low	EQU	R	5198	;(5) Threshold value for Sigal Low
 Analogue.AnaDig_7.Status	EQU	F	12791	;(2) Status of the digital value
 Controller_	EQU	COB	1
 EcoMode	EQU	F	12795
+EcoSetPoint	EQU	R	5199
 $ATTR TAGS=S_ADJUST
 EZR0000.Thanos.iParaWrite	EQU	F	12796
 $ATTR TAGS=S_ADJUST
@@ -13279,6 +13280,8 @@ SBT001.WT.Sek.VLTemp.MW10.SmGwOben	EQU	F	15984	;(1) Meldung oberer Grenzwert wur
 SBT001.WT.Sek.VLTemp.MW10.SmGwUnten	EQU	F	15985	;(1) Meldung unterer Grenzwert wurde unterschritten
 $ATTR TAGS=S_ADJUST
 SBT001.WT.Sek.VLTemp.MW10.SpgGrp	EQU	R	10887	;(5) zugehörige Spannungsgruppe zur Unterdrückung von Geistermeldungen bei fehle
+$ATTR TAGS=S_ADJUST
+SetPoints.Integer_0.Register	EQU	R	1473	;(4) Integer value
 SubDringend	EQU	TEXT	3325
 SubNormal	EQU	TEXT	3326
 SubSSMHZG002	EQU	TEXT	3327
