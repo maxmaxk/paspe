@@ -19363,6 +19363,8 @@ __stc_id_0B54B_var_00___SG_ModbusServer       EQU     F                    ;stat
 __stc_id_0B553_var_00___SG_ModbusServer       EQU     F                    ;static variable Edg[1]
 $ATTR TAGS=S_ADJUST
 __stc_id_0B553_var_01___SG_ModbusServer       EQU     R                    ;static variable Old[1]
+$ATTR TAGS=S_ADJUST
+__stc_id_0B62C_var_00___SG_ModbusServer       EQU     F                    ;static variable Sta[1]
 __stc_id_0B5E6_var_00___SG_ModbusServer       EQU     F                    ;static variable Edg[1]
 $ATTR TAGS=S_ADJUST
 __stc_id_0B5E6_var_01___SG_ModbusServer       EQU     R                    ;static variable Old[1]
@@ -19571,24 +19573,36 @@ __fup_C00ABFD_11_10_12___SG_ModbusServer       EQU                        ___Reg
 __fup_C00ABFD_11_19_18___SG_ModbusServer       EQU                        ___FlgDyn_C00ABFD___SG_ModbusServer+1 ;Export name of network.
 __fup_C00ABFD_11_2a_1e___SG_ModbusServer       EQU                        ___RegDyn_C00ABFD___SG_ModbusServer+4 ;Export name of network.
 __fup_C00ABFD_11_19_29___SG_ModbusServer       EQU                        ___FlgDyn_C00ABFD___SG_ModbusServer+2 ;Export name of network.
-__fup_C00ABFD_12_1d_15___SG_ModbusServer       EQU                        ___RegDyn_C00ABFD___SG_ModbusServer+1 ;Export name of network.
-__fup_C00ABFD_12_2a_08___SG_ModbusServer       EQU                        ___FlgDyn_C00ABFD___SG_ModbusServer+0 ;Export name of network.
-__fup_C00ABFD_12_10_11___SG_ModbusServer       EQU                        ___RegDyn_C00ABFD___SG_ModbusServer+2 ;Export name of network.
-__fup_C00ABFD_12_10_13___SG_ModbusServer       EQU                        ___RegDyn_C00ABFD___SG_ModbusServer+4 ;Export name of network.
-__fup_C00ABFD_12_2b_24___SG_ModbusServer       EQU                        ___RegDyn_C00ABFD___SG_ModbusServer+7 ;Export name of network.
-__fup_C00ABFD_12_1b_23___SG_ModbusServer       EQU                        ___FlgDyn_C00ABFD___SG_ModbusServer+1 ;Export name of network.
-__fup_C00ABFD_13_23_15___SG_ModbusServer       EQU                        ___RegDyn_C00ABFD___SG_ModbusServer+0 ;Export name of network.
-__fup_C00ABFD_13_30_08___SG_ModbusServer       EQU                        ___FlgDyn_C00ABFD___SG_ModbusServer+0 ;Export name of network.
-__fup_C00ABFD_13_16_11___SG_ModbusServer       EQU                        ___RegDyn_C00ABFD___SG_ModbusServer+1 ;Export name of network.
-__fup_C00ABFD_13_16_13___SG_ModbusServer       EQU                        ___RegDyn_C00ABFD___SG_ModbusServer+3 ;Export name of network.
-__fup_C00ABFD_13_31_24___SG_ModbusServer       EQU                        ___RegDyn_C00ABFD___SG_ModbusServer+6 ;Export name of network.
-__fup_C00ABFD_13_21_23___SG_ModbusServer       EQU                        ___FlgDyn_C00ABFD___SG_ModbusServer+1 ;Export name of network.
-__fup_C00ABFD_14_21_13___SG_ModbusServer       EQU                        ___RegDyn_C00ABFD___SG_ModbusServer+0 ;Export name of network.
-__fup_C00ABFD_14_2e_06___SG_ModbusServer       EQU                        ___FlgDyn_C00ABFD___SG_ModbusServer+0 ;Export name of network.
-__fup_C00ABFD_14_14_0f___SG_ModbusServer       EQU                        ___RegDyn_C00ABFD___SG_ModbusServer+1 ;Export name of network.
-__fup_C00ABFD_14_14_11___SG_ModbusServer       EQU                        ___RegDyn_C00ABFD___SG_ModbusServer+3 ;Export name of network.
-__fup_C00ABFD_14_2f_22___SG_ModbusServer       EQU                        ___RegDyn_C00ABFD___SG_ModbusServer+6 ;Export name of network.
-__fup_C00ABFD_14_1f_21___SG_ModbusServer       EQU                        ___FlgDyn_C00ABFD___SG_ModbusServer+1 ;Export name of network.
+__fup_C00ABFD_12_2a_05___SG_ModbusServer       EQU                        ___RegDyn_C00ABFD___SG_ModbusServer+1 ;Export name of network.
+__fup_C00ABFD_12_0f_07___SG_ModbusServer       EQU                        ___RegDyn_C00ABFD___SG_ModbusServer+3 ;Export name of network.
+__fup_C00ABFD_12_15_07___SG_ModbusServer       EQU                        ___RegDyn_C00ABFD___SG_ModbusServer+4 ;Export name of network.
+__fup_C00ABFD_12_15_0d___SG_ModbusServer       EQU                        ___FlgDyn_C00ABFD___SG_ModbusServer+0 ;Export name of network.
+__fup_C00ABFD_12_15_14___SG_ModbusServer       EQU                        ___FlgDyn_C00ABFD___SG_ModbusServer+3 ;Export name of network.
+__fup_C00ABFD_12_15_26___SG_ModbusServer       EQU                        ___RegDyn_C00ABFD___SG_ModbusServer+7 ;Export name of network.
+__fup_C00ABFD_12_21_23___SG_ModbusServer       EQU                        ___FlgDyn_C00ABFD___SG_ModbusServer+4 ;Export name of network.
+__fup_C00ABFD_12_0f_25___SG_ModbusServer       EQU                        ___RegDyn_C00ABFD___SG_ModbusServer+9 ;Export name of network.
+__fup_C00ABFD_12_25_2d___SG_ModbusServer       EQU                        ___FlgDyn_C00ABFD___SG_ModbusServer+5 ;Export name of network.
+__fup_C00ABFD_12_1b_2c___SG_ModbusServer       EQU                        ___RegDyn_C00ABFD___SG_ModbusServer+11 ;Export name of network.
+__fup_C00ABFD_12_10_3f___SG_ModbusServer       EQU                        ___RegDyn_C00ABFD___SG_ModbusServer+13 ;Export name of network.
+__fup_C00ABFD_12_1d_38___SG_ModbusServer       EQU                        ___RegDyn_C00ABFD___SG_ModbusServer+14 ;Export name of network.
+__fup_C00ABFD_12_39_3a___SG_ModbusServer       EQU                        ___FlgDyn_C00ABFD___SG_ModbusServer+6 ;Export name of network.
+__fup_C00ABFD_12_10_3d___SG_ModbusServer       EQU                        ___RegDyn_C00ABFD___SG_ModbusServer+16 ;Export name of network.
+__fup_C00ABFD_12_1b_42___SG_ModbusServer       EQU                        ___FlgDyn_C00ABFD___SG_ModbusServer+7 ;Export name of network.
+__fup_C00ABFD_12_2b_42___SG_ModbusServer       EQU                        ___RegDyn_C00ABFD___SG_ModbusServer+20 ;Export name of network.
+__fup_C00ABFD_13_20_04___SG_ModbusServer       EQU                        ___RegDyn_C00ABFD___SG_ModbusServer+0 ;Export name of network.
+__fup_C00ABFD_13_23_15___SG_ModbusServer       EQU                        ___RegDyn_C00ABFD___SG_ModbusServer+2 ;Export name of network.
+__fup_C00ABFD_13_30_0f___SG_ModbusServer       EQU                        ___FlgDyn_C00ABFD___SG_ModbusServer+1 ;Export name of network.
+__fup_C00ABFD_13_18_15___SG_ModbusServer       EQU                        ___RegDyn_C00ABFD___SG_ModbusServer+4 ;Export name of network.
+__fup_C00ABFD_13_18_17___SG_ModbusServer       EQU                        ___RegDyn_C00ABFD___SG_ModbusServer+5 ;Export name of network.
+__fup_C00ABFD_13_31_24___SG_ModbusServer       EQU                        ___RegDyn_C00ABFD___SG_ModbusServer+8 ;Export name of network.
+__fup_C00ABFD_13_21_23___SG_ModbusServer       EQU                        ___FlgDyn_C00ABFD___SG_ModbusServer+2 ;Export name of network.
+__fup_C00ABFD_14_23_06___SG_ModbusServer       EQU                        ___RegDyn_C00ABFD___SG_ModbusServer+0 ;Export name of network.
+__fup_C00ABFD_14_23_14___SG_ModbusServer       EQU                        ___RegDyn_C00ABFD___SG_ModbusServer+2 ;Export name of network.
+__fup_C00ABFD_14_2e_0e___SG_ModbusServer       EQU                        ___FlgDyn_C00ABFD___SG_ModbusServer+1 ;Export name of network.
+__fup_C00ABFD_14_14_13___SG_ModbusServer       EQU                        ___RegDyn_C00ABFD___SG_ModbusServer+3 ;Export name of network.
+__fup_C00ABFD_14_14_15___SG_ModbusServer       EQU                        ___RegDyn_C00ABFD___SG_ModbusServer+5 ;Export name of network.
+__fup_C00ABFD_14_2f_22___SG_ModbusServer       EQU                        ___RegDyn_C00ABFD___SG_ModbusServer+8 ;Export name of network.
+__fup_C00ABFD_14_20_21___SG_ModbusServer       EQU                        ___FlgDyn_C00ABFD___SG_ModbusServer+2 ;Export name of network.
 __fup_C00ABFD_15_25_15___SG_ModbusServer       EQU                        ___RegDyn_C00ABFD___SG_ModbusServer+1 ;Export name of network.
 __fup_C00ABFD_15_32_08___SG_ModbusServer       EQU                        ___FlgDyn_C00ABFD___SG_ModbusServer+0 ;Export name of network.
 __fup_C00ABFD_15_18_11___SG_ModbusServer       EQU                        ___RegDyn_C00ABFD___SG_ModbusServer+2 ;Export name of network.

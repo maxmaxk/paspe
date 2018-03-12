@@ -22315,6 +22315,10 @@ $GROUP SetPoints.Integer_0
 $ATTR TAGS=S_ADJUST
 Register	PEQU	R		;(4) Integer value
 $ENDGROUP SetPoints.Integer_0
+$GROUP EcoMode
+InOutDampsClose	EQU	F		
+WarmOut	EQU	F		
+$ENDGROUP EcoMode
 ;;End of user defined symbols
 ;;Alias symbols to attach adjust tag 
 $ATTR TAGS=S_ADJUST
