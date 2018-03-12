@@ -13330,22 +13330,23 @@ __fup_C000380_17_5c_46___SG_HZG002_Haupthaus       EQU                        __
 __fup_C000380_17_2a_5e___SG_HZG002_Haupthaus       EQU                        ___FlgDyn_C000380___SG_HZG002_Haupthaus+8 ;Export name of network.
 __fup_C000380_17_5c_4a___SG_HZG002_Haupthaus       EQU                        ___RegDyn_C000380___SG_HZG002_Haupthaus+12 ;Export name of network.
 __fup_C000380_17_5c_4d___SG_HZG002_Haupthaus       EQU                        ___RegDyn_C000380___SG_HZG002_Haupthaus+13 ;Export name of network.
-__fup_C000380_19_37_14___SG_HZG002_Haupthaus       EQU                        ___FlgDyn_C000380___SG_HZG002_Haupthaus+0 ;Export name of network.
-__fup_C000380_19_37_1c___SG_HZG002_Haupthaus       EQU                        ___FlgDyn_C000380___SG_HZG002_Haupthaus+1 ;Export name of network.
+__fup_C000380_19_36_14___SG_HZG002_Haupthaus       EQU                        ___FlgDyn_C000380___SG_HZG002_Haupthaus+0 ;Export name of network.
+__fup_C000380_19_36_1c___SG_HZG002_Haupthaus       EQU                        ___FlgDyn_C000380___SG_HZG002_Haupthaus+1 ;Export name of network.
 __fup_C000380_1A_22_09___SG_HZG002_Haupthaus       EQU                        ___FlgDyn_C000380___SG_HZG002_Haupthaus+0 ;Export name of network.
 __fup_C000380_1A_23_0e___SG_HZG002_Haupthaus       EQU                        ___FlgDyn_C000380___SG_HZG002_Haupthaus+1 ;Export name of network.
 __fup_C000380_1A_37_13___SG_HZG002_Haupthaus       EQU                        ___FlgDyn_C000380___SG_HZG002_Haupthaus+2 ;Export name of network.
 __fup_C000380_1A_3d_13___SG_HZG002_Haupthaus       EQU                        ___FlgDyn_C000380___SG_HZG002_Haupthaus+3 ;Export name of network.
 __fup_C000380_1A_37_18___SG_HZG002_Haupthaus       EQU                        ___FlgDyn_C000380___SG_HZG002_Haupthaus+4 ;Export name of network.
+__fup_C000380_1A_22_22___SG_HZG002_Haupthaus       EQU                        ___FlgDyn_C000380___SG_HZG002_Haupthaus+5 ;Export name of network.
 __fup_C000380_1A_37_26___SG_HZG002_Haupthaus       EQU                        ___RegDyn_C000380___SG_HZG002_Haupthaus+0 ;Export name of network.
 __fup_C000380_1A_37_28___SG_HZG002_Haupthaus       EQU                        ___RegDyn_C000380___SG_HZG002_Haupthaus+1 ;Export name of network.
-__fup_C000380_1A_37_2a___SG_HZG002_Haupthaus       EQU                        ___FlgDyn_C000380___SG_HZG002_Haupthaus+5 ;Export name of network.
+__fup_C000380_1A_37_2a___SG_HZG002_Haupthaus       EQU                        ___FlgDyn_C000380___SG_HZG002_Haupthaus+6 ;Export name of network.
 __fup_C000380_1A_29_36___SG_HZG002_Haupthaus       EQU                        ___RegDyn_C000380___SG_HZG002_Haupthaus+2 ;Export name of network.
 __fup_C000380_1A_36_3c___SG_HZG002_Haupthaus       EQU                        ___RegDyn_C000380___SG_HZG002_Haupthaus+3 ;Export name of network.
-__fup_C000380_1A_36_3e___SG_HZG002_Haupthaus       EQU                        ___FlgDyn_C000380___SG_HZG002_Haupthaus+6 ;Export name of network.
-__fup_C000380_1A_36_40___SG_HZG002_Haupthaus       EQU                        ___FlgDyn_C000380___SG_HZG002_Haupthaus+7 ;Export name of network.
-__fup_C000380_1A_36_42___SG_HZG002_Haupthaus       EQU                        ___FlgDyn_C000380___SG_HZG002_Haupthaus+8 ;Export name of network.
-__fup_C000380_1A_36_44___SG_HZG002_Haupthaus       EQU                        ___FlgDyn_C000380___SG_HZG002_Haupthaus+9 ;Export name of network.
+__fup_C000380_1A_36_3e___SG_HZG002_Haupthaus       EQU                        ___FlgDyn_C000380___SG_HZG002_Haupthaus+7 ;Export name of network.
+__fup_C000380_1A_36_40___SG_HZG002_Haupthaus       EQU                        ___FlgDyn_C000380___SG_HZG002_Haupthaus+8 ;Export name of network.
+__fup_C000380_1A_36_42___SG_HZG002_Haupthaus       EQU                        ___FlgDyn_C000380___SG_HZG002_Haupthaus+9 ;Export name of network.
+__fup_C000380_1A_36_44___SG_HZG002_Haupthaus       EQU                        ___FlgDyn_C000380___SG_HZG002_Haupthaus+10 ;Export name of network.
 __fup_C000380_1B_37_14___SG_HZG002_Haupthaus       EQU                        ___FlgDyn_C000380___SG_HZG002_Haupthaus+0 ;Export name of network.
 __fup_C000380_1B_37_1c___SG_HZG002_Haupthaus       EQU                        ___FlgDyn_C000380___SG_HZG002_Haupthaus+1 ;Export name of network.
 __fup_C000380_1B_37_2d___SG_HZG002_Haupthaus       EQU                        ___RegDyn_C000380___SG_HZG002_Haupthaus+0 ;Export name of network.
@@ -18423,16 +18424,17 @@ __fup_C003342_10_2d_0d___SG_BKT002_Haupthaus       EQU                        __
 __fup_C003342_10_22_29___SG_BKT002_Haupthaus       EQU                        ___RegDyn_C003342___SG_BKT002_Haupthaus+5 ;Export name of network.
 __fup_C003342_10_33_2c___SG_BKT002_Haupthaus       EQU                        ___RegDyn_C003342___SG_BKT002_Haupthaus+6 ;Export name of network.
 __fup_C003342_10_3c_2c___SG_BKT002_Haupthaus       EQU                        ___RegDyn_C003342___SG_BKT002_Haupthaus+7 ;Export name of network.
-__fup_C003342_10_25_35___SG_BKT002_Haupthaus       EQU                        ___FlgDyn_C003342___SG_BKT002_Haupthaus+4 ;Export name of network.
-__fup_C003342_10_35_3d___SG_BKT002_Haupthaus       EQU                        ___RegDyn_C003342___SG_BKT002_Haupthaus+8 ;Export name of network.
-__fup_C003342_10_35_3f___SG_BKT002_Haupthaus       EQU                        ___RegDyn_C003342___SG_BKT002_Haupthaus+9 ;Export name of network.
-__fup_C003342_10_35_41___SG_BKT002_Haupthaus       EQU                        ___FlgDyn_C003342___SG_BKT002_Haupthaus+5 ;Export name of network.
+__fup_C003342_10_1f_35___SG_BKT002_Haupthaus       EQU                        ___FlgDyn_C003342___SG_BKT002_Haupthaus+4 ;Export name of network.
+__fup_C003342_10_27_35___SG_BKT002_Haupthaus       EQU                        ___FlgDyn_C003342___SG_BKT002_Haupthaus+5 ;Export name of network.
+__fup_C003342_10_3f_3d___SG_BKT002_Haupthaus       EQU                        ___RegDyn_C003342___SG_BKT002_Haupthaus+8 ;Export name of network.
+__fup_C003342_10_3f_3f___SG_BKT002_Haupthaus       EQU                        ___RegDyn_C003342___SG_BKT002_Haupthaus+9 ;Export name of network.
+__fup_C003342_10_3f_41___SG_BKT002_Haupthaus       EQU                        ___FlgDyn_C003342___SG_BKT002_Haupthaus+7 ;Export name of network.
 __fup_C003342_10_28_46___SG_BKT002_Haupthaus       EQU                        ___RegDyn_C003342___SG_BKT002_Haupthaus+10 ;Export name of network.
 __fup_C003342_10_35_4a___SG_BKT002_Haupthaus       EQU                        ___RegDyn_C003342___SG_BKT002_Haupthaus+11 ;Export name of network.
-__fup_C003342_10_35_4c___SG_BKT002_Haupthaus       EQU                        ___FlgDyn_C003342___SG_BKT002_Haupthaus+6 ;Export name of network.
-__fup_C003342_10_35_4e___SG_BKT002_Haupthaus       EQU                        ___FlgDyn_C003342___SG_BKT002_Haupthaus+7 ;Export name of network.
-__fup_C003342_10_35_50___SG_BKT002_Haupthaus       EQU                        ___FlgDyn_C003342___SG_BKT002_Haupthaus+8 ;Export name of network.
-__fup_C003342_10_35_52___SG_BKT002_Haupthaus       EQU                        ___FlgDyn_C003342___SG_BKT002_Haupthaus+9 ;Export name of network.
+__fup_C003342_10_35_4c___SG_BKT002_Haupthaus       EQU                        ___FlgDyn_C003342___SG_BKT002_Haupthaus+8 ;Export name of network.
+__fup_C003342_10_35_4e___SG_BKT002_Haupthaus       EQU                        ___FlgDyn_C003342___SG_BKT002_Haupthaus+9 ;Export name of network.
+__fup_C003342_10_35_50___SG_BKT002_Haupthaus       EQU                        ___FlgDyn_C003342___SG_BKT002_Haupthaus+10 ;Export name of network.
+__fup_C003342_10_35_52___SG_BKT002_Haupthaus       EQU                        ___FlgDyn_C003342___SG_BKT002_Haupthaus+11 ;Export name of network.
 __fup_C003342_11_33_0a___SG_BKT002_Haupthaus       EQU                        ___FlgDyn_C003342___SG_BKT002_Haupthaus+0 ;Export name of network.
 __fup_C003342_11_3f_0a___SG_BKT002_Haupthaus       EQU                        ___RegDyn_C003342___SG_BKT002_Haupthaus+1 ;Export name of network.
 __fup_C003342_11_52_0a___SG_BKT002_Haupthaus       EQU                        ___RegDyn_C003342___SG_BKT002_Haupthaus+2 ;Export name of network.
@@ -19018,8 +19020,8 @@ __fup_C00033B_17_37_1e___SG_TWW001       EQU                        ___RegDyn_C0
 __fup_C00033B_17_37_20___SG_TWW001       EQU                        ___FlgDyn_C00033B___SG_TWW001+3 ;Export name of network.
 ;;End Dynamic symbol aliases allocated for this BLOCK
 ;;dynamic symbols allocated for this BLOCK
-___RegDyn_C00ABB0___SG_COB_0		EQU		R [14]		;	Define 14 registers for dynamic usage.
-___FlgDyn_C00ABB0___SG_COB_0		EQU		F [9]		;	Define 9 registers for dynamic usage.
+___RegDyn_C00ABB0___SG_COB_0		EQU		R [15]		;	Define 15 registers for dynamic usage.
+___FlgDyn_C00ABB0___SG_COB_0		EQU		F [11]		;	Define 11 registers for dynamic usage.
 ;;end of dynamic symbols allocated for this BLOCK
 
 ;;Start Static symbols allocated for this BLOCK
@@ -19303,6 +19305,9 @@ __fup_C00ABB0_00_36_25___SG_COB_0       EQU                        ___FlgDyn_C00
 __fup_C00ABB0_00_3e_2e___SG_COB_0       EQU                        ___FlgDyn_C00ABB0___SG_COB_0+5 ;Export name of network.
 __fup_C00ABB0_00_36_2d___SG_COB_0       EQU                        ___FlgDyn_C00ABB0___SG_COB_0+6 ;Export name of network.
 __fup_C00ABB0_00_36_33___SG_COB_0       EQU                        ___FlgDyn_C00ABB0___SG_COB_0+7 ;Export name of network.
+__fup_C00ABB0_00_19_3c___SG_COB_0       EQU                        ___FlgDyn_C00ABB0___SG_COB_0+8 ;Export name of network.
+__fup_C00ABB0_00_18_4e___SG_COB_0       EQU                        ___FlgDyn_C00ABB0___SG_COB_0+9 ;Export name of network.
+__fup_C00ABB0_00_1d_58___SG_COB_0       EQU                        ___RegDyn_C00ABB0___SG_COB_0+12 ;Export name of network.
 __fup_C00ABB0_02_31_09___SG_COB_0       EQU                        ___FlgDyn_C00ABB0___SG_COB_0+0 ;Export name of network.
 __fup_C00ABB0_02_31_0b___SG_COB_0       EQU                        ___FlgDyn_C00ABB0___SG_COB_0+1 ;Export name of network.
 __fup_C00ABB0_02_1f_17___SG_COB_0       EQU                        ___RegDyn_C00ABB0___SG_COB_0+0 ;Export name of network.

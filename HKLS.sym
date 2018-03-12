@@ -22049,7 +22049,7 @@ EcoMode	PEQU	F
 AutoEcoMode	EQU	F		
 ManualEconomModeOnOff	PEQU	F		
 ManualEconomMode	PEQU	F		
-EcoSetPoint	PEQU	R		
+EcoSetPoint	EQU	R		
 $GROUP EZR10048.Raum
 Ventil	EQU	R		
 $ENDGROUP EZR10048.Raum
