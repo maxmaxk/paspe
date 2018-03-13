@@ -22319,6 +22319,15 @@ $GROUP EcoMode
 InOutDampsClose	EQU	F		
 WarmOut	EQU	F		
 $ENDGROUP EcoMode
+$GROUP PV2
+BMSHumSP	EQU	R		
+$ENDGROUP PV2
+$GROUP EcoMode
+NoHum	EQU	F		
+$ENDGROUP EcoMode
+$GROUP EcoNode
+NoHum	EQU	F		
+$ENDGROUP EcoNode
 ;;End of user defined symbols
 ;;Alias symbols to attach adjust tag 
 $ATTR TAGS=S_ADJUST
