@@ -1,15 +1,15 @@
 [Navigator]
-TopRow=424
-Selected=449
-Count=9
+TopRow=348
+Selected=353
+Count=8
 NUM0=COB 7 :RLT001_RLT002 ;Wohnen_Schwimmhalle
-NUM1=COB (8) :HZG001_Schwimmhalle
-NUM2=COB 9 :HZG002_Haupthaus
-NUM3=COB (2) :COB_0
-NUM4=COB 13 :ModbusServer
-NUM5=COB 14 :PV1newManage
-NUM6=COB 15 :PV2newManage
-NUM7=COB 18 :MB3
+NUM1=COB 9 :HZG002_Haupthaus
+NUM2=COB :COB_0
+NUM3=COB 13 :ModbusServer
+NUM4=COB 14 :PV1newManage
+NUM5=COB 15 :PV2newManage
+NUM6=COB 18 :MB3
+NUM7=COB 19 :EcoModeCOB
 NUM8=COB 19 :EcoModeCOB
 NUM9=COB 16 :TWW001
 NUM10=COB :HZG003_ ;Nebenanlagen Haupthaus
