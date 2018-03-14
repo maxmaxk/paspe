@@ -8,7 +8,7 @@ UpdateGlobals=1
 DnldInRun=0
 FuplaVersion=V2.1.410
 CodePage=1252
-MacroID=46645
+MacroID=46646
 ModuleVersion=
 AdjustLog=0
 Author=
@@ -162562,7 +162562,7 @@ ConditionalValue=0
 PageColor=16777215
 PageBackColor=0
 [PAGEDEF]
-PageLen=4803
+PageLen=4802
 [PAGE]
 Name=EconomyModeTimer
 RemarkSize=0
@@ -162872,7 +162872,7 @@ Conn10=27 42 891 34 22
 Conn11=45 44 44177 34 3
 Conn12=45 50 44178 34 3
 Conn13=16 58 44434 34 11
-Conn14=16 62 44458 34 4
+Conn14=16 62 3927 34 3
 Conn15=45 65 43961 33 7
 Conn16=29 66 43962 34 10
 Conn17=16 70 43963 34 15
@@ -169236,7 +169236,7 @@ Conn13=19 52 44418 34 10
 Conn14=32 58 44418 33 10
 Conn15=20 60 44417 34 12
 [PAGEDEF]
-PageLen=515
+PageLen=750
 [PAGE]
 Name=EcoModeSetup
 RemarkSize=0
@@ -169254,6 +169254,7 @@ ConditinalFunction=0
 ConditionalValue=0
 [FBOX]
 _INDREGI 46609=
+_IMUL 46646=
 [_INDREGI 46609]
 Fam=sfupindi
 Width=6
@@ -169263,14 +169264,30 @@ In=#_I
 Out=R_NI 
 Language=en
 Posi=17 16
+[_IMUL 46646]
+Fam=sfupinte
+Face=x
+Width=2
+Init=n
+In=_I _I 
+Out=_I 
+Language=en
+Posi=27 16
 [HLINE]
-H0=17 14 17)23 25
+H0=17 14 17)23 27)29 32
+H1=18 26 27
+H2=21 24 26
+[VLINE]
+V0=26 18 21
 [NETWORK]
 N0=Io 14 17)if 17 17
-N1=Iof 23 17)i 25 17
+N1=Iof 23 17)if 27 17
+N2=Iof 29 17)i 32 17
+N3=Iif 27 18)o 24 21
 [CONNS]
 Conn0=14 17 44419 34 5
-Conn1=25 17 44434 33 11
+Conn1=32 17 44434 33 11
+Conn2=24 21 2904 34 3
 [BLOCK]
 BlockSym=44187
 COBSupTime=0
@@ -169916,7 +169933,7 @@ Conn3=58 14 3359 33 11
 Conn4=35 16 44323 34 16
 Conn5=39 19 44210 34 3
 [PAGEDEF]
-PageLen=6966
+PageLen=6965
 [PAGE]
 Name=HumRegulator
 RemarkSize=0
@@ -170296,7 +170313,7 @@ Conn20=58 44 44242 33 14
 Conn21=13 50 44244 34 12
 Conn22=19 54 44422 34 11
 Conn23=11 59 44434 34 12
-Conn24=11 62 44457 34 12
+Conn24=11 62 3083 34 12
 Conn25=24 62 44455 33 12
 [BLOCK]
 BlockSym=44207
@@ -170482,7 +170499,7 @@ ConditionalValue=0
 PageColor=16777215
 PageBackColor=0
 [PAGEDEF]
-PageLen=3109
+PageLen=3108
 [PAGE]
 Name=HeaterCheck
 RemarkSize=0
@@ -170668,7 +170685,7 @@ Conn1=17 7 42631 34 16
 Conn2=30 10 30384 34 28
 Conn3=32 13 44115 34 7
 Conn4=17 19 44434 34 11
-Conn5=17 22 44457 34 4
+Conn5=17 22 3083 34 3
 Conn6=45 26 44433 33 18
 Conn7=19 39 43961 34 7
 Conn8=35 39 2564 34 3

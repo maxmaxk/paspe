@@ -19667,6 +19667,7 @@ __fup_C00ABFD_1F_30_22___SG_ModbusServer       EQU                        ___Flg
 __fup_C00ABFD_1F_11_18___SG_ModbusServer       EQU                        ___RegDyn_C00ABFD___SG_ModbusServer+4 ;Export name of network.
 __fup_C00ABFD_1F_1a_22___SG_ModbusServer       EQU                        ___FlgDyn_C00ABFD___SG_ModbusServer+2 ;Export name of network.
 __fup_C00ABFD_1F_1a_34___SG_ModbusServer       EQU                        ___FlgDyn_C00ABFD___SG_ModbusServer+4 ;Export name of network.
+__fup_C00ABFD_20_17_11___SG_ModbusServer       EQU                        ___RegDyn_C00ABFD___SG_ModbusServer+1 ;Export name of network.
 ;;End Dynamic symbol aliases allocated for this BLOCK
 ;;dynamic symbols allocated for this BLOCK
 ___RegDyn_C00AC9B___SG_PV1newManage		EQU		R [14]		;	Define 14 registers for dynamic usage.
