@@ -120,7 +120,7 @@ __PCD7_D443WT5R__	EQU		59
 __PCD7_D457VT5F__	EQU		45
 __PCS1_C8xx__	EQU		8	;PCS1.Cxxx Kompaktregler
 __Saia_Sfup__.MaxFlag	EQU		16383	;For Fupla probes
-__SAIASystemBuildTime__	EQU		0FE5A4CH	;Build key
+__SAIASystemBuildTime__	EQU		0E3EEC1CH	;Build key
 __SASMVERS__	EQU		21410	;Assembler/linker version, old format (abccc)
 __TIME_BASE__	EQU		100	;Timer timebase in ms
 __TIME_BASE_EXTN__	EQU		100
