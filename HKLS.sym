@@ -22328,6 +22328,21 @@ $ENDGROUP EcoMode
 $GROUP EcoNode
 NoHum	EQU	F		
 $ENDGROUP EcoNode
+$GROUP PV2.Pump
+BMSForce	EQU	F		
+$ENDGROUP PV2.Pump
+$GROUP PV2.Valve
+BMSForce	EQU	R		
+$ENDGROUP PV2.Valve
+$GROUP PV2
+BMSSetPoint	EQU	R		
+OPSpFb	EQU	R		
+BMSSpFb	EQU	R		
+BMSSetPointVoc	EQU	R		
+OPSpVocFb	EQU	R		
+BMSSpVocFb	EQU	R		
+AvrRoomTemp	EQU	R		
+$ENDGROUP PV2
 ;;End of user defined symbols
 ;;Alias symbols to attach adjust tag 
 $ATTR TAGS=S_ADJUST
