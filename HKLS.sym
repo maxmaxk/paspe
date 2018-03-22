@@ -22342,6 +22342,8 @@ BMSSetPointVoc	EQU	R
 OPSpVocFb	EQU	R		
 BMSSpVocFb	EQU	R		
 AvrRoomTemp	EQU	R		
+MenegraStart	EQU	F		
+SaiaStart	EQU	F		
 $ENDGROUP PV2
 ;;End of user defined symbols
 ;;Alias symbols to attach adjust tag 
