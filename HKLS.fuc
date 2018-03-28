@@ -1,10 +1,10 @@
 [Navigator]
-TopRow=36
-Selected=39
-Count=4
-NUM0=COB 4 :MODBus_Menerga
-NUM1=COB 13 :ModbusServer
-NUM2=COB 18 :MB3
+TopRow=21
+Selected=-1
+Count=3
+NUM0=COB 13 :ModbusServer
+NUM1=COB 18 :MB3
+NUM2=COB 19 :EcoModeCOB
 NUM3=COB 19 :EcoModeCOB
 NUM4=COB 15 :PV2newManage
 NUM5=COB 18 :MB3
