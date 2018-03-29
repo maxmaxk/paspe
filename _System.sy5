@@ -932,38 +932,38 @@ A.BACnet.GROUP__fbl_C00ABB0_04_B362.PCDInRef EQU R 4861 ;PCD Input Reference
 A.BACnet.GROUP__fbl_C00ABB0_05_B36A.OutOfService EQU F 11467[2] ;Out Of Service
 A.BACnet.GROUP__fbl_C00ABB0_05_B36A.PCDInRef EQU R 4896 ;PCD Input Reference
 ;File "InitODM.obj"
-s.odm.InitExec EQU F 16009 ;
+s.odm.FlagDiag EQU F 16000[8] ;
 s.odm.RegChannel EQU R 10669 ;
 s.odm.InitError EQU F 16008 ;
-s.odm.FlagDiag EQU F 16000[8] ;
+s.odm.InitExec EQU F 16009 ;
 ;File "heavac5.obj"
+S.HVC.Clock.Season EQU F 16021 ;Actual season 0=Winter, 1=Summer
+S.HVC.Clock.ClkTest EQU F 16025 ;Clock test 1=OK 0=Error
+S.HVC.Clock.ClkTest1 EQU F 16026 ;HW-Clock present
+S.HVC.Clock.HHMMSS EQU R 10670[3] ;Hour, Minute, Second
+S.HVC.Clock.YYYYMMDD EQU R 10671 ;Year 2000..2099, Month, Day
+S.HVC.Clock.DayOW EQU R 10672 ;Day of week
+S.HVC.Clock.YYMMDD EQU R 10675[16] ;Year 00..99, Month, Day
+S.HVC.Clock.MMDD EQU R 10676 ;Month, Day
+S.HVC.Clock.HHMM EQU R 10677 ;Hour, Minute
+S.HVC.Clock.Year EQU R 10679 ;Year 00..99
+S.HVC.Clock.YYYYear EQU R 10680 ;Year 2000..2099
 S.HVC.Clock.Month EQU R 10681 ;Month
+S.HVC.Clock.Day EQU R 10682 ;Day of month
+S.HVC.Clock.Hour EQU R 10683 ;Hour
 S.HVC.Clock.Minute EQU R 10684 ;Minute
 S.HVC.Clock.Second EQU R 10685 ;Second
-S.HVC.Clock.Season EQU F 16021 ;Actual season 0=Winter, 1=Summer
-S.HVC.Clock.SecODay EQU R 10690 ;Second of the day
-S.HVC.Clock.AllPHDay EQU F 16016 ;Day following all public holiday
-S.HVC.Clock.YYYYear EQU R 10680 ;Year 2000..2099
-S.HVC.Clock.SecTick EQU F 16022 ;One second tick based on HW-Clock
-S.HVC.Clock.ClkTest EQU F 16025 ;Clock test 1=OK 0=Error
-S.HVC.Clock.YYYYMMDD EQU R 10671 ;Year 2000..2099, Month, Day
-S.HVC.Clock.ClkTest1 EQU F 16026 ;HW-Clock present
-S.HVC.Clock.DayInYear EQU R 10691 ;No of day in the year (1..366)
-S.HVC.Clock.DHHMM EQU R 10688 ;Day of week Hour, Minute
-S.HVC.Clock.DayOW EQU R 10672 ;Day of week
-S.HVC.Clock.HHMMSS EQU R 10670[3] ;Hour, Minute, Second
-S.HVC.Clock.MMDDHHMM EQU R 10689 ;Month, Day, Hour, Minute
-S.HVC.Clock.YYMMDD EQU R 10675[16] ;Year 00..99, Month, Day
-S.HVC.Clock.Day EQU R 10682 ;Day of month
-S.HVC.Clock.HHMM EQU R 10677 ;Hour, Minute
-S.HVC.Clock.PHDay1 EQU F 16020 ;Day following public holiday(s)
-S.HVC.Clock.MMDD EQU R 10676 ;Month, Day
-S.HVC.Clock.PHDay EQU F 16019 ;Public Holiday
-S.HVC.Clock.Hour EQU R 10683 ;Hour
 S.HVC.Clock.Week EQU R 10686 ;Week of year
 S.HVC.Clock.WWD EQU R 10687 ;Week of year and day of week
+S.HVC.Clock.DHHMM EQU R 10688 ;Day of week Hour, Minute
+S.HVC.Clock.MMDDHHMM EQU R 10689 ;Month, Day, Hour, Minute
+S.HVC.Clock.SecODay EQU R 10690 ;Second of the day
 S.HVC.Clock.MinODay EQU R 10693 ;Minute of the day
-S.HVC.Clock.Year EQU R 10679 ;Year 00..99
+S.HVC.Clock.PHDay EQU F 16019 ;Public Holiday
+S.HVC.Clock.PHDay1 EQU F 16020 ;Day following public holiday(s)
+S.HVC.Clock.AllPHDay EQU F 16016 ;Day following all public holiday
+S.HVC.Clock.DayInYear EQU R 10691 ;No of day in the year (1..366)
+S.HVC.Clock.SecTick EQU F 16022 ;One second tick based on HW-Clock
 ;File "sModSlave.obj"
 s.mods.fboxerror EQU R 11063 ;
 

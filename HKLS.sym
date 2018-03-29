@@ -22345,6 +22345,12 @@ AvrRoomTemp	EQU	R
 MenegraStart	EQU	F		
 SaiaStart	EQU	F		
 $ENDGROUP PV2
+$GROUP Heater1
+BMSForce	EQU	F		
+$ENDGROUP Heater1
+$GROUP Heater2
+BMSForce	EQU	F		
+$ENDGROUP Heater2
 ;;End of user defined symbols
 ;;Alias symbols to attach adjust tag 
 $ATTR TAGS=S_ADJUST
