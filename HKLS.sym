@@ -22386,6 +22386,18 @@ $GROUP Valve14F1
 BMSForce	EQU	R		
 Auto	EQU	R		
 $ENDGROUP Valve14F1
+$GROUP Pump12F1
+BMSForce	EQU	F		
+Auto	EQU	F		
+$ENDGROUP Pump12F1
+$GROUP Valve12F1
+BMSForce	EQU	R		
+Auto	EQU	R		
+$ENDGROUP Valve12F1
+$GROUP Pump8F1
+BMSForce	EQU	F		
+Auto	EQU	F		
+$ENDGROUP Pump8F1
 ;;End of user defined symbols
 ;;Alias symbols to attach adjust tag 
 $ATTR TAGS=S_ADJUST
