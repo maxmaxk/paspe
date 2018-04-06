@@ -22452,6 +22452,20 @@ OPSpFb	EQU	R
 BMSSpFb	EQU	R		
 OPSP	EQU	R		
 $ENDGROUP HBLow
+$GROUP GVSHi
+BMSSetPoint	EQU	R		
+OPSP	EQU	R		
+BMSSP	EQU	R		
+OPSpFb	EQU	R		
+BMSSpFb	EQU	R		
+$ENDGROUP GVSHi
+$GROUP GVSLow
+BMSSP	EQU	R		
+OPSP	EQU	R		
+BMSSetPoint	EQU	R		
+OPSpFb	EQU	R		
+BMSSpFb	EQU	R		
+$ENDGROUP GVSLow
 ;;End of user defined symbols
 ;;Alias symbols to attach adjust tag 
 $ATTR TAGS=S_ADJUST

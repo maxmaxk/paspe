@@ -19402,6 +19402,22 @@ $ATTR TAGS=S_ADJUST
 __stc_id_0B766_var_01___SG_ModbusServer       EQU     R                    ;static variable Old[1]
 $ATTR TAGS=S_ADJUST
 __stc_id_0B768_var_00___SG_ModbusServer       EQU     F                    ;static variable Sta[1]
+__stc_id_0B76F_var_00___SG_ModbusServer       EQU     F                    ;static variable Edg[1]
+$ATTR TAGS=S_ADJUST
+__stc_id_0B76F_var_01___SG_ModbusServer       EQU     R                    ;static variable Old[1]
+__stc_id_0B771_var_00___SG_ModbusServer       EQU     F                    ;static variable Edg[1]
+$ATTR TAGS=S_ADJUST
+__stc_id_0B771_var_01___SG_ModbusServer       EQU     R                    ;static variable Old[1]
+$ATTR TAGS=S_ADJUST
+__stc_id_0B773_var_00___SG_ModbusServer       EQU     F                    ;static variable Sta[1]
+__stc_id_0B779_var_00___SG_ModbusServer       EQU     F                    ;static variable Edg[1]
+$ATTR TAGS=S_ADJUST
+__stc_id_0B779_var_01___SG_ModbusServer       EQU     R                    ;static variable Old[1]
+__stc_id_0B77B_var_00___SG_ModbusServer       EQU     F                    ;static variable Edg[1]
+$ATTR TAGS=S_ADJUST
+__stc_id_0B77B_var_01___SG_ModbusServer       EQU     R                    ;static variable Old[1]
+$ATTR TAGS=S_ADJUST
+__stc_id_0B77D_var_00___SG_ModbusServer       EQU     F                    ;static variable Sta[1]
 ;;End Static symbols allocated for this BLOCK
 ;;Start Dynamic symbol aliases allocated for this BLOCK
 __fup_C00ABFD_00_2e_14___SG_ModbusServer       EQU                        ___FlgSta_C00ABFD___SG_ModbusServer+0 ;Export name of network.
@@ -19949,6 +19965,18 @@ __fup_C00ABFD_41_4a_20___SG_ModbusServer       EQU                        ___Reg
 __fup_C00ABFD_41_4a_22___SG_ModbusServer       EQU                        ___RegDyn_C00ABFD___SG_ModbusServer+5 ;Export name of network.
 __fup_C00ABFD_41_20_25___SG_ModbusServer       EQU                        ___FlgDyn_C00ABFD___SG_ModbusServer+2 ;Export name of network.
 __fup_C00ABFD_41_1d_37___SG_ModbusServer       EQU                        ___FlgDyn_C00ABFD___SG_ModbusServer+4 ;Export name of network.
+__fup_C00ABFD_42_34_19___SG_ModbusServer       EQU                        ___FlgDyn_C00ABFD___SG_ModbusServer+0 ;Export name of network.
+__fup_C00ABFD_42_15_0f___SG_ModbusServer       EQU                        ___RegDyn_C00ABFD___SG_ModbusServer+1 ;Export name of network.
+__fup_C00ABFD_42_4b_14___SG_ModbusServer       EQU                        ___RegDyn_C00ABFD___SG_ModbusServer+3 ;Export name of network.
+__fup_C00ABFD_42_4b_16___SG_ModbusServer       EQU                        ___RegDyn_C00ABFD___SG_ModbusServer+5 ;Export name of network.
+__fup_C00ABFD_42_21_19___SG_ModbusServer       EQU                        ___FlgDyn_C00ABFD___SG_ModbusServer+2 ;Export name of network.
+__fup_C00ABFD_42_1e_2b___SG_ModbusServer       EQU                        ___FlgDyn_C00ABFD___SG_ModbusServer+4 ;Export name of network.
+__fup_C00ABFD_43_35_1b___SG_ModbusServer       EQU                        ___FlgDyn_C00ABFD___SG_ModbusServer+0 ;Export name of network.
+__fup_C00ABFD_43_16_11___SG_ModbusServer       EQU                        ___RegDyn_C00ABFD___SG_ModbusServer+1 ;Export name of network.
+__fup_C00ABFD_43_4c_16___SG_ModbusServer       EQU                        ___RegDyn_C00ABFD___SG_ModbusServer+3 ;Export name of network.
+__fup_C00ABFD_43_4c_18___SG_ModbusServer       EQU                        ___RegDyn_C00ABFD___SG_ModbusServer+5 ;Export name of network.
+__fup_C00ABFD_43_22_1b___SG_ModbusServer       EQU                        ___FlgDyn_C00ABFD___SG_ModbusServer+2 ;Export name of network.
+__fup_C00ABFD_43_1f_2d___SG_ModbusServer       EQU                        ___FlgDyn_C00ABFD___SG_ModbusServer+4 ;Export name of network.
 ;;End Dynamic symbol aliases allocated for this BLOCK
 ;;dynamic symbols allocated for this BLOCK
 ___RegDyn_C00AC9B___SG_PV1newManage		EQU		R [14]		;	Define 14 registers for dynamic usage.
