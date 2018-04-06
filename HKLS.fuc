@@ -1,12 +1,12 @@
 [Navigator]
-TopRow=101
-Selected=40
-Count=4
+TopRow=76
+Selected=454
+Count=6
 NUM0=COB 6 :HZE001_HZE002_
-NUM1=COB 13 :ModbusServer
-NUM2=COB 18 :MB3
-NUM3=COB 19 :EcoModeCOB
-NUM4=COB 19 :EcoModeCOB
+NUM1=COB 9 :HZG002_Haupthaus
+NUM2=COB (0) :BKT002_Haupthaus ;Schwimmhalle, Haupthaus; Appartement
+NUM3=COB 13 :ModbusServer
+NUM4=COB 18 :MB3
 NUM5=COB 19 :EcoModeCOB
 NUM6=COB 19 :EcoModeCOB
 NUM7=COB 19 :EcoModeCOB
