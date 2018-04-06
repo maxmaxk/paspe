@@ -21626,10 +21626,6 @@ $GROUP HZE001.Puffer.Hot.Oben.GWAus
 $ATTR TAGS=S_ADJUST
 Register	PEQU	R		;(4) Integerwert
 $ENDGROUP HZE001.Puffer.Hot.Oben.GWAus
-$GROUP HZE001.Puffer.Hot.Oben.GWEin
-$ATTR TAGS=S_ADJUST
-Register	PEQU	R		;(4) Integerwert
-$ENDGROUP HZE001.Puffer.Hot.Oben.GWEin
 $GROUP HZG004.VL.Reg
 iNbrHZ	PEQU	R		
 iNbrKH	PEQU	R		
@@ -22398,6 +22394,63 @@ $GROUP Pump8F1
 BMSForce	EQU	F		
 Auto	EQU	F		
 $ENDGROUP Pump8F1
+$GROUP Valve8F1
+BMSForce	EQU	R		
+Auto	EQU	R		
+$ENDGROUP Valve8F1
+$GROUP Pump9F1
+BMSForce	EQU	F		
+Auto	EQU	F		
+$ENDGROUP Pump9F1
+$GROUP Valve9F1
+BMSForce	EQU	R		
+Auto	EQU	R		
+$ENDGROUP Valve9F1
+$GROUP Pump16F2
+BMSForce	EQU	F		
+Auto	EQU	F		
+$ENDGROUP Pump16F2
+$GROUP Valve16F2
+BMSForce	EQU	R		
+Auto	EQU	R		
+$ENDGROUP Valve16F2
+$GROUP Pump16F1
+BMSForce	EQU	F		
+Auto	EQU	F		
+$ENDGROUP Pump16F1
+$GROUP Valve16F1
+BMSForce	EQU	R		
+Auto	EQU	R		
+$ENDGROUP Valve16F1
+$GROUP HZG002.VL.OG.Ventil.StrnHZG002.VL.EG.Ventil.Strng.iST10AOg
+iST10AO	EQU	R		
+$ENDGROUP HZG002.VL.OG.Ventil.StrnHZG002.VL.EG.Ventil.Strng.iST10AOg
+$GROUP HZG002.FbH_UV5.UWP.Strng.iHZG001.FbH.UWP.Strng
+iSB10DOSB10DO	EQU	F		
+$ENDGROUP HZG002.FbH_UV5.UWP.Strng.iHZG001.FbH.UWP.Strng
+$GROUP Pump8F1
+Auto_	EQU	F		
+$ENDGROUP Pump8F1
+$GROUP HBHi
+BMSSetPoint	EQU	R		
+OPSpFb	EQU	R		
+BMSSpFb	EQU	R		
+$ENDGROUP HBHi
+$GROUP HZE001.Puffer.Hot.MitteOben.Temp
+SP	EQU	F		
+$ENDGROUP HZE001.Puffer.Hot.MitteOben.Temp
+$GROUP HBHi
+BMSSP	EQU	R		
+$ENDGROUP HBHi
+$GROUP HZE001.Puffer.Hot.Oben.GWEin
+Register	PEQU	R		;(4) Integerwert
+$ENDGROUP HZE001.Puffer.Hot.Oben.GWEin
+$GROUP HBLow
+BMSSetPoint	EQU	R		
+BMSSP	EQU	R		
+OPSpFb	EQU	R		
+BMSSpFb	EQU	R		
+$ENDGROUP HBLow
 ;;End of user defined symbols
 ;;Alias symbols to attach adjust tag 
 $ATTR TAGS=S_ADJUST
