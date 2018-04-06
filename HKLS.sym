@@ -22466,6 +22466,34 @@ BMSSetPoint	EQU	R
 OPSpFb	EQU	R		
 BMSSpFb	EQU	R		
 $ENDGROUP GVSLow
+$GROUP CBHi
+BMSSP	EQU	R		
+BMSSetPoint	EQU	R		
+OPSpFb	EQU	R		
+BMSSpFb	EQU	R		
+$ENDGROUP CBHi
+$GROUP CBLow
+BMSSP	EQU	R		
+BMSSetPoint	EQU	R		
+OPSpFb	EQU	R		
+BMSSpFb	EQU	R		
+$ENDGROUP CBLow
+$GROUP CBFrost
+BMSSP	EQU	R		
+BMSSetPoint	EQU	R		
+OPSpFb	EQU	R		
+BMSSpFb	EQU	R		
+$ENDGROUP CBFrost
+$GROUP CBDehum
+BMSSP	EQU	R		
+BMSSetPoint	EQU	R		
+OPSpFb	EQU	R		
+BMSSpFb	EQU	R		
+$ENDGROUP CBDehum
+$GROUP HeatPump
+BMSForce	EQU	F		
+Auto	EQU	F		
+$ENDGROUP HeatPump
 ;;End of user defined symbols
 ;;Alias symbols to attach adjust tag 
 $ATTR TAGS=S_ADJUST
