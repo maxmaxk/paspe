@@ -22450,6 +22450,7 @@ BMSSetPoint	EQU	R
 BMSSP	EQU	R		
 OPSpFb	EQU	R		
 BMSSpFb	EQU	R		
+OPSP	EQU	R		
 $ENDGROUP HBLow
 ;;End of user defined symbols
 ;;Alias symbols to attach adjust tag 
