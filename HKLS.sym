@@ -22505,6 +22505,14 @@ $GROUP SPAPoolPump
 BMSForce	EQU	F		
 Auto	EQU	F		
 $ENDGROUP SPAPoolPump
+$GROUP HallFloorPump
+BMSForce	EQU	F		
+Auto	EQU	F		
+$ENDGROUP HallFloorPump
+$GROUP KitchenPump
+BMSForce	EQU	F		
+Auto	EQU	F		
+$ENDGROUP KitchenPump
 ;;End of user defined symbols
 ;;Alias symbols to attach adjust tag 
 $ATTR TAGS=S_ADJUST
