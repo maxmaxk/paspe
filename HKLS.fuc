@@ -1,9 +1,9 @@
 [Navigator]
-TopRow=249
-Selected=266
-Count=7
-NUM0=COB 5 :IO_FUP_
-NUM1=COB (0) :BKT002_Haupthaus ;Schwimmhalle, Haupthaus; Appartement
+TopRow=132
+Selected=142
+Count=2
+NUM0=COB (0) :BKT002_Haupthaus ;Schwimmhalle, Haupthaus; Appartement
+NUM1=COB 13 :ModbusServer
 NUM2=COB (2) :COB_0
 NUM3=COB 13 :ModbusServer
 NUM4=COB 15 :PV2newManage
@@ -4217,25 +4217,6 @@ E_3-12=0
 H_3-12=0
 E_3-13=0
 H_3-13=0
-[_INDREGO]
-D=0
-H=13
-E_0=1
-H_0=0
-ID_0=0
-IX_0=0
-E_1=0
-H_1=0
-ID_1=0
-IX_1=3
-E_3-10=0
-H_3-10=0
-E_3-11=0
-H_3-11=0
-E_3-12=0
-H_3-12=0
-E_3-13=0
-H_3-13=0
 [_DDC_COVALVDAMP22]
 D=0
 H=58
@@ -4431,6 +4412,25 @@ E_43-54=0
 H_43-54=0
 E_43-55=0
 H_43-55=0
+[_INDREGO]
+D=0
+H=13
+E_0=1
+H_0=0
+ID_0=0
+IX_0=0
+E_1=0
+H_1=0
+ID_1=0
+IX_1=3
+E_3-10=0
+H_3-10=0
+E_3-11=0
+H_3-11=0
+E_3-12=0
+H_3-12=0
+E_3-13=0
+H_3-13=0
 [_IDIV]
 D=0
 H=58

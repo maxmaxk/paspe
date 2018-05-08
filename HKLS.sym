@@ -22513,6 +22513,20 @@ $GROUP KitchenPump
 BMSForce	EQU	F		
 Auto	EQU	F		
 $ENDGROUP KitchenPump
+$GROUP Left2CeilPump
+BMSForce	EQU	F		
+$ENDGROUP Left2CeilPump
+$GROUP Left2FloorPump
+BMSForce	EQU	F		
+Auto	EQU	F		
+$ENDGROUP Left2FloorPump
+$GROUP Right2CeilPump
+BMSForce	EQU	F		
+$ENDGROUP Right2CeilPump
+$GROUP Right2FloorPump
+BMSForce	EQU	F		
+Auto	EQU	F		
+$ENDGROUP Right2FloorPump
 ;;End of user defined symbols
 ;;Alias symbols to attach adjust tag 
 $ATTR TAGS=S_ADJUST
