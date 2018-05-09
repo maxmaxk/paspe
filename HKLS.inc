@@ -11580,14 +11580,6 @@ __stc_id_0A59F_var_02___SG_HZG002_Haupthaus       EQU     F                    ;
 $ATTR TAGS=S_ADJUST
 __stc_id_0A5A0_var_00___SG_HZG002_Haupthaus       EQU     R                    ;static variable Value[1]
 $ATTR TAGS=S_ADJUST
-__stc_id_0A5A1_var_00___SG_HZG002_Haupthaus       EQU     F         [2]       ;static variable Fs[2]
-__stc_id_0A5A1_var_01___SG_HZG002_Haupthaus       EQU     F         [2]       ;static variable Fsm[2]
-__stc_id_0A5A1_var_02___SG_HZG002_Haupthaus       EQU     F                    ;static variable LED[1]
-$ATTR TAGS=S_ADJUST
-__stc_id_0B017_var_00___SG_HZG002_Haupthaus       EQU     F         [2]       ;static variable Fs[2]
-__stc_id_0B017_var_01___SG_HZG002_Haupthaus       EQU     F         [2]       ;static variable Fsm[2]
-__stc_id_0B017_var_02___SG_HZG002_Haupthaus       EQU     F                    ;static variable LED[1]
-$ATTR TAGS=S_ADJUST
 __stc_id_0A5A5_var_00___SG_HZG002_Haupthaus       EQU     R         [2]       ;static variable Rs[2]
 __stc_id_0A5A5_var_01___SG_HZG002_Haupthaus       EQU     F                    ;static variable LED[1]
 $ATTR TAGS=S_ADJUST
@@ -12527,14 +12519,6 @@ __stc_id_0A781_var_01___SG_HZG002_Haupthaus       EQU     R         [4]       ;s
 __stc_id_0A781_var_02___SG_HZG002_Haupthaus       EQU     F                    ;static variable LED[1]
 $ATTR TAGS=S_ADJUST
 __stc_id_0A782_var_00___SG_HZG002_Haupthaus       EQU     R                    ;static variable Value[1]
-$ATTR TAGS=S_ADJUST
-__stc_id_0A783_var_00___SG_HZG002_Haupthaus       EQU     F         [2]       ;static variable Fs[2]
-__stc_id_0A783_var_01___SG_HZG002_Haupthaus       EQU     F         [2]       ;static variable Fsm[2]
-__stc_id_0A783_var_02___SG_HZG002_Haupthaus       EQU     F                    ;static variable LED[1]
-$ATTR TAGS=S_ADJUST
-__stc_id_0A784_var_00___SG_HZG002_Haupthaus       EQU     F         [2]       ;static variable Fs[2]
-__stc_id_0A784_var_01___SG_HZG002_Haupthaus       EQU     F         [2]       ;static variable Fsm[2]
-__stc_id_0A784_var_02___SG_HZG002_Haupthaus       EQU     F                    ;static variable LED[1]
 $ATTR TAGS=S_ADJUST
 __stc_id_0A787_var_00___SG_HZG002_Haupthaus       EQU     R         [2]       ;static variable Rs[2]
 __stc_id_0A787_var_01___SG_HZG002_Haupthaus       EQU     F                    ;static variable LED[1]
@@ -19002,22 +18986,6 @@ ___FlgDyn_C00ABB0___SG_COB_0		EQU		F [11]		;	Define 11 registers for dynamic usa
 ;;end of dynamic symbols allocated for this BLOCK
 
 ;;Start Static symbols allocated for this BLOCK
-$ATTR TAGS=S_ADJUST
-__stc_id_0B343_var_00___SG_COB_0       EQU     F         [2]       ;static variable Fs[2]
-__stc_id_0B343_var_01___SG_COB_0       EQU     F         [2]       ;static variable Fsm[2]
-__stc_id_0B343_var_02___SG_COB_0       EQU     F                    ;static variable LED[1]
-$ATTR TAGS=S_ADJUST
-__stc_id_0B344_var_00___SG_COB_0       EQU     F         [2]       ;static variable Fs[2]
-__stc_id_0B344_var_01___SG_COB_0       EQU     F         [2]       ;static variable Fsm[2]
-__stc_id_0B344_var_02___SG_COB_0       EQU     F                    ;static variable LED[1]
-$ATTR TAGS=S_ADJUST
-__stc_id_0B345_var_00___SG_COB_0       EQU     F         [2]       ;static variable Fs[2]
-__stc_id_0B345_var_01___SG_COB_0       EQU     F         [2]       ;static variable Fsm[2]
-__stc_id_0B345_var_02___SG_COB_0       EQU     F                    ;static variable LED[1]
-$ATTR TAGS=S_ADJUST
-__stc_id_0B346_var_00___SG_COB_0       EQU     F         [2]       ;static variable Fs[2]
-__stc_id_0B346_var_01___SG_COB_0       EQU     F         [2]       ;static variable Fsm[2]
-__stc_id_0B346_var_02___SG_COB_0       EQU     F                    ;static variable LED[1]
 $ATTR TAGS=S_ADJUST
 __stc_id_0B743_var_00___SG_COB_0       EQU     F         [2]       ;static variable Fs[2]
 __stc_id_0B743_var_01___SG_COB_0       EQU     F         [2]       ;static variable Fsm[2]
