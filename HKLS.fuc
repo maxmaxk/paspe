@@ -1,10 +1,10 @@
 [Navigator]
-TopRow=529
-Selected=539
+TopRow=528
+Selected=-1
 Count=4
 NUM0=COB 5 :IO_FUP_
 NUM1=COB 9 :HZG002_Haupthaus
-NUM2=COB (12) :COB_0
+NUM2=COB (8) :HZG003_ ;Nebenanlagen Haupthaus
 NUM3=COB 13 :ModbusServer
 NUM4=COB 15 :PV2newManage
 NUM5=COB 18 :MB3

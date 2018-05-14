@@ -22527,6 +22527,19 @@ $GROUP Right2FloorPump
 BMSForce	EQU	F		
 Auto	EQU	F		
 $ENDGROUP Right2FloorPump
+$GROUP PoolPump
+BMSForce	EQU	F		
+Auto	EQU	F		
+$ENDGROUP PoolPump
+$GROUP HamamPump
+BMSForce	EQU	F		
+$ENDGROUP HamamPump
+$GROUP PoolWater
+BMSSP	EQU	R		
+BMSSetPoint	EQU	R		
+OPSpFb	EQU	R		
+BMSSpFb	EQU	R		
+$ENDGROUP PoolWater
 ;;End of user defined symbols
 ;;Alias symbols to attach adjust tag 
 $ATTR TAGS=S_ADJUST
