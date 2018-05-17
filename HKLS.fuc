@@ -1,10 +1,10 @@
 [Navigator]
-TopRow=132
-Selected=154
-Count=2
+TopRow=25
+Selected=-1
+Count=3
 NUM0=COB 6 :HZE001_HZE002_
 NUM1=COB 13 :ModbusServer
-NUM2=COB (8) :HZG003_ ;Nebenanlagen Haupthaus
+NUM2=COB 19 :EcoModeCOB
 NUM3=COB 13 :ModbusServer
 NUM4=COB 15 :PV2newManage
 NUM5=COB 18 :MB3
@@ -4129,25 +4129,6 @@ E_10-21=0
 H_10-21=0
 E_10-22=0
 H_10-22=0
-[_BAND]
-D=0
-H=58
-E_0=1
-H_0=0
-ID_0=0
-IX_0=0
-E_1=0
-H_1=0
-ID_1=0
-IX_1=3
-E_3-10=0
-H_3-10=0
-E_3-11=0
-H_3-11=0
-E_3-12=0
-H_3-12=0
-E_3-13=0
-H_3-13=0
 [_DDC_COVALVDAMP22]
 D=0
 H=58
@@ -4434,6 +4415,25 @@ H_3-13=0
 [_INDREGO]
 D=0
 H=13
+E_0=1
+H_0=0
+ID_0=0
+IX_0=0
+E_1=0
+H_1=0
+ID_1=0
+IX_1=3
+E_3-10=0
+H_3-10=0
+E_3-11=0
+H_3-11=0
+E_3-12=0
+H_3-12=0
+E_3-13=0
+H_3-13=0
+[_BAND]
+D=0
+H=58
 E_0=1
 H_0=0
 ID_0=0
