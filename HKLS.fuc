@@ -1,6 +1,6 @@
 [Navigator]
 TopRow=12
-Selected=33
+Selected=-1
 Count=3
 NUM0=COB 6 :HZE001_HZE002_
 NUM1=COB 13 :ModbusServer
