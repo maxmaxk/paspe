@@ -22540,6 +22540,23 @@ BMSSetPoint	EQU	R
 OPSpFb	EQU	R		
 BMSSpFb	EQU	R		
 $ENDGROUP PoolWater
+$GROUP Season
+TempWinterON	EQU	R		
+TempWinterOFF	EQU	R		
+Mode	EQU	R		
+$ENDGROUP Season
+$GROUP EZR0258
+NeedForCool	EQU	F		
+$ENDGROUP EZR0258
+$GROUP EZR1002
+NeedForCool	EQU	F		
+$ENDGROUP EZR1002
+$GROUP EZR1006
+NeedForCool	EQU	F		
+$ENDGROUP EZR1006
+$GROUP RLT002
+BlockRecup	EQU	F		
+$ENDGROUP RLT002
 ;;End of user defined symbols
 ;;Alias symbols to attach adjust tag 
 $ATTR TAGS=S_ADJUST
