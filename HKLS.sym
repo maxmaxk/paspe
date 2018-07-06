@@ -22557,6 +22557,15 @@ $ENDGROUP EZR1006
 $GROUP RLT002
 BlockRecup	EQU	F		
 $ENDGROUP RLT002
+$GROUP Window
+OpenCmd	EQU	F		
+OpenImp	EQU	F		
+CloseCmd	EQU	F		
+$ENDGROUP Window
+WindowCloseImp	EQU	F		
+$GROUP Window
+CloseImp	EQU	F		
+$ENDGROUP Window
 ;;End of user defined symbols
 ;;Alias symbols to attach adjust tag 
 $ATTR TAGS=S_ADJUST
