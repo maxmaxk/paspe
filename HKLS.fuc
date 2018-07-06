@@ -1,11 +1,11 @@
 [Navigator]
-TopRow=79
-Selected=131
-Count=3
+TopRow=410
+Selected=436
+Count=4
 NUM0=COB 4 :MODBus_Menerga
-NUM1=COB 13 :ModbusServer
-NUM2=COB 17 :Framugas
-NUM3=COB 19 :EcoModeCOB
+NUM1=COB 9 :HZG002_Haupthaus
+NUM2=COB 13 :ModbusServer
+NUM3=COB 17 :Framugas
 NUM4=COB 19 :EcoModeCOB
 NUM5=COB 19 :EcoModeCOB
 NUM6=COB 19 :EcoModeCOB

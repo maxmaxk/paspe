@@ -7146,8 +7146,8 @@ ProbeList=
 StringLength=24
 ProbeList=21,30,22,27,TYP(12352),1
 [PROBE__BL_44207_3697]
-StringLength=0
-ProbeList=
+StringLength=48
+ProbeList=66,10,68,9,TYP(12352),1;66,26,68,25,TYP(12352),1
 [PROBE__BL_44029_3698]
-StringLength=0
-ProbeList=
+StringLength=97
+ProbeList=29,53,31,52,TYP(12352),1;28,56,30,55,TYP(12352),1;46,30,48,29,TYP(12352),1;45,6,47,5,TYP(12352),1
