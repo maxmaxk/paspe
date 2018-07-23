@@ -132,7 +132,7 @@ __Saia_Sfup__.MaxFlag	EQU		16383	;For Fupla probes
 __Saia_Sfup__.rTmpCalc	EQU	R	10813
 __Saia_Sfup__.rTmpCalcRemainder	EQU	R	10814
 __Saia_Sfup__.rTmpCalcResult	EQU	R	10815
-__SAIASystemBuildTime__	EQU		036210B1DH	;Build key
+__SAIASystemBuildTime__	EQU		0CE527CA1H	;Build key
 __SASMVERS__	EQU		21410	;Assembler/linker version, old format (abccc)
 __TIME_BASE__	EQU		100	;Timer timebase in ms
 __TIME_BASE_EXTN__	EQU		100
@@ -1219,6 +1219,8 @@ $ATTR TAGS=S_ADJUST
 Analogue.AnaDig_7.Low	EQU	R	5932	;(5) Threshold value for Sigal Low
 Analogue.AnaDig_7.Status	EQU	F	11399	;(2) Status of the digital value
 Controller_	EQU	COB	1
+DewPoint.EG.Limit	EQU	R	11300
+DewPoint.OG.Limit	EQU	R	11301
 EcoMode	EQU	F	8932
 EcoSetPoint	EQU	R	3621
 $ATTR TAGS=S_ADJUST

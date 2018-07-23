@@ -370,22 +370,6 @@ ___RegSta_C000F45___SG_IO_FUP_		EQU		R [11]		;	Define 11 registers for dynamic u
 
 ;;Start Static symbols allocated for this BLOCK
 $ATTR TAGS=S_ADJUST
-__stc_id_082CC_var_00___SG_IO_FUP_       EQU     F         [2]       ;static variable Fs[2]
-__stc_id_082CC_var_01___SG_IO_FUP_       EQU     F         [2]       ;static variable Fsm[2]
-__stc_id_082CC_var_02___SG_IO_FUP_       EQU     F                    ;static variable LED[1]
-$ATTR TAGS=S_ADJUST
-__stc_id_082CD_var_00___SG_IO_FUP_       EQU     F         [2]       ;static variable Fs[2]
-__stc_id_082CD_var_01___SG_IO_FUP_       EQU     F         [2]       ;static variable Fsm[2]
-__stc_id_082CD_var_02___SG_IO_FUP_       EQU     F                    ;static variable LED[1]
-$ATTR TAGS=S_ADJUST
-__stc_id_082CE_var_00___SG_IO_FUP_       EQU     F         [2]       ;static variable Fs[2]
-__stc_id_082CE_var_01___SG_IO_FUP_       EQU     F         [2]       ;static variable Fsm[2]
-__stc_id_082CE_var_02___SG_IO_FUP_       EQU     F                    ;static variable LED[1]
-$ATTR TAGS=S_ADJUST
-__stc_id_082CF_var_00___SG_IO_FUP_       EQU     F         [2]       ;static variable Fs[2]
-__stc_id_082CF_var_01___SG_IO_FUP_       EQU     F         [2]       ;static variable Fsm[2]
-__stc_id_082CF_var_02___SG_IO_FUP_       EQU     F                    ;static variable LED[1]
-$ATTR TAGS=S_ADJUST
 __stc_id_082E3_var_00___SG_IO_FUP_       EQU     F         [2]       ;static variable Fs[2]
 __stc_id_082E3_var_01___SG_IO_FUP_       EQU     F         [2]       ;static variable Fsm[2]
 __stc_id_082E3_var_02___SG_IO_FUP_       EQU     F                    ;static variable LED[1]
@@ -2289,10 +2273,10 @@ $ATTR TAGS=S_ADJUST
 __stc_id_08F17_var_02___SG_IO_FUP_       EQU     R                    ;static variable GwUnten[1]
 ;;End Static symbols allocated for this BLOCK
 ;;Start Dynamic symbol aliases allocated for this BLOCK
-__fup_C000F45_02_3a_07___SG_IO_FUP_       EQU                        ___FlgDyn_C000F45___SG_IO_FUP_+0 ;Export name of network.
-__fup_C000F45_02_3a_0a___SG_IO_FUP_       EQU                        ___FlgDyn_C000F45___SG_IO_FUP_+1 ;Export name of network.
-__fup_C000F45_02_3a_0d___SG_IO_FUP_       EQU                        ___FlgDyn_C000F45___SG_IO_FUP_+2 ;Export name of network.
-__fup_C000F45_02_3a_10___SG_IO_FUP_       EQU                        ___FlgDyn_C000F45___SG_IO_FUP_+3 ;Export name of network.
+__fup_C000F45_02_39_07___SG_IO_FUP_       EQU                        ___FlgDyn_C000F45___SG_IO_FUP_+0 ;Export name of network.
+__fup_C000F45_02_39_0b___SG_IO_FUP_       EQU                        ___FlgDyn_C000F45___SG_IO_FUP_+1 ;Export name of network.
+__fup_C000F45_02_39_0f___SG_IO_FUP_       EQU                        ___FlgDyn_C000F45___SG_IO_FUP_+2 ;Export name of network.
+__fup_C000F45_02_39_13___SG_IO_FUP_       EQU                        ___FlgDyn_C000F45___SG_IO_FUP_+3 ;Export name of network.
 __fup_C000F45_03_3a_07___SG_IO_FUP_       EQU                        ___FlgDyn_C000F45___SG_IO_FUP_+0 ;Export name of network.
 __fup_C000F45_03_3a_0a___SG_IO_FUP_       EQU                        ___FlgDyn_C000F45___SG_IO_FUP_+1 ;Export name of network.
 __fup_C000F45_03_3a_0d___SG_IO_FUP_       EQU                        ___FlgDyn_C000F45___SG_IO_FUP_+2 ;Export name of network.
@@ -7233,6 +7217,7 @@ __fup_C00344E_4C_21_16___SG_HZG001_Schwimmhalle       EQU                       
 ;;dynamic symbols allocated for this BLOCK
 ___FlgDyn_C000380___SG_HZG002_Haupthaus		EQU		F [38]		;	Define 38 registers for dynamic usage.
 ___RegDyn_C000380___SG_HZG002_Haupthaus		EQU		R [24]		;	Define 24 registers for dynamic usage.
+___RegSta_C000380___SG_HZG002_Haupthaus		EQU		R [9]		;	Define 9 registers for dynamic usage.
 ___CntDyn_C000380___SG_HZG002_Haupthaus		EQU		C [2]		;	Define 2 registers for dynamic usage.
 ;;end of dynamic symbols allocated for this BLOCK
 
@@ -7536,6 +7521,15 @@ __stc_id_0A8F6_var_11___SG_HZG002_Haupthaus       EQU     F         [5]       ;s
 __stc_id_0A8F6_var_12___SG_HZG002_Haupthaus       EQU     R         [3]       ;static variable sReg[3]
 __stc_id_0A8F6_var_13___SG_HZG002_Haupthaus       EQU     T         [2]       ;static variable sTmr[2]
 __stc_id_0A8F6_var_15___SG_HZG002_Haupthaus       EQU     F                    ;static variable LED[1]
+__stc_id_0B8B7_var_00___SG_HZG002_Haupthaus       EQU     F                    ;static variable Fs[1]
+__stc_id_0B8B7_var_01___SG_HZG002_Haupthaus       EQU     R         [4]       ;static variable Rs[4]
+__stc_id_0B8B7_var_02___SG_HZG002_Haupthaus       EQU     F                    ;static variable LED[1]
+__stc_id_0B8B8_var_00___SG_HZG002_Haupthaus       EQU     F                    ;static variable Fs[1]
+__stc_id_0B8B8_var_01___SG_HZG002_Haupthaus       EQU     R         [4]       ;static variable Rs[4]
+__stc_id_0B8B8_var_02___SG_HZG002_Haupthaus       EQU     F                    ;static variable LED[1]
+__stc_id_0B8BA_var_00___SG_HZG002_Haupthaus       EQU     F                    ;static variable Fs[1]
+__stc_id_0B8BA_var_01___SG_HZG002_Haupthaus       EQU     R         [4]       ;static variable Rs[4]
+__stc_id_0B8BA_var_02___SG_HZG002_Haupthaus       EQU     F                    ;static variable LED[1]
 $ATTR TAGS=S_ADJUST
 __stc_id_0ABE4_var_00___SG_HZG002_Haupthaus       EQU     F         [2]       ;static variable Fs[2]
 __stc_id_0ABE4_var_01___SG_HZG002_Haupthaus       EQU     F         [2]       ;static variable Fsm[2]
@@ -13283,6 +13277,16 @@ __fup_C000380_12_37_1c___SG_HZG002_Haupthaus       EQU                        __
 __fup_C000380_12_37_2d___SG_HZG002_Haupthaus       EQU                        ___RegDyn_C000380___SG_HZG002_Haupthaus+0 ;Export name of network.
 __fup_C000380_12_37_2f___SG_HZG002_Haupthaus       EQU                        ___RegDyn_C000380___SG_HZG002_Haupthaus+1 ;Export name of network.
 __fup_C000380_12_37_31___SG_HZG002_Haupthaus       EQU                        ___FlgDyn_C000380___SG_HZG002_Haupthaus+2 ;Export name of network.
+__fup_C000380_13_32_0c___SG_HZG002_Haupthaus       EQU                        ___RegSta_C000380___SG_HZG002_Haupthaus+0 ;Export name of network.
+__fup_C000380_13_32_0e___SG_HZG002_Haupthaus       EQU                        ___RegSta_C000380___SG_HZG002_Haupthaus+1 ;Export name of network.
+__fup_C000380_13_32_10___SG_HZG002_Haupthaus       EQU                        ___RegSta_C000380___SG_HZG002_Haupthaus+2 ;Export name of network.
+__fup_C000380_13_44_13___SG_HZG002_Haupthaus       EQU                        ___RegDyn_C000380___SG_HZG002_Haupthaus+1 ;Export name of network.
+__fup_C000380_13_32_1c___SG_HZG002_Haupthaus       EQU                        ___RegSta_C000380___SG_HZG002_Haupthaus+3 ;Export name of network.
+__fup_C000380_13_32_18___SG_HZG002_Haupthaus       EQU                        ___RegSta_C000380___SG_HZG002_Haupthaus+4 ;Export name of network.
+__fup_C000380_13_32_1a___SG_HZG002_Haupthaus       EQU                        ___RegSta_C000380___SG_HZG002_Haupthaus+5 ;Export name of network.
+__fup_C000380_13_32_29___SG_HZG002_Haupthaus       EQU                        ___RegSta_C000380___SG_HZG002_Haupthaus+6 ;Export name of network.
+__fup_C000380_13_32_2b___SG_HZG002_Haupthaus       EQU                        ___RegSta_C000380___SG_HZG002_Haupthaus+7 ;Export name of network.
+__fup_C000380_13_32_2d___SG_HZG002_Haupthaus       EQU                        ___RegSta_C000380___SG_HZG002_Haupthaus+8 ;Export name of network.
 __fup_C000380_15_29_11___SG_HZG002_Haupthaus       EQU                        ___FlgDyn_C000380___SG_HZG002_Haupthaus+0 ;Export name of network.
 __fup_C000380_16_38_07___SG_HZG002_Haupthaus       EQU                        ___FlgDyn_C000380___SG_HZG002_Haupthaus+0 ;Export name of network.
 __fup_C000380_16_38_09___SG_HZG002_Haupthaus       EQU                        ___FlgDyn_C000380___SG_HZG002_Haupthaus+1 ;Export name of network.

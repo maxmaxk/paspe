@@ -22566,6 +22566,12 @@ WindowCloseImp	EQU	F
 $GROUP Window
 CloseImp	EQU	F		
 $ENDGROUP Window
+$GROUP DewPoint.OG
+Limit	PEQU	R		
+$ENDGROUP DewPoint.OG
+$GROUP DewPoint.EG
+Limit	PEQU	R		
+$ENDGROUP DewPoint.EG
 ;;End of user defined symbols
 ;;Alias symbols to attach adjust tag 
 $ATTR TAGS=S_ADJUST
