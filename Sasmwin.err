@@ -1,2 +1,4 @@
-;E0_PASPE_RLT.pcd 07/13/18 17:21:55
+;E0_PASPE_RLT.pcd 07/23/18 19:08:03
 Warning 1521: HKLS.fbd: Line 65536: More than 65535 lines, cross-reference list will be invalid
+Error 1175: HKLS.sym: Line 22595: Dynamic address allocation not allowed for this type: Wadrobe.BMSForce: I
+Error 2021: HKLS.obj: Unresolved external symbol: __mac__rt1u68.man

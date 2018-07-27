@@ -22572,6 +22572,43 @@ $ENDGROUP DewPoint.OG
 $GROUP DewPoint.EG
 Limit	PEQU	R		
 $ENDGROUP DewPoint.EG
+$GROUP Heater1
+LowProcSP	EQU	R		
+$ENDGROUP Heater1
+MBError	EQU	F		
+$GROUP Heater1
+HiProcSP	EQU	R		
+$ENDGROUP Heater1
+PoolFlorrValvAuto	EQU	R		
+$GROUP PoolFlorrValve
+Auto	EQU	R		
+$ENDGROUP PoolFlorrValve
+$GROUP PoolFloorValve
+Auto	EQU	R		
+BMSForce	EQU	R		
+$ENDGROUP PoolFloorValve
+$GROUP LobbyPoolFloorValve
+BMSForce	EQU	R		
+$ENDGROUP LobbyPoolFloorValve
+$GROUP Wadrobe
+ValveAuto	EQU	R		
+BMSForce	EQU	I		
+$ENDGROUP Wadrobe
+$GROUP Wardrobe
+BMSForce	EQU	R		
+ValveAuto	EQU	R		
+$ENDGROUP Wardrobe
+$GROUP SaunaMan
+ValveAuto	EQU	R		
+BMSForce	EQU	R		
+$ENDGROUP SaunaMan
+$GROUP MassageRoomFloorValve
+BMSForce	EQU	R		
+$ENDGROUP MassageRoomFloorValve
+$GROUP Hall9
+BMSForce	EQU	R		
+ValveAuto	EQU	R		
+$ENDGROUP Hall9
 ;;End of user defined symbols
 ;;Alias symbols to attach adjust tag 
 $ATTR TAGS=S_ADJUST
