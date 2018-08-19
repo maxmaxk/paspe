@@ -22609,6 +22609,19 @@ $GROUP Hall9
 BMSForce	EQU	R		
 ValveAuto	EQU	R		
 $ENDGROUP Hall9
+$GROUP Hall
+BMSForce	EQU	R		
+$ENDGROUP Hall
+$GROUP Kitchen
+ValveAuto	EQU	R		
+BMSForce	EQU	R		
+$ENDGROUP Kitchen
+$GROUP LivRoomFloor
+BMSForce	EQU	R		
+$ENDGROUP LivRoomFloor
+$GROUP LivRoomCeil
+BMSForce	EQU	R		
+$ENDGROUP LivRoomCeil
 ;;End of user defined symbols
 ;;Alias symbols to attach adjust tag 
 $ATTR TAGS=S_ADJUST
