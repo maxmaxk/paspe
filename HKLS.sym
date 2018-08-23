@@ -22591,8 +22591,8 @@ $GROUP LobbyPoolFloorValve
 BMSForce	EQU	R		
 $ENDGROUP LobbyPoolFloorValve
 $GROUP Wadrobe
-ValveAuto	EQU	R		
-BMSForce	EQU	I		
+xdd	EQU	R		
+xx	EQU	R		
 $ENDGROUP Wadrobe
 $GROUP Wardrobe
 BMSForce	EQU	R		
@@ -22622,6 +22622,48 @@ $ENDGROUP LivRoomFloor
 $GROUP LivRoomCeil
 BMSForce	EQU	R		
 $ENDGROUP LivRoomCeil
+$GROUP R11Floor
+BMSForce	EQU	R		
+$ENDGROUP R11Floor
+$GROUP R9Floor
+BMSForce	EQU	R		
+$ENDGROUP R9Floor
+$GROUP R8Floor
+BMSForce	EQU	R		
+$ENDGROUP R8Floor
+$GROUP R10Floor
+BMSForce	EQU	R		
+$ENDGROUP R10Floor
+$GROUP R10Ceil
+BMSForce	EQU	R		
+$ENDGROUP R10Ceil
+$GROUP R12Floor
+BMSForce	EQU	R		
+$ENDGROUP R12Floor
+$GROUP R7Floor
+BMSForce	EQU	R		
+$ENDGROUP R7Floor
+$GROUP R7Ceil
+BMSForce	EQU	R		
+$ENDGROUP R7Ceil
+$GROUP R6Floor
+BMSForce	EQU	R		
+$ENDGROUP R6Floor
+$GROUP R6Ceil
+BMSForce	EQU	R		
+$ENDGROUP R6Ceil
+$GROUP R4Floor
+BMSForce	EQU	R		
+$ENDGROUP R4Floor
+$GROUP R2Floor
+BMSForce	EQU	R		
+$ENDGROUP R2Floor
+$GROUP R2Ceil
+BMSForce	EQU	R		
+$ENDGROUP R2Ceil
+$GROUP R3Floor
+BMSForce	EQU	R		
+$ENDGROUP R3Floor
 ;;End of user defined symbols
 ;;Alias symbols to attach adjust tag 
 $ATTR TAGS=S_ADJUST
