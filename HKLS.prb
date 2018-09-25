@@ -1,7 +1,7 @@
 [HKLS_Backup]
 POSITION=1981-9
 [HKLS]
-POSITION=827-14
+POSITION=1-10
 [DEFAULT]
 Format=12352
 Decimal=1
@@ -6126,8 +6126,8 @@ ProbeList=
 StringLength=0
 ProbeList=
 [PROBE__BL_13986_3323]
-StringLength=49
-ProbeList=44,42,46,41,TYP(12352),1;26,39,28,38,TYP(12352),1
+StringLength=74
+ProbeList=44,42,46,41,TYP(12352),1;26,39,28,38,TYP(12352),1;32,51,34,50,TYP(12352),1
 [PROBE__BL_13986_3324]
 StringLength=0
 ProbeList=
