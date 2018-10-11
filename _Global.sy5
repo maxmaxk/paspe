@@ -132,7 +132,7 @@ __Saia_Sfup__.MaxFlag	EQU		16383	;For Fupla probes
 __Saia_Sfup__.rTmpCalc	EQU	R	10813
 __Saia_Sfup__.rTmpCalcRemainder	EQU	R	10814
 __Saia_Sfup__.rTmpCalcResult	EQU	R	10815
-__SAIASystemBuildTime__	EQU		0D5AE3F60H	;Build key
+__SAIASystemBuildTime__	EQU		0AF10A0C1H	;Build key
 __SASMVERS__	EQU		21410	;Assembler/linker version, old format (abccc)
 __TIME_BASE__	EQU		100	;Timer timebase in ms
 __TIME_BASE_EXTN__	EQU		100
@@ -11698,7 +11698,9 @@ PIN.Level2	EQU	TEXT	7877
 PIN.Level3	EQU	TEXT	7879
 PIN.Level4	EQU	TEXT	7880
 PIN.Logouttime	EQU	R	9755
+Pump53F.BMSForce	EQU	F	10170
 PV1.Manual.AirDamp	EQU	R	11111
+R11Ceil.BMSForce	EQU	R	11332
 RLT001.AUL.Klappe.Linear.Errechnet	EQU	R	9895	;(3) Resultierender Wert aus der Umrechnung
 $ATTR TAGS=S_ADJUST
 RLT001.AUL.Klappe.Linear.KurveX1	EQU	R	9896	;(4) Wert X1
@@ -13843,3 +13845,4 @@ TWW001.ZIRK.UWP.Strng.StundenMax	EQU	R	10951	;(4) Anzahl Betriebsstunden bis War
 $ATTR TAGS=S_ADJUST
 TWW001.ZIRK.UWP.Strng.Wartung	EQU	F	16077	;(3) Anzeige Wartung erforderlich
 uBT_Reboot	EQU	F	16078
+Valve53F.BMSForce	EQU	R	11333
