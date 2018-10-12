@@ -22673,6 +22673,9 @@ $ENDGROUP Pump53F
 $GROUP Valve53F
 BMSForce	PEQU	R		
 $ENDGROUP Valve53F
+$GROUP Heater1
+OverHeat	PEQU	F		
+$ENDGROUP Heater1
 ;;End of user defined symbols
 ;;Alias symbols to attach adjust tag 
 $ATTR TAGS=S_ADJUST

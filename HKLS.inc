@@ -4664,6 +4664,8 @@ __stc_id_0AFF1_var_13___SG_HZE001_HZE002_       EQU     T         [2]       ;sta
 __stc_id_0AFF1_var_15___SG_HZE001_HZE002_       EQU     F                    ;static variable LED[1]
 __stc_id_0B114_var_00___SG_HZE001_HZE002_       EQU     F         [2]       ;static variable Fs[2]
 __stc_id_0B114_var_02___SG_HZE001_HZE002_       EQU     F                    ;static variable LED[1]
+$ATTR TAGS=S_ADJUST
+__stc_id_0B993_var_00___SG_HZE001_HZE002_       EQU     F                    ;static variable Sta[1]
 ;;resources used as online adjust variable
 $ATTR TAGS=S_ADJUST
 __sadj_id_0B114_var_Fs_1 EQU __stc_id_0B114_var_00___SG_HZE001_HZE002_ + 1 
@@ -4943,19 +4945,25 @@ __fup_C000902_1A_27_4f___SG_HZE001_HZE002_       EQU                        ___F
 __fup_C000902_1A_21_55___SG_HZE001_HZE002_       EQU                        ___FlgDyn_C000902___SG_HZE001_HZE002_+19 ;Export name of network.
 __fup_C000902_1A_31_55___SG_HZE001_HZE002_       EQU                        ___FlgDyn_C000902___SG_HZE001_HZE002_+20 ;Export name of network.
 __fup_C000902_1A_21_5b___SG_HZE001_HZE002_       EQU                        ___FlgDyn_C000902___SG_HZE001_HZE002_+22 ;Export name of network.
-__fup_C000902_1B_34_23___SG_HZE001_HZE002_       EQU                        ___RegDyn_C000902___SG_HZE001_HZE002_+0 ;Export name of network.
-__fup_C000902_1B_36_31___SG_HZE001_HZE002_       EQU                        ___RegDyn_C000902___SG_HZE001_HZE002_+1 ;Export name of network.
-__fup_C000902_1B_36_33___SG_HZE001_HZE002_       EQU                        ___RegDyn_C000902___SG_HZE001_HZE002_+2 ;Export name of network.
-__fup_C000902_1B_36_35___SG_HZE001_HZE002_       EQU                        ___FlgDyn_C000902___SG_HZE001_HZE002_+0 ;Export name of network.
-__fup_C000902_1B_29_3c___SG_HZE001_HZE002_       EQU                        ___RegDyn_C000902___SG_HZE001_HZE002_+3 ;Export name of network.
-__fup_C000902_1B_36_42___SG_HZE001_HZE002_       EQU                        ___RegDyn_C000902___SG_HZE001_HZE002_+4 ;Export name of network.
-__fup_C000902_1B_36_44___SG_HZE001_HZE002_       EQU                        ___FlgDyn_C000902___SG_HZE001_HZE002_+1 ;Export name of network.
-__fup_C000902_1B_36_46___SG_HZE001_HZE002_       EQU                        ___FlgDyn_C000902___SG_HZE001_HZE002_+2 ;Export name of network.
-__fup_C000902_1B_36_48___SG_HZE001_HZE002_       EQU                        ___FlgDyn_C000902___SG_HZE001_HZE002_+3 ;Export name of network.
-__fup_C000902_1B_36_4a___SG_HZE001_HZE002_       EQU                        ___FlgDyn_C000902___SG_HZE001_HZE002_+4 ;Export name of network.
-__fup_C000902_1B_36_57___SG_HZE001_HZE002_       EQU                        ___RegDyn_C000902___SG_HZE001_HZE002_+5 ;Export name of network.
-__fup_C000902_1B_36_59___SG_HZE001_HZE002_       EQU                        ___RegDyn_C000902___SG_HZE001_HZE002_+6 ;Export name of network.
-__fup_C000902_1B_36_5b___SG_HZE001_HZE002_       EQU                        ___FlgDyn_C000902___SG_HZE001_HZE002_+5 ;Export name of network.
+__fup_C000902_1B_2d_09___SG_HZE001_HZE002_       EQU                        ___FlgDyn_C000902___SG_HZE001_HZE002_+0 ;Export name of network.
+__fup_C000902_1B_2d_0f___SG_HZE001_HZE002_       EQU                        ___FlgDyn_C000902___SG_HZE001_HZE002_+1 ;Export name of network.
+__fup_C000902_1B_40_1f___SG_HZE001_HZE002_       EQU                        ___RegDyn_C000902___SG_HZE001_HZE002_+3 ;Export name of network.
+__fup_C000902_1B_4a_1f___SG_HZE001_HZE002_       EQU                        ___FlgDyn_C000902___SG_HZE001_HZE002_+2 ;Export name of network.
+__fup_C000902_1B_29_2a___SG_HZE001_HZE002_       EQU                        ___RegDyn_C000902___SG_HZE001_HZE002_+4 ;Export name of network.
+__fup_C000902_1B_34_23___SG_HZE001_HZE002_       EQU                        ___RegDyn_C000902___SG_HZE001_HZE002_+5 ;Export name of network.
+__fup_C000902_1B_23_2a___SG_HZE001_HZE002_       EQU                        ___FlgDyn_C000902___SG_HZE001_HZE002_+3 ;Export name of network.
+__fup_C000902_1B_36_31___SG_HZE001_HZE002_       EQU                        ___RegDyn_C000902___SG_HZE001_HZE002_+6 ;Export name of network.
+__fup_C000902_1B_36_33___SG_HZE001_HZE002_       EQU                        ___RegDyn_C000902___SG_HZE001_HZE002_+7 ;Export name of network.
+__fup_C000902_1B_36_35___SG_HZE001_HZE002_       EQU                        ___FlgDyn_C000902___SG_HZE001_HZE002_+5 ;Export name of network.
+__fup_C000902_1B_29_3c___SG_HZE001_HZE002_       EQU                        ___RegDyn_C000902___SG_HZE001_HZE002_+8 ;Export name of network.
+__fup_C000902_1B_36_42___SG_HZE001_HZE002_       EQU                        ___RegDyn_C000902___SG_HZE001_HZE002_+9 ;Export name of network.
+__fup_C000902_1B_36_44___SG_HZE001_HZE002_       EQU                        ___FlgDyn_C000902___SG_HZE001_HZE002_+6 ;Export name of network.
+__fup_C000902_1B_36_46___SG_HZE001_HZE002_       EQU                        ___FlgDyn_C000902___SG_HZE001_HZE002_+7 ;Export name of network.
+__fup_C000902_1B_36_48___SG_HZE001_HZE002_       EQU                        ___FlgDyn_C000902___SG_HZE001_HZE002_+8 ;Export name of network.
+__fup_C000902_1B_36_4a___SG_HZE001_HZE002_       EQU                        ___FlgDyn_C000902___SG_HZE001_HZE002_+9 ;Export name of network.
+__fup_C000902_1B_36_57___SG_HZE001_HZE002_       EQU                        ___RegDyn_C000902___SG_HZE001_HZE002_+10 ;Export name of network.
+__fup_C000902_1B_36_59___SG_HZE001_HZE002_       EQU                        ___RegDyn_C000902___SG_HZE001_HZE002_+11 ;Export name of network.
+__fup_C000902_1B_36_5b___SG_HZE001_HZE002_       EQU                        ___FlgDyn_C000902___SG_HZE001_HZE002_+10 ;Export name of network.
 __fup_C000902_1C_26_1a___SG_HZE001_HZE002_       EQU                        ___FlgDyn_C000902___SG_HZE001_HZE002_+0 ;Export name of network.
 __fup_C000902_1C_26_2e___SG_HZE001_HZE002_       EQU                        ___FlgDyn_C000902___SG_HZE001_HZE002_+1 ;Export name of network.
 __fup_C000902_1D_39_15___SG_HZE001_HZE002_       EQU                        ___FlgDyn_C000902___SG_HZE001_HZE002_+0 ;Export name of network.
