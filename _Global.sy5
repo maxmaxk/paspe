@@ -132,7 +132,7 @@ __Saia_Sfup__.MaxFlag	EQU		16383	;For Fupla probes
 __Saia_Sfup__.rTmpCalc	EQU	R	10813
 __Saia_Sfup__.rTmpCalcRemainder	EQU	R	10814
 __Saia_Sfup__.rTmpCalcResult	EQU	R	10815
-__SAIASystemBuildTime__	EQU		0C4DAB520H	;Build key
+__SAIASystemBuildTime__	EQU		033C7D272H	;Build key
 __SASMVERS__	EQU		21410	;Assembler/linker version, old format (abccc)
 __TIME_BASE__	EQU		100	;Timer timebase in ms
 __TIME_BASE_EXTN__	EQU		100
@@ -1222,6 +1222,8 @@ Controller_	EQU	COB	1
 DewPoint.EG.Limit	EQU	R	11300
 DewPoint.OG.Limit	EQU	R	11301
 EcoMode	EQU	F	8932
+EcoMode.LowVentSP	EQU	R	666
+EcoMode.VentSP	EQU	F	2065
 EcoSetPoint	EQU	R	3621
 $ATTR TAGS=S_ADJUST
 EZR0000.Thanos.iParaWrite	EQU	F	12612
@@ -3104,6 +3106,7 @@ EZR1002.Raum.VOC.SmGwOben	EQU	F	13061	;(1) Meldung oberer Grenzwert wurde übersc
 EZR1002.Raum.VOC.SmGwUnten	EQU	F	13062	;(1) Meldung unterer Grenzwert wurde unterschritten
 $ATTR TAGS=S_ADJUST
 EZR1002.Raum.VOC.SpgGrp	EQU	R	5864	;(5) zugehörige Spannungsgruppe zur Unterdrückung von Geistermeldungen bei fehle
+EZR1002.SP	EQU	R	2571
 EZR1002.Thanos.ECOWrite	EQU	R	5865
 EZR1002.Thanos.Extern1Anzeige	EQU	F	13043
 EZR1002.Thanos.Extern1Komma	EQU	F	13044
@@ -5487,6 +5490,7 @@ EZR1011.Raum.VOC.SmGwOben	EQU	F	13757	;(1) Meldung oberer Grenzwert wurde übersc
 EZR1011.Raum.VOC.SmGwUnten	EQU	F	13758	;(1) Meldung unterer Grenzwert wurde unterschritten
 $ATTR TAGS=S_ADJUST
 EZR1011.Raum.VOC.SpgGrp	EQU	R	7180	;(5) zugehörige Spannungsgruppe zur Unterdrückung von Geistermeldungen bei fehle
+EZR1011.SP	EQU	R	2572
 EZR1011.Thanos.ECOWrite	EQU	R	7181
 EZR1011.Thanos.Extern1Anzeige	EQU	F	13739
 EZR1011.Thanos.Extern1Komma	EQU	F	13740
@@ -11442,6 +11446,11 @@ Mail.To4	EQU	TEXT	3322
 Mail.To5	EQU	TEXT	3323
 ManualEconomMode	EQU	F	8933
 ManualEconomModeOnOff	EQU	F	8934
+MB3.BMSSetPointSummer	EQU	R	2574
+MB3.BMSSetPointSummerCorr	EQU	R	2575
+MB3.BMSSetPointSummerCorrv	EQU	F	3936
+MB3frostalarm	EQU	F	10177
+MB3go2heater	EQU	F	10178
 MODBus_Thanos	EQU	COB	3
 NULL	EQU	R	9727
 PCD01.A00.Aussen.Temp.Filter2	EQU	R	9728[6]
@@ -11700,7 +11709,17 @@ PIN.Level3	EQU	TEXT	7879
 PIN.Level4	EQU	TEXT	7880
 PIN.Logouttime	EQU	R	9755
 Pump53F.BMSForce	EQU	F	10170
+PV.SP_P	EQU	R	667
 PV1.Manual.AirDamp	EQU	R	11111
+PV1.SP_OP	EQU	R	668
+PV1.SP_P	EQU	R	669
+PV1.SP_PVent	EQU	R	670
+PV1.SP_V	EQU	R	671
+PV1.SP_VVent	EQU	R	672
+PV2.SP_P	EQU	R	673
+PV2.SP_PVent	EQU	R	674
+PV2.SP_V	EQU	R	1714
+PV2.SP_VVent	EQU	R	1715
 R11Ceil.BMSForce	EQU	R	11332
 RLT001.AUL.Klappe.Linear.Errechnet	EQU	R	9895	;(3) Resultierender Wert aus der Umrechnung
 $ATTR TAGS=S_ADJUST
@@ -12425,6 +12444,7 @@ RLT002.WO.ABL.Temp.IstwertY1	EQU	R	10224	;(5) minimaler physikalischer Wert
 $ATTR TAGS=S_ADJUST
 RLT002.WO.ABL.Temp.IstwertY2	EQU	R	10225	;(5) maximaler physikalischer Wert
 RLT002.WO.ABL.Temp.iSW10	EQU	R	10226
+RLT002.WO.ABL.Temp.iSW10Corr	EQU	R	2573
 $ATTR TAGS=S_ADJUST
 RLT002.WO.ABL.Temp.Korrektur	EQU	R	10227	;(5) Korrekturwert in physikalischer Größe
 $ATTR TAGS=S_ADJUST
