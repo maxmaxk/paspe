@@ -22712,6 +22712,10 @@ SP_PVent	PEQU	R
 SP_V	PEQU	R		
 SP_VVent	PEQU	R		
 $ENDGROUP PV2
+$GROUP EcoMode
+PV1LowVentSP	PEQU	R		
+PV2LowVentSP	PEQU	R		
+$ENDGROUP EcoMode
 ;;End of user defined symbols
 ;;Alias symbols to attach adjust tag 
 $ATTR TAGS=S_ADJUST

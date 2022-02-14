@@ -1223,6 +1223,8 @@ DewPoint.EG.Limit	EQU	R	11300
 DewPoint.OG.Limit	EQU	R	11301
 EcoMode	EQU	F	8932
 EcoMode.LowVentSP	EQU	R	666
+EcoMode.PV1LowVentSP	EQU	R	1716
+EcoMode.PV2LowVentSP	EQU	R	1717
 EcoMode.VentSP	EQU	F	2065
 EcoSetPoint	EQU	R	3621
 $ATTR TAGS=S_ADJUST

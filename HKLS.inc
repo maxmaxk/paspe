@@ -18959,7 +18959,7 @@ __fup_C00033B_17_37_1e___SG_TWW001       EQU                        ___RegDyn_C0
 __fup_C00033B_17_37_20___SG_TWW001       EQU                        ___FlgDyn_C00033B___SG_TWW001+2 ;Export name of network.
 ;;End Dynamic symbol aliases allocated for this BLOCK
 ;;dynamic symbols allocated for this BLOCK
-___RegDyn_C00ABB0___SG_COB_0		EQU		R [24]		;	Define 24 registers for dynamic usage.
+___RegDyn_C00ABB0___SG_COB_0		EQU		R [26]		;	Define 26 registers for dynamic usage.
 ___FlgDyn_C00ABB0___SG_COB_0		EQU		F [12]		;	Define 12 registers for dynamic usage.
 ;;end of dynamic symbols allocated for this BLOCK
 
@@ -19243,7 +19243,8 @@ __fup_C00ABB0_00_1d_53___SG_COB_0       EQU                        ___RegDyn_C00
 __fup_C00ABB0_00_24_54___SG_COB_0       EQU                        ___RegDyn_C00ABB0___SG_COB_0+15 ;Export name of network.
 __fup_C00ABB0_00_24_5a___SG_COB_0       EQU                        ___RegDyn_C00ABB0___SG_COB_0+17 ;Export name of network.
 __fup_C00ABB0_00_1c_59___SG_COB_0       EQU                        ___RegDyn_C00ABB0___SG_COB_0+19 ;Export name of network.
-__fup_C00ABB0_00_1c_5b___SG_COB_0       EQU                        ___RegDyn_C00ABB0___SG_COB_0+20 ;Export name of network.
+__fup_C00ABB0_00_1c_5b___SG_COB_0       EQU                        ___RegDyn_C00ABB0___SG_COB_0+21 ;Export name of network.
+__fup_C00ABB0_00_1c_5d___SG_COB_0       EQU                        ___RegDyn_C00ABB0___SG_COB_0+23 ;Export name of network.
 __fup_C00ABB0_01_24_24___SG_COB_0       EQU                        ___FlgDyn_C00ABB0___SG_COB_0+0 ;Export name of network.
 __fup_C00ABB0_01_31_24___SG_COB_0       EQU                        ___FlgDyn_C00ABB0___SG_COB_0+2 ;Export name of network.
 __fup_C00ABB0_01_37_24___SG_COB_0       EQU                        ___FlgDyn_C00ABB0___SG_COB_0+3 ;Export name of network.
